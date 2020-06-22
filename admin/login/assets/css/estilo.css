@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 56px 12px 1fr 135px 68px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "cabecalho"
+    "faixa"
+    "conteudo"
+    "rodape"
+    "rodape2";
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #000000;
+}
+
+.faixa {
+    grid-area: faixa;
+    background-color: #ff0000;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    background-color:  #000000;/* #97856b;*/
+    height: calc(100vh - 271px);
+    overflow: auto;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #272727;
+	/*   position: sticky; */
+    bottom: 0px; 
+}
+
+.rodape2 {
+    grid-area: rodape2;
+    background-color: #000000;
+	/*   position: sticky; */
+    bottom: 0px; 
+}
+
+
+
+/* Formulário do Conteudo - Login */
+.logando {
+    display: grid;
+    border: 1px solid white;
+    padding: 2%;
+    vertical-align: middle;
+    margin: 5% 38% 5% 40%;
+}
+
+label {
+    color: white;
+}
+.bspImgWrapper {
+	overflow: hidden;
+	height: 150px;
+	background-position-x: center !important;
+	background-position-y: center !important;
+	background-size: cover !important;
+	border: 5px solid #191919;
+}

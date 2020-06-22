@@ -1,0 +1,7 @@
+[11-Jul-2014 15:31:23] PHP Fatal error:  Class 'Mobile_Detect' not found in /home/hotboysc/public_html/mobili/mobili.php on line 4
+[11-Jul-2014 15:35:03] PHP Fatal error:  Cannot access empty property in /home/hotboysc/public_html/mobili/mobili.php on line 5
+[11-Jul-2014 15:35:13] PHP Fatal error:  Cannot access empty property in /home/hotboysc/public_html/mobili/mobili.php on line 5
+[11-Jul-2014 15:35:23] PHP Fatal error:  Cannot access empty property in /home/hotboysc/public_html/mobili/mobili.php on line 5
+[11-Jul-2014 15:35:27] PHP Fatal error:  Cannot access empty property in /home/hotboysc/public_html/mobili/mobili.php on line 5
+[09-Sep-2014 06:49:24] PHP Warning:  require_once(includes/xajax/xajax_core/xajax.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/hotboysc/public_html/mobili/whatsapp.php on line 135
+[09-Sep-2014 06:49:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/xajax/xajax_core/xajax.inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/hotboysc/public_html/mobili/whatsapp.php on line 135

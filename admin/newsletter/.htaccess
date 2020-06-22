@@ -1,0 +1,13 @@
+RewriteEngine On
+
+
+RewriteBase /admin/newsletter/
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule ^ver.png(.*)	ver.php$1
+

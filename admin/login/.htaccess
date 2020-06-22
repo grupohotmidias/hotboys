@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^painel/$ painel.php [QSA,L,NC]

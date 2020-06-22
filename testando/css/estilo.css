@@ -1,0 +1,258 @@
+body, html{
+	height: 100%;
+}
+ul.row{
+	width:100%;
+	list-style: none;
+	padding:0;
+}
+ul.row li{
+	border: 7px solid var(--black)
+}
+.cabecalho{
+	height:58px;
+}
+.conteudo{
+    height: calc(100% - 101px);
+	background: #000 url(https://www.hotboys.com.br/imagens/backgrounds/bg-assinar.jpg);
+	padding-top: 30px;
+}
+.rodape{
+    background-color: black;
+    width: 100%;
+	height:43px;
+	padding: 10px 0;
+}
+.rodape p{
+	color: gray;
+}
+.navbar{
+	width:100%;
+}
+.navbar-toggler{
+	margin: 0 1rem;
+}
+.card a{
+	color: var(--black);
+}
+.card-title{
+	width: 100%;
+	color:var(--white);
+}
+.container.principal{
+	margin-top: 5rem;
+}
+@media (max-width: 575.98px) {
+	.container.principal{
+		margin-top: 4.5rem;
+	}
+}
+.saiba-mais{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: .5rem;
+    border-radius: 0.25rem;
+	
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc0605;
+    border-color: #000000;
+}
+.navbar-brand{
+	width: 100%;
+}
+@media (max-width: 575.98px) {
+	.navbar img{
+		margin-left: 5%;
+	}
+}
+@media (max-width: 991.98px) { 
+	.navbar-nav {
+		background-color: var(--red-dark);	
+	}
+}
+
+@media (min-width: 992px) {
+	.principal .card-body{
+		margin-left: 1.5rem !important;
+	}
+}
+
+/* lightbox */
+ul[data-bsp-ul-index] {
+	padding:0 0 0 0;
+	margin:0 0 40px 0;
+}
+ul[data-bsp-ul-index] li {
+	list-style:none;
+	margin-bottom:10px;
+} 
+
+#bsPhotoGalleryModal .modal-content {
+    border-radius:0;
+}
+#bsPhotoGalleryModal .modal-dialog img {
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+}
+#bsPhotoGalleryModal .modal-body {
+    padding:0px !important;
+    text-align: center;
+}
+#bsPhotoGalleryModal .bsp-text-container {
+	text-align:left;
+	padding-top:10px;
+}
+
+#bsPhotoGalleryModal .bsp-close {
+	position: absolute;
+	right: -8px;
+	top: -7px;
+	background: rgba(255, 255, 255, 0.89);
+	padding: 0px 8px 5px;
+	border: 1px solid rgba(0,0,0,.49);
+	border-radius: 50%;
+}
+#bsPhotoGalleryModal .bsp-close:hover {
+	cursor: pointer;
+	opacity:.6;
+}
+
+#bsPhotoGalleryModal .bsp-close img {
+	width: 13px;
+	height: 13px;
+}
+
+.bspHasModal {
+	cursor: pointer;
+}
+.bspText.bspShortText {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bspText {
+	color:#666;
+	font-size:11px;
+	margin-bottom:10px;
+	padding:12px;
+	background:#fff;
+}
+
+#bsPhotoGalleryModal a.bsp-controls img {
+	width: 20px;
+	height: 35px;  
+}
+a.bsp-controls,
+a.bsp-controls:visited,
+a.bsp-controls:active {
+	position: absolute;
+	top: 46%;  
+	background: rgba(255, 255, 255, 0.49);  
+}
+
+a.bsp-controls.next {
+	right:0px;
+	border-top: 1px solid rgba(0,0,0,.49);
+	border-left: 1px solid rgba(0,0,0,.49);
+	border-bottom: 1px solid rgba(0,0,0,.49);
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	padding-left: 4px;
+	border-right:none;
+}
+a.bsp-controls.previous {
+	left:0px;
+	border-top: 1px solid rgba(0,0,0,.49);
+	border-right: 1px solid rgba(0,0,0,.49);
+	border-bottom: 1px solid rgba(0,0,0,.49);
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-right: 4px;
+	border-left:none;
+}
+a.bsp-controls:hover {
+	opacity:.6;
+	text-shadow: none;
+}
+.bsp-text-container {
+	clear:both;
+	display:block;
+	padding-bottom: 5px;
+}
+#bsPhotoGalleryModal h6{
+	margin-bottom: 0;
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 5px;
+}
+#bsPhotoGalleryModal .pText {
+	font-size: 11px;
+	margin-bottom: 0px;
+	padding: 0 12px 5px;
+}
+
+.bspImgWrapper {
+	overflow: hidden;
+	height: 300px;
+	background-position-x: center !important;
+	background-position-y: center !important;
+	background-size: cover !important;
+}
+
+@media (min-width: 992px){
+	#bsPhotoGalleryModal .modal-lg {
+		max-width: 1000px;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.bspImgWrapper {
+		height: 150px;
+	}
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Formulário do Conteudo - Login */
+.logando {
+    display: grid;
+    border: 1px solid white;
+    padding: 2%;
+    vertical-align: middle;
+    margin: 5% 38% 5% 40%;
+}
+
+label {
+    color: white;
+}
+
+/* Pagina trocar senha */
+.login .input-group-text, .trocar_senha .input-group-text{
+	position: absolute;
+	border-radius: .25rem !important;
+	background-color: #fff;
+	border: 0;
+	z-index: 9;
+	padding: 0 0.7rem;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.trocar_senha input{
+	border:0;
+}

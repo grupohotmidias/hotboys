@@ -1,0 +1,10 @@
+Newsletter Obscura
+Feito por Fabio Nascimento Brandão
+www.hpobscura.cjb.net
+jon-lord@bol.com.br
+
+Edite o config.inc e crie uma database com o mesmo nome configurado no config.inc no MySql Server.
+Rode o arquivo install.php e depois de concluído apague-o.
+O script está pronto para rodar...
+
+Qualquer dúvida é só mandar emails para jon-lord@bol.com.br

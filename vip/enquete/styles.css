@@ -1,0 +1,74 @@
+#container{
+	width:400px;
+	/*border:1px solid #eee;*/
+	/*margin:100px auto;*/
+}
+fieldset{
+	width:600px;
+	border:1px solid #eee;
+	margin:10px auto;
+}
+fieldset h2, #container h1{
+	margin:0; padding:5px; 
+	font-size:1.4em; font-family:Georgia, serif;
+	font-weight:normal; color:#333;
+}
+#container p{
+ serif; color:#fff; 
+	margin:5px; line-height:2em;
+	font-size: 1.2em;
+}
+#pollcontainer{
+	    margin: 5px;
+    border: 3px solid #524C4C;
+    background: #3C3939;
+    padding: 10px;
+}
+
+#pollcontainer a, #pollcontainer a:hover, #pollcontainer a:visited{ text-decoration:none; color:#fff; font-weight:600; padding-left:100px;
+}
+
+fieldset{
+	background:#f9f9f9; padding:16px;
+	border:1px solid #f3f3f3;
+}
+
+div.success, div.notice, div.error, div.confirmation, div.footer_btn {
+width: 610px;
+margin: 0 auto;
+padding: 4px 10px 4px 10px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0 1px 1px #fff inset;
+-webkit-box-shadow: 0 1px 1px #fff inset;
+box-shadow: 0 1px 1px #fff inset;
+border: #aaa solid 1px;
+}
+div.success {
+border-color: #a2d246;
+}
+.success {
+color: #000;
+background-color: #ebf8a4;
+}
+.error{
+border-color: #333;
+border: 1px solid maroon !important;
+color: #000;
+background: pink;
+}
+.confirmation {
+color: #000;
+background-color: pink;
+}
+.footer_btn{
+font-weight: normal;
+color: #000;
+background: #D3DCE3;
+}
+#loader{ display:none; text-align:center;}
+.option{ margin:5px 0; }
+.option p{ line-height:1.1em; font-size:0.85em; }
+.bar{ height:10px; background:#3399cc; }
+.yourvote{ background:#113399; }

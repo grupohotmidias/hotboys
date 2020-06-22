@@ -1,0 +1,4 @@
+[06-Jul-2019 16:42:34 America/Sao_Paulo] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/hotboys19/public_html/blog/off/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[07-Jul-2019 12:36:33 America/Sao_Paulo] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/hotboys19/public_html/blog/off/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[15-Sep-2019 15:44:49 America/Sao_Paulo] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/hotboys19/public_html/blog/off/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[25-Sep-2019 00:10:52 America/Sao_Paulo] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/hotboys19/public_html/blog/off/wp-includes/rest-api/class-wp-rest-response.php on line 17

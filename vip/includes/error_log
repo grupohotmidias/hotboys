@@ -1,0 +1,56 @@
+[24-Nov-2017 09:32:59 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[24-Nov-2017 09:32:59 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[24-Nov-2017 09:32:59 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 24
+[24-Nov-2017 09:32:59 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 27
+[24-Nov-2017 09:35:05 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[24-Nov-2017 09:35:05 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[24-Nov-2017 09:35:05 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 24
+[24-Nov-2017 09:35:05 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 27
+[24-Nov-2017 10:24:18 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[24-Nov-2017 10:24:18 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[24-Nov-2017 10:24:18 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 24
+[24-Nov-2017 10:24:18 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 27
+[24-Nov-2017 10:29:43 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/comentarios.php on line 126
+[24-Nov-2017 10:29:43 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/comentarios.php on line 126
+[24-Nov-2017 10:29:43 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/comentarios.php on line 127
+[24-Nov-2017 10:29:43 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/comentarios.php on line 155
+[24-Nov-2017 10:29:44 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/comentarios.php on line 126
+[24-Nov-2017 10:29:44 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/comentarios.php on line 126
+[24-Nov-2017 10:29:44 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/comentarios.php on line 127
+[24-Nov-2017 10:29:44 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/comentarios.php on line 155
+[27-Nov-2017 12:41:16 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[27-Nov-2017 12:41:16 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[27-Nov-2017 12:41:16 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 24
+[27-Nov-2017 12:41:16 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 27
+[27-Nov-2017 12:41:18 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[27-Nov-2017 12:41:18 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/footer.php on line 23
+[27-Nov-2017 12:41:18 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 24
+[27-Nov-2017 12:41:18 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 27
+[28-Nov-2017 08:47:01 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/footer.php on line 18
+[28-Nov-2017 08:47:01 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/footer.php on line 18
+[28-Nov-2017 08:47:01 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 19
+[28-Nov-2017 08:47:01 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/footer.php on line 22
+[01-Dec-2017 12:47:36 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/hot/includes/comentarios2.php on line 7
+[01-Dec-2017 12:47:36 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/hot/includes/comentarios2.php on line 7
+[01-Dec-2017 12:47:36 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/comentarios2.php on line 8
+[01-Dec-2017 12:47:36 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/hot/includes/comentarios2.php on line 32
+[11-Dec-2017 13:53:50 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/includes/comentarios.php on line 7
+[11-Dec-2017 13:53:50 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/includes/comentarios.php on line 7
+[11-Dec-2017 13:53:50 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/includes/comentarios.php on line 8
+[11-Dec-2017 13:53:50 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/includes/comentarios.php on line 36
+[22-Jan-2018 13:12:46 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/includes/footer.php on line 27
+[22-Jan-2018 13:12:46 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/includes/footer.php on line 27
+[22-Jan-2018 13:12:46 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/includes/footer.php on line 28
+[22-Jan-2018 13:12:46 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/includes/footer.php on line 29
+[29-May-2018 08:41:46 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hotboysc/public_html/vip/includes/comentarios.php on line 5
+[29-May-2018 08:41:46 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/vip/includes/comentarios.php on line 5
+[29-May-2018 08:41:46 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/vip/includes/comentarios.php on line 6
+[29-May-2018 08:41:46 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/vip/includes/comentarios.php on line 35
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 5
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 5
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 6
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 7
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 106
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 106
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 107
+[17-Sep-2019 12:39:51 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboys19/public_html/vip/includes/comentarios-audicoes.php on line 157

@@ -1,0 +1,17 @@
+.editar .form-control{
+	font-size: 1.5rem!important;
+}
+.editar input{
+	text-align: center!important;
+}
+.editar .alert {
+	border-radius: 0!important;
+}
+.bspImgWrapper {
+	overflow: hidden;
+	height: 150px;
+	background-position-x: center !important;
+	background-position-y: center !important;
+	background-size: cover !important;
+	border: 5px solid #191919;
+}

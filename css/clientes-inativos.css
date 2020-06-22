@@ -1,0 +1,77 @@
+#modal-cliente-inativo{background:#ffffff}
+.logo-modal{padding-top:10px;padding-bottom:20px;margin:0 auto}
+#exTab1 .tab-content {color: #29292B;background-color: #e6e6e6;}
+#exTab2 h3 {color : white;background-color: #428bca;padding : 5px 15px}
+#exTab1 .nav-pills > li > a {border-radius: 0;text-transform: uppercase;background: #cfcfcf;color:#000000;margin-top: 1px;white-space: nowrap}
+#exTab1 .nav-pills>li.active>a:focus,#exTab1 .nav-pills>li.active>a:hover{background: #ffffff}
+#exTab3 .nav-pills > li > a {border-radius: 4px 4px 0 0 ;}
+#exTab3 .tab-content {color : white;	background-color: #428bca;padding : 5px 15px;}
+.nav-pills>li {margin-left: 1px!important}
+.c{clear:both}
+#conteudo{width:850px;margin:0 auto;background:#fff;padding:20px}
+#barra-login{background:#494949;height:50px;width:740px;margin:0 auto}
+#login-tit{float:left;color:#f9f9f9;line-height:50px;margin-left:20px;font-size:14px}
+.login-item{float:right;color:#f9f9f9;line-height:50px;margin-right:12px;font-size:11px}
+.login-input-txt{border-radius:2px;	border-left: 1px solid #dae0e7;border-right: 1px solid #dae0e7;border-top: 1px solid #dae0e7;border-bottom: 1px solid #a5b0be;background-color: #f9f9f9;color: #323a45;height: 23px;padding: 0px 3px;line-height: 23px;font-size: 11px;width:120px}.login-btn{border-radius:2px;border-left: 1px solid #dae0e7;border-right: 1px solid #dae0e7;border-top: 1px solid #dae0e7;border-bottom: 1px solid #a5b0be;background-color: #DAE0E7;color: #323a45;height: 23px;padding: 0px 10px;line-height: 23px;font-size: 11px;font-weight:bold;margin-top:13px;}
+#titulo{text-align:center;text-transform:uppercase;font-size:26px;font-family:Arial, Helvetica, sans-serif;margin-top:20px}
+#sub-titulo{text-align:center;font-size:18px;font-family:Arial, Helvetica, sans-serif}
+#outras_formas_pgto{margin-top:30px}
+#outras_formas_pgto a{text-decoration:none;font-size:11px}
+#form-campos ul{margin-top:10px;}
+#form-campos ul li {float: left;margin-left: 10px;border-bottom: 0px;line-height: 25px;border-top-left-radius: 5px;border-top-right-radius: 5px}
+#form-campos ul li .selected{background: #ffffff;color: #2e2d2d;font-weight: bold;white-space:nowrap}
+#form-campos ul li a{display:block;text-decoration:none;padding-left:10px;padding-right:10px;border-top-left-radius:5px;border-top-right-radius:5px}
+ul.nav.nav-pills li a img{width:12%}
+#tab1, #tab2, #tab3, #tab4{float:left}	
+#dados-acesso{float:left;width:280px;margin-left:30px;}
+#envolve-form{padding:10px}
+#envolve-form .form-linha{padding-left: 0px!important; padding-right: 0px!important; margin-top: 18px;}
+.cartao-bloco{float:left;margin-left:5px}
+.cartao-bloco-img{margin-top:2px;}
+.cartao-bloco-radio{text-align:center;margin-top:2px;}
+#condicoes-plano-1-real{margin-top:15px}
+#termos-uso textarea, #condicoes-plano-1-real textarea{border-radius:4px;border-left: 1px solid #dae0e7;border-right: 1px solid #dae0e7;border-top: 1px solid #dae0e7;border-bottom: 1px solid #a5b0be;background-color: #dae0e7;color: #323a45;height: 100px;padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px;line-height: 12px;font-size: 11px;width:680px}
+#termos-uso-concordar{margin-top:5px}
+#btn-cadastrar{margin-top:20px;}
+#btn-cadastrar button{border: 1px solid #646464;background: #646464;padding-left: 30px;padding-right: 30px;font-weight: bold;color: #ffffff;padding: 10px 20px 10px 20px;}
+.form-linha{float:left}
+.form-linha-input{margin-top:2px;}
+.form-linha-nome span.tip,.form-linha-input span a{font-size:10px;color: #323a45}
+.form-linha-input-text{border-radius: 4px;border-left: 1px solid #ffffff;border-right: 1px solid #ffffff;border-top: 1px solid #ffffff;border-bottom: 1px solid #ffffff;background: #ffffff;color: #323a45;height: 28px;padding: 0px 7px;line-height: 28px;font-size: 11px;width:95%;}
+.form-linha-input-select{border-radius: 4px;border-left: 1px solid #ffffff;border-right: 1px solid #ffffff;border-top: 1px solid #ffffff;border-bottom: 1px solid #ffffff;background: #ffffff;color: #323a45;height: 28px;padding: 0px 7px;line-height: 28px;font-size: 11px;width:95%;}
+#seguranca{text-align:center;margin-top:25px;font-size:10px}
+#assine-telefone{margin-top:50px}
+#rodape{margin-top:100px;text-align:center;font-size:11px;font-style:italic;position:relative}
+#rodape-img{position:absolute;right:0px;top:-30px}
+
+.titulo-acesso-desativado{
+	color:#ffffff;
+	background:#646464;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-top:5px;
+	padding-bottom:5px
+}
+.texto-efetuar-pagamento{
+	color: #242222; 
+	background: #cfcfcf; 
+	font-weight: bold; 
+	padding-top: 5px; 
+	padding-bottom: 5px
+}
+.email-clientes-inativos{
+	background: #e6e6e6; 
+	margin-bottom: 20px; 
+	padding: 10px
+}
+
+#modal-cliente-inativo form{float:left}
+
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 480px) {}
+

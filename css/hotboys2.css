@@ -1,0 +1,4746 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Bhaijaan);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+body,h1,h2{
+    font-family:'Baloo Bhaijaan',cursive, sans-serif;
+}
+a,a:focus,a:hover{
+    text-decoration:none
+}
+body,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+    font-weight:400
+}
+body,h1{
+    float:left
+}
+.fade,.fade_menu_mobile,.fade_tabs,footer{
+    left:0;
+    bottom:0
+}
+*{
+    margin:0
+}
+a{
+    color:#fff!important;
+    transition:color .3s
+}
+
+/* Asides */
+aside.info-modelo{
+    font-family:'Open Sans', sans-serif;
+    line-height:23px;
+    padding-left:5px!important;
+    padding-right:5px!important;
+    margin-bottom:20px;
+    float:left;
+}
+body.fundo-branco aside.info-modelo{font-weight:bold;}
+
+aside.tags-modelo h1 {
+    border-left: 0!important;
+    padding-left: 0!important;
+}
+aside.tags-modelo h1 img{
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+
+.bg-danger a,body,header.assineja-entrar li a{
+    transition:all .3s ease-in-out 0s
+}
+a:focus,a:hover{
+    color:#e31330!important
+}
+body,html{
+    height:100%
+}
+body{
+    position:relative;
+    font-size:1rem;
+    color:#212529;
+    background-color:#0d0d0d;
+    min-height:100%;
+    -webkit-font-smoothing:antialiased!important;
+	margin-right:0!important;
+	overflow: initial!important;
+}
+.center{
+    float: none!important;
+    margin: 0 auto!important;
+}
+#main-nav,.fade,.fade_menu_mobile,.fade_tabs{
+    position:fixed;
+    top:0
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:.5rem;
+    font-weight:400;
+    line-height:1.1;
+    color:inherit
+}
+h2 a,textarea{
+    font-weight:700
+}
+h1{
+    font-size:24px!important;
+    padding-left:5px;
+    margin-top:1.5rem!important;
+    color:#0d0d0d;
+    text-align:left;
+    text-transform:uppercase;
+    margin-left:2px!important
+}
+h2{
+    font-size:20px
+}
+img{
+    vertical-align:middle!important
+}
+input[type=file]{
+    width:90%!important;
+    padding:10px 10px 10px 0
+}
+textarea{
+    width:100%!important;
+    border:1px solid rgba(18,34,40,.59);
+    background-color:#e0e0e0;
+    padding:35px;
+    font-size:13px;
+    text-align:center!important;
+    height:auto
+}
+articledetails,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block;
+    text-align:center;
+    z-index:0;
+    text-transform:uppercase
+}
+.left{float:left!important;}
+.cena-video-espaco-largura-cheia iframe{
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0
+}
+/* Pagina MODELOS */
+
+.titulo-modelo{
+    text-align: left;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cena-elenco-titulo{
+	border-left:0!important;padding-left:0!important;margin-top: 30px!important;
+}
+
+.texto-tesudos-letra h1{
+	text-align: center; 
+	float: none; 
+	border-left: 0!important; 
+	
+}
+body.fundo-branco .texto-tesudos-letra h1{
+	color: #121111!important;
+}
+body.fundo-preto .texto-tesudos-letra h1{
+	
+	color: #ffffff!important;
+}
+.container{
+    padding-right:0;
+    padding-left:0
+}
+.row{
+    margin-right:0;
+    margin-left:0
+}
+.navbar-nav{
+    margin:0 auto;
+    float:none;
+    display:inline-block
+}
+.navbar-nav li.nav-item:not(:first-child){
+    padding-left:35px
+}
+.navbar-nav>li{
+	margin-top: -1px;
+}
+.navbar-nav>li>a{
+    color: #fff;
+    line-height: 14px;
+    font-weight: 400!important;
+	display: inline-block;
+	height: 45px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.container-fluid{
+    padding-right:0;
+    padding-left:0
+}
+#navicon,.alert strong,.alert-dismissable .close,.alert-dismissible .close{
+    font-weight:700;
+	color:#0d0d0d;
+}
+.navtopo,.navtopo>.container,.navtopo>.container-fluid{
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    display:-webkit-inline-box;
+    width:100%
+}
+
+/* # INICIO Botao ON-OFF */
+.botao-on-off{
+	padding:14px;
+}
+.on-off {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 21px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 10px;
+}
+.on-off input {
+	display:none;
+}
+
+.fundo {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #8e8e8e;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.fundo:before {
+	position: absolute;
+	content: "";
+	height: 14px;
+	width: 14px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.fundo.arredondado {
+	border-radius: 34px;
+}
+
+.fundo.arredondado:before {
+	border-radius: 50%;
+}
+.fundo-botao-on-off{margin: 0 auto; margin-top: 10px; padding: 10px;color:#171819; background-color: #e6e6e6; margin-bottom: 15px;float: none;}
+/* FIM Botao ON-OFF # */
+
+
+/* formularios */
+input:checked + .fundo {background-color: #327b30;}
+input:focus + .fundo {box-shadow: 0 0 1px #2196F3;}
+input:checked + .fundo:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+input[value=❤]{border:none; background: transparent; font-size: 14px; padding: 5px}
+
+
+.navbar{
+    min-height:0
+}
+.navbar-dark .navbar-toggler{
+    background-color:#0d0d0d;
+    color:#eee;
+    border:0
+}
+.espacamentos-0{
+    padding:0
+}
+row{
+    margin-right:0!important;
+    margin-left:0!important
+}
+.pd-10{padding:10px!important}
+
+/* mensagens de alerta */
+.alert{margin:10px!important}
+.alert>p, .alert>ul{color:#0d0d0d;}
+.alerta-manutencao{background:#f8e71c;color:#c3001b;border:none;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-align:center;font-size:14px}
+.alerta-formulario_cliente{background: #dcb624; text-align: center; width: 99%;}
+.alerta-formulario_cliente span{font-size: 30px;}
+.alerta-formulario_cliente a{color: red;}
+.alerta-formulario_cliente p{text-decoration: bol}
+
+
+
+footer,footer h2{
+    font-family:"Open Sans",sans-serif;
+	font-size:12px;
+}
+
+.glyphicon{
+    font-size:17px
+}
+.glyphicon-floppy-disk{
+    font-size:13px!important
+}
+.col-img-sol-lua{
+    float:left;
+    margin-right:5px
+}
+.cor-site-claro{
+    color:#fbf42b;
+    font-size:11px
+}
+.cor-site-escuro{
+    color:#95c3cf;
+    font-size:11px
+}
+.mudarcor-texto-lua,.mudarcor-texto-sol{
+    font-size:10px;
+    line-height:10px;
+    margin-top:5px;
+    float:right
+}
+.navtopo-collapse{
+    -ms-flex-preferred-size:100%;
+    flex-basis:100%;
+    -ms-flex-align:center;
+    align-items:center;
+    display:flex!important;
+    display:-ms-flexbox!important
+}
+.slogan{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    display: inline;
+    float: left;
+	border-right: 1px solid #ffffff36;
+    padding-right: 10px;
+}
+.slogan.topo{
+	float:none!important;
+	line-height: 30px;
+}
+.slogan.bare a:hover{color:#f0c600!important}
+.slogan:last-child{
+	border-right: 0!important;
+}
+.slogan.solo a:hover {
+	color: #ff651d!important;
+}
+
+.busca-mobile form input[type=search],.busca-topo form input[type=search]{
+    width:94%;
+    padding-left:45px;
+    font-size:17px;
+    color:#676767;
+    border:1px solid #cecece;
+    background:url(../imagens/icones/lupa-pesquisa-40px.png) no-repeat #e0e0e0;
+    height:40px;
+    margin-top:8px;
+    margin-bottom:10px;
+    -webkit-appearance:none;
+	border-radius: 50px;
+}
+.busca-topo form{
+    float:right
+}
+body.fundo-branco .texto-pagina-busca,body.fundo-preto .texto-pagina-busca{
+    float: left
+}
+
+body.fundo-branco .btn-assinar,body.fundo-branco .btn-login{
+    background:#556064;
+    background:-moz-linear-gradient(top,#000 0,#1f333c 100%);
+    background:-webkit-linear-gradient(top,#000 0,#1f333c 100%);
+    background:linear-gradient(to bottom,#000 0,#1f333c 100%);
+    cursor:pointer;
+    width:30%;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s
+}
+.botoes-pretos-topo{
+    float:left;
+}
+.logo-fundo-branco img,.logo-fundo-preto img{
+    float:left;
+}
+header.assineja-entrar li a{
+    text-transform:uppercase;
+    color:#fff!important;
+    background-color:#dc0606;
+    width:100%;
+    float:left;
+    padding:.5rem 1rem;
+    text-align:center;
+	float:left;
+}
+header.assineja-entrar li a:hover{
+    text-decoration:underline
+}
+body.fundo-branco header li.entrar a{
+    background-color:#0d0d0d;
+    color:#fff!important
+}
+body.fundo-preto header li.entrar a{
+    background-color:#fff;
+    color:#0d0d0d!important
+}
+.busca-topo-vip{
+    float:left!important;
+}
+.area-cliente-topo{
+    background:#e2dcde;
+    height:64px
+}
+.area-cliente-topo a{
+    color:#0d0d0d
+}
+.info-cliente-topo-desktop{
+    margin:5px auto 0;
+    float:none!important;
+    padding-left:5px!important;
+    padding-right:5px!important;
+    height:42px
+}
+.espaco-imagem-topo-desktop{
+    float:left;
+    width:40%
+}
+.espaco-perfil-topo-desktop{
+    float:left;
+    width:60%;
+    text-align:left
+}
+.perfil-info.espaco-saudacao{
+    float:left;
+    margin-top:9px;
+    text-align:left
+}
+.seta-cliente-topo-desktop{
+    font-size:2em;
+    color:#e31330;
+    width:100%
+}
+.navbar-collapse .glyphicon{
+    font-size:16px
+}
+.navlogo{
+    width:100%;
+    float:left
+}
+.bg-danger{
+    width:100%;
+    float:left;
+    background-color:#dc0606;
+    margin-bottom:0!important;
+    border-radius:0!important;
+	z-index: 1;
+	height: 45px;
+}
+.bg-danger a{
+    color:#fff!important
+}
+.bg-danger a:hover,bg-danger a:focus{
+    background-color:#fff;
+    color:#0d0d0d!important;
+    box-shadow:inset 0 0 0 10px #fff
+}
+body.fundo-preto .bg-danger a:hover,body.fundo-preto bg-danger a:focus{
+    background-color:#0d0d0d;
+    color:#fff!important;
+    box-shadow:inset 0 0 0 10px #0d0d0d;
+}
+#navicon{
+    display:block!important;
+    background:#e31330;
+    font-size:2em;
+    text-decoration:none;
+    padding:5px;
+    margin:0 auto
+}
+body.fundo-branco #navicon{
+	color:#0d0d0d!important;
+}
+body.fundo-preto #navicon{
+	color:#ffffff!important;
+}
+body.fundo-preto #navicon.open{
+    color: #0a1013!important;
+    font-weight: normal!important;
+    position: fixed;
+	width: 100%;
+}
+
+.cf:after,.cf:before{
+    content:" ";
+    display:table
+}
+.cf #navicon span{
+    float:left;
+    font-size:12px;
+    margin-top:8px;
+    margin-bottom:5px;
+    font-weight:400!important;
+    width:100%;
+    text-align:center
+}
+body.fundo-branco .cf #navicon span{
+	color:#0d0d0d;
+}
+body.fundo-preto .cf #navicon span{
+	color:#fff;
+}
+#topo-bandeiras{
+    display:none
+}
+.menu-mobile{
+    float:left
+}
+.logo-branca-menu img{
+    width:100%;
+    margin-left:2%;
+    margin-top:10px;
+    margin-bottom:10px
+}
+.menu-mobile-btns-topo button{
+    width:90%!important;
+    margin-bottom:7px;
+    background:#556064;
+    background:-moz-linear-gradient(top,#000 0,#1f333c 100%);
+    background:-webkit-linear-gradient(top,#000 0,#1f333c 100%);
+    background:linear-gradient(to bottom,#000 0,#1f333c 100%)
+}
+div#main-nav nav a div{
+    color:#fff;
+    text-transform:uppercase;
+    padding:12px;
+    border-bottom:1px dashed #0d0d0d;
+    width:94%;
+    margin-left:2.5%
+}
+div#main-nav nav a:hover div{
+    background:0 0;
+    color:#0d0d0d;
+    font-weight:400
+}
+a#navicon.open{
+    color:#0e171b!important;
+    margin-top:24px;
+    background:#e0e0e0;
+    font-size:21px;
+    z-index:3;
+    border-radius:20px 0 0 20px;
+    float:right;
+    padding:7px
+}
+.bg-dark-topo,footer{
+    float:left
+}
+footer ul li,footer_menu ul li{
+    padding:3px;
+    display:inline-block
+}
+
+
+.menu-mobile-btns-topo button.btn.btn-assinar,.menu-mobile-btns-topo button.btn.btn-login,.menu-mobile-btns-topo button.btn.btn-sair,.menu-mobile-btns-topo button.btn.btn-minhaconta{
+    width:90%!important;
+    color:#fff!important;
+    margin-bottom:7px;
+    background:#556064!important;
+    background:-moz-linear-gradient(top,#000 0,#1f333c 100%)!important;
+    background:-webkit-linear-gradient(top,#000 0,#1f333c 100%)!important;
+    background:linear-gradient(to bottom,#000 0,#1f333c 100%)!important;
+    font-weight:400
+}
+.menu-mobile-btns-topo button.btn:hover.btn-assinar,.menu-mobile-btns-topo button.btn:hover.btn-login{
+    font-weight:400;
+    background:-moz-linear-gradient(top,#000 0,#1f333c 100%)!important;
+    background:-webkit-linear-gradient(top,#fff 0,#cfd2d3 100%)!important;
+    background:linear-gradient(to bottom,#fff 0,#cfd2d3 100%)!important
+}
+.menu-mobile-btns-topo button.btn.btn-assinar a,.menu-mobile-btns-topo button.btn.btn-login a{
+    font-weight:400
+}
+.menu-mobile-btns-topo button.btn.btn-assinar a:hover,.menu-mobile-btns-topo button.btn.btn-login a:hover{
+    color:#0d0d0d!important
+}
+.menu-mobile-btns-topo button.btn-assinar{
+    margin-left:5%
+}
+.menu-mobile-btns-topo button.btn-login{
+    margin-right:5%
+}
+#main-nav{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -moz-box-orient:vertical;
+    -moz-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    height:100%;
+    max-width:250px;
+    width:100%;
+    z-index:5;
+    right:-250px;
+    background:#e31330;
+    text-align:center
+}
+.fade,.fade_menu_mobile,.fade_tabs{
+    transition:opacity .15s linear;
+    right:0;
+    background:rgba(0,0,0,.86);
+    opacity:1;
+    z-index:2
+}
+header li.entrar a,header.assineja-entrar li a{
+    font-weight:400
+}
+body.fundo-branco .menu-area-cliente .navbar-header .glyphicon{
+    color:#fff
+}
+body.fundo-branco .menu-area-cliente .perfil-mobile-info{
+    color:#fff;
+    font-weight:700
+}
+body.fundo-preto .menu-area-cliente .navbar-header .glyphicon{
+    color:#fff;
+}
+body.fundo-preto .menu-area-cliente .perfil-mobile-info{
+    color:#fff;
+    font-weight:700
+}
+body.fundo-preto .navbar-default .navbar-collapse{
+    background:0 0!important
+}
+div#carousel-example-generic.carousel.slide div.carousel-caption{
+    display:none
+}
+.carousel-control{
+    width:7%!important
+}
+
+.video-sprout{
+    position:relative;
+    padding-bottom:56.25%
+}
+footer{
+    background-color:#0d0d0d;
+    color:#fff;
+    padding-top:1.3rem!important;
+    width:100%
+}
+.footer_menu a{
+    font-weight:400!important
+}
+.well h2,footer h2,footer ul li a span{
+	font-size:.8em;
+}
+footer ul li{
+    font-size:14px
+}
+footer ul li:not(:first-child):before{
+    content:" | ";
+    color:#e31330
+}
+footer ul li a:focus,footer ul li a:hover{
+    color:#e31330!important
+}
+.footer_menu{
+    width:90%;
+    margin:0 auto;
+    display:inline-block;
+    text-transform:uppercase
+}
+.form-inline .input-group[type=email],.newsletter input,footer .input-group,footer .logo-rodape img{
+    width:100%
+}
+.footer_menu ul{
+    margin-top:0;
+    margin-bottom:0.1rem
+}
+footer_menu ul li{
+    font-weight:600
+}
+footer_menu ul li a:focus,footer_menu ul li a:hover{
+    color:#ffff!important;
+    text-decoration:underline
+}
+.logo-rodape{
+    margin-top:1%
+}
+footer .newsletter input[type=submit]{
+    background-color:#e31330!important;
+    border-color:#e31330!important;
+    border-radius:0;
+    color:#fff;
+    font-weight:700;
+    text-transform:uppercase
+}
+footer .well{
+    background-color:transparent!important;
+    border:1px solid transparent!important;
+    padding-bottom:40px!important;
+    padding-left:19px!important;
+    padding-right:19px!important;
+    padding:0
+}
+.rodape-newsletter-sucesso{
+    color:#52ee52
+}
+.fa:focus,.fa:hover,.fa:focus,.fa:hover,.fa:focus,.fa:hover,.fa:focus,.fa:hover{
+    color:#fff!important;
+    opacity:1;
+    background:#e31330;
+    transition:all .3s ease
+}
+footer .fa{
+    padding:20px;
+    font-size:15px;
+    transition:all .3s ease;
+    border-radius:50%;
+    width:55px;
+    height:55px
+}
+
+rodape_secundario_vip{
+	padding:0;
+}
+
+.rodape_secundario-div-flutuante{
+    background-color:#010101;
+	padding-bottom: 100px;
+}
+.rodape_secundario_vip{
+	background-color:#010101;
+	margin-top:15px;
+	padding-top: 8px;
+    padding-bottom: 10px;
+}
+.margin-top-10,.margin-top10{
+    margin-top:10px;
+}
+.margin-top-15,.mt-15{
+    margin-top:15px;
+}
+.mb-20{
+	margin-bottom:20px;
+}
+.margin-top25{
+    margin-top:25px;
+}
+.margin-bottom-15{
+    margin-bottom:15px;
+}
+.padding-6{
+    padding:6px;
+}
+body.fundo-branco,body.fundo-preto{
+    padding-right:0!important;
+}
+.container,.container-fluid,.fundo-loadingfundo-loading,.inicial_box_conteudo img,.inicial_box_series img,.inicial_box_conteudo-home,body.fundo-branco .bt-sol-lua,body.fundo-preto .bt-sol-lua{
+    width:100%!important;
+    float:left
+}
+body.fundo-branco{
+    background-color:#fff
+}
+body.fundo-branco button,body.fundo-preto button{
+    border:0;
+    white-space:nowrap;
+    font-weight:400
+}
+.menu-area-cliente button{
+    display:block!important
+}
+.cinehot-menu,.hotv-menu,body.fundo-branco .assineja-desktop.fundo-preto,body.fundo-branco .assineja-mobile.fundo-preto,body.fundo-branco .botao-lua,body.fundo-branco .logo-fundo-preto,body.fundo-preto .assineja-desktop.fundo-branco,body.fundo-preto .assineja-mobile.fundo-branco,body.fundo-preto .botao-sol,body.fundo-preto .logo-fundo-branco{
+    display:none
+}
+body.fundo-branco h4.home-visualizacoes-clientes-assistindo p{
+    color:#0d0d0d!important;
+    font-size:13px;
+    margin-bottom:0
+}
+#main-nav img,.container.home-assineja img,.contos-eroticos-home img,.home-clientes-assistindo,.home-contos-eroticos img,.home-modelo,.largura-100,body.fundo-branco .bt-sol-lua{
+    width:100%
+}
+body.fundo-branco .inicial_box_conteudo{
+    border:3px solid #fff
+}
+body.fundo-branco #cena_fotos .inicial_box_conteudo,body.fundo-branco #modelo_fotos .inicial_box_conteudo{
+    border-right:4px solid #fff!important;
+    border-left:4px solid #fff!important
+}
+body.fundo-branco .conto-banner-topo h4 p,body.fundo-branco .contos-eroticos-home a,body.fundo-preto .conto-banner-topo h4 p,body.fundo-preto .contos-eroticos-home a{
+    color:#fff!important;
+    text-shadow:1px 1px 6px #000;
+    text-align:center;
+    font-family:'Baloo Bhaijaan',cursive,sans-serif;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s
+}
+body.fundo-branco .contos-eroticos-home p,body.fundo-preto .contos-eroticos-home p{
+    text-align:center!important
+}
+body.fundo-branco .contos-eroticos-home a:hover,body.fundo-preto .contos-eroticos-home a:hover{
+    color:#e31330!important
+}
+.bt-sol-lua{
+    margin-top: 4px;
+}
+body.fundo-branco .bt-sol-lua{
+    background-color:#0d0d0d;
+    color:#fff
+}
+body.fundo-preto .bt-sol-lua{
+    background-color:#151515;
+    color:#fff
+}
+
+body.fundo-branco .bt-vejamais a{
+    color:#0d0d0d;
+    transition:all .3s ease-in-out 0s;
+    font-weight:400
+}
+
+body.fundo-preto h4.home-visualizacoes-clientes-assistindo p{
+    color:#fff!important;
+    font-size:13px;
+    margin-bottom:0
+}
+.bg-dark-topo,.bg-dark-topo container,body.fundo-branco footer,body.fundo-preto{
+    background-color:#0d0d0d;
+    color:#fff
+}
+body.fundo-preto .bg-dark-topo,body.fundo-preto footer{
+    background:#151515;
+    color:#fff
+}
+body.fundo-preto .bt-vejamais a{
+    color:#fff;
+    transition:all .3s ease-in-out 0s;
+    font-weight:400
+}
+body.fundo-preto h1.cena-elenco-titulo{
+    color:#fff!important;
+}
+body.fundo-preto .coluna-modelos{
+    border-bottom:3px solid #fff;
+    border-top:3px solid #fff
+}
+body.fundo-preto .cenas h4 a,body.fundo-preto .modelo-nome,body.fundo-preto .modelos h4 a,body.fundo-preto p.paginas-visualizacoes{
+    color:#fff
+}
+body.fundo-preto .inicial_box_conteudo,body.fundo-preto .inicial_box_series{
+    border:3px solid #0d0d0d
+}
+body.fundo-branco .menu-area-cliente nav.sidebar i.fa{
+    color:#fff;
+    background: #0d0d0d;
+}
+body.fundo-preto .menu-area-cliente nav.sidebar i.fa{
+    color:#0d0d0d;
+    background: #fff;
+}
+input.tabs:checked + label i.fa{
+	color:#353131
+}
+
+body.fundo-preto .perguntas-frequentes p{
+    font-weight:400!important;
+	color:#fff;
+}
+body.fundo-preto .cena-carregar-mais{
+    border-bottom:3px solid #fff
+}
+.container-tudo{
+    min-height:100%
+}
+.container-table{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:15px
+}
+.container-table.cema-titulo-conteudo{
+    margin-bottom:0
+}
+.float-right{
+    float:right!important
+}
+.centraliza,.row.centralizada{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    justify-content:center!important;
+    float:none;
+    margin:0 auto
+}
+.fa,.fa,.fa,.fa{
+    color:#0d0d0d!important;
+    background-color:#fff;
+    text-decoration:none
+}
+.bt-vejamais{
+    margin-bottom: 7px!important;
+    float: right;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 10px!important;
+}
+h1.bt-vejamais{
+    border-left:none!important
+}
+.conto-banner-topo img,.contos-eroticos-home img,.home-contos-eroticos img{
+    width:100%;
+    filter:brightness(25%);
+    -webkit-filter:brightness(25%);
+    -o-filter:brightnes(55%);
+    -ms-filter:brightness(55%);
+    -moz-filter:brightness(55%)
+}
+
+.paginas-titulo-visualizacoes{
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    float:left;
+    font-size:14px;
+    width:100%;
+    margin-top: 4px;
+    margin-bottom: 25px;
+}
+.cenas h4 a,.modelos h4 a{
+    color:#0d0d0d;
+    text-align:left;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s;
+    font-weight:400
+}
+.home-textos-clientes-assistindo{
+	width: 100%;
+}
+.cena-textos-cena h4,.cenas-textos-cena h4,.home-textos-cenas-recentes h4,.home-textos-clientes-assistindo h4{
+    margin-bottom:0;
+    text-align:left
+}
+.cena-video-espaco-largura-cheia .col-lg-9,.col-lg-9.cena-apresentacao-texto{
+    float:none!important
+}
+.col-lg-9.cena-apresentacao-texto{
+    margin:0 auto
+}
+.tags{
+    float:left;
+	margin-right:3px
+}
+.tags a {
+    font-size: 13px
+}
+.modelo.tags {
+    float: left;
+    margin-right: 3px;
+    margin-left: 0!important;
+}
+.modelo.tags:first-child {
+    margin-left: 10px!important;
+}
+.botoes_tags{
+    float: right!important;
+    font-size: .7em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: right;
+	margin-right: 5px;
+}
+.tags-links:hover{
+	color:#e31330;
+	background-color:#fff;
+}
+
+
+
+
+.cena-nao-vip .plano-cartao-texto{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+
+.cena-tags-texto{
+    font-family: 'Open Sans',sans-serif;
+	line-height: 16px;
+	float: left;
+	margin-top: 25px!important;
+}
+.cena-tags-texto.cena-apresentacao-texto{
+	margin-top:0!important;
+	line-height: 1.0em;
+}
+.cena-apresentacao-texto.tags{
+	margin-bottom:0px;padding:0;
+}
+
+.cena-bt-assineja{
+    width:100%;
+    font-size:23px;
+    float:left;
+    padding:10px;
+    background:#e31330;
+    color:#fff;
+    text-transform:uppercase;
+}
+.perguntas-frequentes p{
+    float:left;
+	line-height: 23px
+}
+.perguntas-frequentes p a{
+    color:#e31330!important
+}
+.cena-apresentacao-texto p{
+	float:left;
+}
+h1.contato_email-titulo{
+	border-left:0!important;
+	padding-left:0!important;
+	color:#fff!important;
+	margin-top:0!important;
+}
+.cena-apresentacao-texto p,.contato_email-titulo-conteudo p,.contato_modelo-texto p,.conto-texto-conteudo p,.conto_texto-conteudo p,.perguntas-frequentes p,.politica-de-privacidade p{
+    font-size:16px;
+    font-family:'Open Sans',sans-serif!important;
+}
+
+#country,#estado,#state,.btn-block,.sel1,.sel1-cartao,.sel1-boleto,textarea.sel1{
+    width:100%!important;
+    border:1px solid rgba(18,34,40,.59);
+    background-color:#e0e0e0;
+    text-align:center!important
+}
+.conto-texto-conteudo p{
+    margin-top:15px
+}
+.cena-apresentacao-texto p:first-child{
+    margin-top:10px
+}
+.titulo-pagina-contatotrabalhe p{
+    font-weight:400!important
+}
+.cena-elenco,.coluna-tres-botoes,.comentarios-tudo,.letras-paginacao,.texto-pagina-contos{
+    margin:0 auto;
+    float:none
+}
+#country,#estado,#state,.btn-block,.sel1,.sel1-cartao,.sel1-boleto{
+    height:50px;
+    text-align-last:center;
+    padding:5px;
+    font-weight:400;
+    font-size:15px;
+    color:#2a2929
+}
+textarea.sel1{
+    padding:35px;
+    font-weight:700;
+    font-size:13px
+}
+.unit,.unit-direita{
+    position:absolute;
+    display:block;
+    top:2px;
+    color:#393434;
+    font-family:"Open Sans",sans-serif;
+    font-size:13px
+}
+.unit{
+    left:8px
+}
+.unit-direita{
+    left:18px
+}
+.home-textos-cenas-recentes,.home-textos-clientes-assistindo,.home-textos-contos-eroticos,.modelo-textos-assistatambem,.modelo-textos-cenascommodelo{
+    height:55px;
+    float:left;
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    padding-left:.1rem;
+	margin-top: 6px;
+}
+p.paginas-visualizacoes{
+    text-align:left!important;
+}
+.botoes-plano-pagamento, .container .texto-pagina-contos, .texto-pagina-contato_modelo, .texto-pagina-contato_trabalhe, .texto-sobre-modelo{
+    font-family: "Open Sans",sans-serif;
+    line-height: 21px;
+    font-size: 13px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 5px;
+}
+.botoes-plano-pagamento,.texto-pagina-assine-termos{
+    font-weight:700;
+}
+
+.reportar-erro a,p.numeros-itens{
+    margin-right:5px;
+}
+h4.modelo-titulo-assistatambem{
+    margin-bottom:0!important;
+}
+body.fundo-branco .cena-carregar-mais{
+    border-bottom:3px solid #000;
+}
+.paginas-titulo-visualizacoes h4{
+	font-family: 'Baloo Bhaijaan',cursive,sans-serif;
+    text-align:left;
+    width:100%;
+	margin-bottom:0px!important;
+	float: left;
+}
+body.fundo-branco .paginas-titulo-visualizacoes h4 a{
+    color:#0d0d0d;
+}
+.texto-pagina-assine-termos a{
+    color:#e31330;
+    font-weight:700;
+}
+p.numeros-itens,p.perguntas-itens{
+    float:left;
+    font-weight:400;
+    font-family:'Baloo Bhaijaan',cursive,sans-serif!important;
+}
+.disponivel-assinantes-modelo a:hover,.texto-pagina-assine-termos a:hover{
+    text-decoration:underline
+}
+p.numeros-itens{
+    margin-top:0!important
+}
+.botoes_erro_sugestao{
+    float:right!important;
+    font-size:.7em;
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align:right
+}
+.botoes_erro_sugestao .reportar-erro a, .botoes_erro_sugestao .sugestao a {
+    color: #ffffff;
+    background-color: #383536;
+    padding: 7px;
+    text-transform: capitalize;
+    font-family: "Open Sans",sans-serif;
+}
+.reportar-erro a,.sugestao a{
+    color:#363434;
+    background-color:#cccbcb;
+    padding:7px;
+    text-transform:capitalize;
+    font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+    font-weight: normal!important;
+    text-transform: uppercase;
+}
+.tags-links{
+	border-radius: 10px;
+    color: #ffffff;
+    background-color: #e31330;
+    padding: 2px 4px 0px 4px;
+    text-transform: capitalize;
+    font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+    font-weight: normal!important;
+    text-transform: uppercase;
+	
+}
+.reportar-erro a:focus,.reportar-erro a:hover,.sugestao a:focus,.sugestao a:hover{
+    color:#fff!important;
+    background-color:#e31330;
+}
+.inicial-box-conteudo .contos a,.inicial-box-conteudo .contos p,.inicial-box-conteudo .contos-home a,.inicial-box-conteudo .contos-home p{
+    color:#fff;
+    text-shadow:1px 1px 6px #000;
+    text-align:center;
+    font-family:'Baloo Bhaijaan',cursive,sans-serif;
+}
+.paginas-titulo-visualizacoes.contos h4,.paginas-titulo-visualizacoes.contos-home h4{
+    text-align:center;
+    margin-bottom:0!important;
+	font-family: 'Baloo Bhaijaan',cursive,sans-serif;
+    text-transform: uppercase;
+}
+.conto-banner-topo h4 p,.home-contos-eroticos a{
+    color:#fff!important;
+    text-shadow:1px 1px 6px #000;
+    text-align:center;
+    font-size:24px!important;
+    font-family:'Baloo Bhaijaan',cursive,sans-serif;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s
+}
+.home-contos-eroticos p{
+    text-align:center!important
+}
+.card-img-top-contos{
+    width:100%;
+    filter:brightness(25%);
+    -webkit-filter:brightness(25%)
+}
+.contos-eroticos-home img{
+    margin:0!important;
+    border:0!important;
+}
+.antiflagra {
+    visibility: visible;
+    z-index: 99999!important;
+    right: 0;
+    float: right;
+}
+#antiflagra2 a img.imagem-antiflagra{
+    width:150px;
+	margin-right: 10px;
+}
+#antiflagra2 div.fechar{
+    margin-left:112px;
+    position:absolute;
+    float:right
+}
+.container.home-assineja-imagens{
+    padding:0;
+    max-width:2000px
+}
+.home-assineja-fundofixo{
+    background:url(../imagens/background-fixo/bg-assineja.jpg) center center no-repeat fixed;
+    background-size:cover;
+    width:100%;
+    margin-bottom:30px;
+	will-change: transform;
+}
+.largura-100{
+    display:block
+}
+.paginas-titulo-visualizacoes.contos,.contos-home{
+    width:98%;
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    color:#fff;
+    margin:0 auto;
+    float:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    z-index:2;
+	font-size: 24px;
+	font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+	text-align: center;
+}
+.contos-eroticos-home i.fa-eye:before {font-size:12px;padding-top: 10px!important;}
+.paginas-titulo-visualizacoes p{
+    text-transform:uppercase
+}
+.bt-vejamais a:hover,.cena-textos-cena h4 a:hover,.cenas h4 a:hover,.cenas-textos-cena h4 a:hover,.cenas-titulo-cena a:hover,.home-textos-clientes-assistindo h4 a:hover,.home-titulo-cenas-recentes a:hover,.modelos h4 a:hover{
+    color:#e31330!important;
+    text-decoration:none
+}
+.cena-bt-assineja a:hover,.home-fundo-nome-modelo-visitado h4 a p:hover,.home-fundo-nomes-modelos-visitados h4 a p:hover{
+    color:#000!important;
+    text-decoration:none
+}
+body.fundo-branco .cena-textos-cena h4 a,body.fundo-branco .cenas-textos-cena h4 a,body.fundo-branco .cenas-titulo-cena a,body.fundo-branco .home-textos-clientes-assistindo h4 a,body.fundo-branco .home-titulo-cenas-recentes a,body.fundo-branco .modelo-titulo-assistatambem a,body.fundo-branco .modelo-titulo-cenascommodelo a{
+    color:#0d0d0d;
+    text-align:left;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s
+}
+body.fundo-preto .cena-textos-cena h4 a,body.fundo-preto .cenas-textos-cena h4 a,body.fundo-preto .cenas-titulo-cena a,body.fundo-preto .home-textos-clientes-assistindo h4 a,body.fundo-preto .home-titulo-cenas-recentes a{
+    color:#fff;
+    text-align:left;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s;
+    font-weight:400
+}
+.home-clientes-assistindo,.home-modelos img{
+    float:left;
+    width:100%!important;
+}
+.home-modelos img{
+    padding:2px
+}
+.home-fundo-nome-modelo-visitado{
+    width:99.4%;
+    margin-left:2px
+}
+.home-fundo-nome-modelo-visitado,.home-fundo-nomes-modelos-visitados{
+    position:absolute;
+    bottom:2px;
+    padding-bottom:0;
+    background-color:rgba(227,20,48,.7);
+    color:#fff!important
+}
+.home-fundo-nomes-modelos-visitados{
+    width:98.4%;
+    margin-left:2px
+}
+.home-fundo-nome-modelo-visitado a,.home-fundo-nomes-modelos-visitados a{
+    color:#fff
+}
+.home-fundo-nome-modelo-visitado p,.home-fundo-nomes-modelos-visitados p,p.home-nome-modelo-visitado,p.home-nomes-modelos-visitados{
+    font-weight:400;
+    margin-left:10px;
+    margin-top:10px;
+    font-size:23px;
+    transition:all .3s ease-in-out 0s
+}
+.carousel-mobile img{
+    padding:1px
+}
+.home-titulo{
+    float:left
+}
+input[value="❤ Deletar cena dos favoritos"],input[value="❤ Adicionar cena aos favoritos"]{
+    border:none;
+    background:#e1e0e0;
+    color:#0d0d0d;
+    font-size:15px;
+    padding:5px;
+    border-radius:4px
+}
+button.tres-botoes-modelos{
+    background:#232222;
+    background:-moz-linear-gradient(top,#232222 0,#000 100%);
+    background:-webkit-linear-gradient(top,#232222 0,#000 100%);
+    background:linear-gradient(to bottom,#232222 0,#000 100%);
+    color:#eee;
+    border:0;
+    padding:6px!important;
+    width:100%;
+    text-transform:uppercase;
+    transition:all .3s ease-in-out 0s
+}
+body.fundo-preto button.tres-botoes-modelos{
+    background:#fff;
+    color:#0d0d0d;
+    font-weight:400
+}
+.container-table-cenas{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:15px
+}
+.container-table-cenas .modelos{
+    padding:2px
+}
+.pagination{
+    margin:0 auto!important
+}
+body.fundo-branco .pagination>li>a,body.fundo-branco .pagination>li>span{
+    position:relative;
+    float:left;
+    padding:6px 12px;
+    line-height:1.42857143;
+    color:#fff;
+    text-decoration:none;
+    background:-moz-linear-gradient(top,#232222 0,#000 100%);
+    background:-webkit-linear-gradient(top,#232222 0,#000 100%);
+    background:linear-gradient(to bottom,#232222 0,#000 100%);
+    border-radius:7px;
+    font-weight:400;
+	border: 1px solid #ddd!important;
+}
+body.fundo-preto .pagination>li>a,body.fundo-preto .pagination>li>span{
+    position:relative;
+    float:left;
+    padding:4px 11px;
+    line-height:1.42857143;
+    color:#0d0d0d!important;
+    text-decoration:none;
+    background:-moz-linear-gradient(to bottom,#fff 0,#c2b9b9 100%);
+    background:-webkit-linear-gradient(to bottom,#fff 0,#c2b9b9 100%);
+    background:linear-gradient(to bottom,#fff 0,#c2b9b9 100%);
+    font-weight:400;
+    border: 1px solid #0d0d0d!important;
+}
+footer,nav.navigation{
+    text-align:center!important
+}
+body.fundo-branco .page-link.next i,body.fundo-branco .page-link.previous i{
+    color:#0d0d0d;
+    background-color:#fff
+}
+body.fundo-preto .page-link.next i,body.fundo-preto .page-link.previous i{
+    color:#fff!important;
+    background-color:#0d0d0d
+}
+body.fundo-branco .page-link.next i:hover,body.fundo-branco .page-link.previous i:hover{
+    color:#e31330
+}
+
+a.page-link.previous{
+    margin-right:6px
+}
+a.page-link.next{
+    margin-left:6px
+}
+body.fundo-preto a:hover.page-link.next,body.fundo-preto a:hover.page-link.previous{
+    color:#e31330!important;
+    background-color:#0d0d0d!important
+}
+body.fundo-branco .page-item.disabled .page-link,body.fundo-branco .pagination>li>a:hover{
+    color:#fff!important;
+    background:#e31330!important;
+    border-color:#fff
+}
+body.fundo-preto .page-item.disabled .page-link,body.fundo-preto .pagination>li>a:hover{
+    color:#fff!important;
+    background:#e31330!important;
+    border-color:#0d0d0d
+}
+.cena-textos-cena,.cenas-textos-cena{
+    flex:1 1 auto;
+    font-size:14px;
+    height:55px;
+    float:left
+}
+body.fundo-branco .inicial_box_conteudo video{
+    background:#fff
+}
+body.fundo-preto .inicial_box_conteudo video{
+    background:#0d0d0d
+}
+.nomes-elencos-cena{
+    padding:3px
+}
+.nomes-elencos-cena img{
+    width:100%
+}
+body.fundo-preto h1.cena-titulo,
+body.fundo-preto h1.comentarios-titulo,
+body.fundo-preto h1.home-titulo,
+body.fundo-preto h1.contato_trabalhe-titulo,
+body.fundo-preto h1.conto-titulo,
+body.fundo-preto h1.contos-titulo,
+body.fundo-preto h1.modelos-titulo,
+body.fundo-preto h1.modelo-titulo,
+body.fundo-preto h1.assine-titulo,
+body.fundo-preto h1.titulo-duvidas-frequentes,
+body.fundo-preto h1.contato_modelo-titulo,
+body.fundo-preto .titulo-pagina-contatotrabalhe h1{
+	color:#fff!important;
+}
+.cena-titulo{
+	border-left:0!important;
+	padding-left:0!important
+}
+.cena-titulo-video{
+    font-size:26px;
+    text-align:center
+}
+body.fundo-branco .cena-titulo-video{
+    color:#0d0d0d
+}
+body.fundo-preto .cena-titulo-video{
+    color:#fff
+}
+.cena-video-espaco-largura-cheia{
+    width:100%;
+    height:auto;
+    float:left;
+    background:#000;
+}
+.cena-bt-assineja a{
+    transition:all .3s ease-in-out 0s;
+    font-weight:400
+}
+.inicial_box_conteudo a{
+	width:100%;
+	float:left;
+}
+.inicial_box_conteudo a .imagem-cena{
+    display:block
+}
+span.fa-play-circle{
+    position:absolute;
+    width:100%;
+    margin:0 auto;
+    float:none;
+    display:flex;
+    transform:translate(0,-75%);
+}
+.conteudo,.inicial_box_conteudo a:hover .imagem-cena{
+    display:none
+}
+span.fa-play-circle:before,span.fa-spin:before{
+    color:#fff;
+    margin:0 auto;
+}
+.seta_carregar_mais{
+    float:left;
+    width:100%
+}
+body.fundo-preto .aba-preferencias .citacao-favorita{
+    padding:20px 10px;
+    text-transform:capitalize;
+    float:left
+}
+body.fundo-branco .aba-preferencias .citacao-favorita{
+    padding:20px 10px;
+    text-transform:capitalize;
+    float:left
+}
+body.fundo-branco .inicial_box_modelos img{
+    width:100%!important;
+    border:3px solid #fff
+}
+body.fundo-preto .inicial_box_modelos img{
+    width:100%!important;
+    border:3px solid #0d0d0d
+}
+.inicial_box_conteudo,.inicial_box_series{
+    background-size:20%
+}
+.inicial_box_modelos{
+    background-size:30%;
+    min-height:200px
+}
+.coluna-modelos{
+    border-bottom:3px solid;
+    padding-bottom:22px;
+    border-top:3px solid;
+    padding-top:10px
+}
+nav#menu .ativa,nav#menu a:hover{
+    background-color:#e31330;
+    color:#fff
+}
+.modelo-col-modelo1{
+    margin-right:3%
+}
+body.fundo-branco .citacao-favorita{
+	background-color: #ececec;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+}
+.informacoes-modelo{line-height: 17px;}
+.descricao-modelo,.informacoes-modelo,.preferencias-modelo{
+    background-color:#0d0d0d;
+    color:#fff;
+    text-align:center;
+    text-transform:uppercase;
+    padding:12px
+}
+body.fundo-preto .citacao-favorita{
+	background-color:#242323;
+    color:#fff;
+    text-align:center;
+    text-transform:uppercase;
+    padding:15px
+}
+body.fundo-branco .informacoes-modelo{
+	text-align: left;
+}
+body.fundo-preto .informacoes-modelo{
+    background: #242323;
+    color: #fffefe;
+    text-align: left;
+}
+body.fundo-branco .descricao-modelo, body.fundo-preto .descricao-modelo{
+	background: #ac2230;
+    color: #ffffff;
+    text-align:center;
+    text-transform:uppercase;
+}
+.preferencias-modelo{
+	background: #ac2230;
+    color: #ffffff;
+    text-align:center;
+    text-transform:uppercase;
+}
+.preferencias-modelo.inativo{
+	background:#525151!important;
+	color:#ffffff!important;
+}
+#abas{
+    width:100%;
+    float:left
+}
+.aba-descricao .informacoes-modelo{
+	text-transform: none;
+	float: left;
+}
+body.fundo-preto .aba-descricao .informacoes-modelo{
+    border-bottom: 1px solid #fff;
+}
+body.fundo-branco .aba-descricao .informacoes-modelo{
+    border-bottom: 1px solid #fff;
+}
+.aba-descricao .informacoes-modelo:last-child,.aba-preferencias .informacoes-modelo:last-child{
+	border-bottom:0;
+}
+body.fundo-branco .aba-preferencias .informacoes-modelo,body.fundo-branco .aba-descricao .informacoes-modelo {
+    text-transform: none;
+    border-bottom: 1px solid #242323;
+    float: left;
+    background-color: #ececec;
+    color: #0c0c0c;
+}
+body.fundo-preto .aba-preferencias .informacoes-modelo{
+    text-transform: none;
+    border-bottom: 1px solid #ffffff;
+    float: left;
+}
+body.fundo-branco .unit.disponivel-assinantes{
+	color:#242323!important;
+	top: -13px!important;
+}
+body.fundo-preto .unit.disponivel-assinantes{
+	color:#fff!important;
+	top: -13px!important;
+}
+.disponivel-assinantes-modelo{
+    padding:27px;
+    font-size:20px;
+    bottom:0;
+    width:100%;
+    float:left;
+    border:2px solid #fff;
+	color:#fff;
+	text-align:center;
+}
+.informacoes-modelo1{
+	margin-bottom:2px
+}
+.telefone-icone-modelo{
+	margin-left:5%;
+}
+h4.modelo-nome{
+	font-size:24px;
+	text-align:center
+}
+div.modelo-titulo-cenascommodelo{
+	float:left;
+	margin-top: 6px;
+}
+h4.modelo-titulo-cenascommodelo{
+	margin-bottom:0!important;
+	float:left;
+	width:100%;
+}
+h4.modelo-visualizacoes-cenascommodelo{
+	width:100%;
+	float: left;
+}
+body.fundo-branco .disponivel-assinantes-modelo{
+	background: #ececec;
+	border: 0;
+	color: #242323;
+	margin-bottom: 20px;
+}
+body.fundo-preto .disponivel-assinantes-modelo{
+    border: 0;
+	background: #242323;
+	color: #fffefe;
+	margin-bottom: 20px;
+}
+body.fundo-branco .disponivel-assinantes-modelo a{
+	color: #242323!important;
+}
+body.fundo-preto .disponivel-assinantes-modelo a{
+	color: #ffffff!important;
+}
+.cena-apresentacao-texto{
+	margin-top:20px;
+	font-family:'Open Sans',sans-serif;
+	line-height:23px;
+	padding-left:5px!important;
+	padding-right:5px!important;
+	margin-bottom:20px;
+	float:left
+}
+body.fundo-branco .carregar-mais-comentar{
+	background:#fff;
+	color:#122228;
+	font-size:26px;
+	text-transform:uppercase;
+	margin-top:16px;
+	cursor:pointer
+}
+body.fundo-preto .carregar-mais-comentar{
+	background:#0d0d0d;
+	color:#fff;
+	font-size:26px;
+	text-transform:uppercase;
+	margin-top:16px;
+	cursor:pointer
+}
+body.fundo-branco .carregar-mais-comentar p{
+	font-size:26px;
+	color:#000;
+	text-align:center
+}
+body.fundo-preto .carregar-mais-comentar p{
+	font-size:26px;
+	color:#fff;
+	text-align:center
+}
+.conto-banner-topo{
+	height:115px;
+	overflow:hidden
+}
+conto-texto-conteudo{
+	margin-top:10px
+}
+body.fundo-preto .col-12-contato,body.fundo-preto .duvidas-diversas,body.fundo-preto .problemas-ligue{
+	background-color:#202020!important
+}
+.titulo-pagina-contatotrabalhe p{
+	font-size:20px!important;
+	font-family:'Baloo Bhaijaan',cursive,sans-serif!important;
+	text-align:center!important
+}
+.col-12-contato{
+	background-color:#0d0d0d;
+	color:#fff;
+	margin-bottom:10px
+}
+.bt-curriculo,body.fundo-branco button.bt-curriculo,body.fundo-preto .bt-curriculo{
+	background-color:#e31330;
+	color:#fff;
+	border:0;
+	text-transform:uppercase;
+	font-size:24px;
+	padding:10px;
+	width:100%
+}
+.col-2-contato,.col-2-curriculo{
+	font-size:13px;
+	padding:20px
+}
+.col-6-contato,.col-6-curriculo{
+	font-family:'Open Sans',sans-serif;
+	line-height:20px;
+	padding:20px
+}
+.comentarios_formulario-comentar span.comentar,input.btn-primary,span.comentar-nao-vip{
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+	margin-bottom:15px;
+	text-transform:uppercase
+}
+.contato-btn-email,.contato-btn-enviar,.contato-modelo-burocratico{
+	line-height:20px;
+	padding:20px
+}
+.bt-curriculo p{
+	color:#fff
+}
+.duvidas-diversas,.problemas-ligue{
+	font-size:13px;
+	padding:25px;
+}
+.contatos-opcoes{
+	color:#fff;
+	background-color:#e31330;
+	border:0;
+	text-transform:uppercase;
+	font-size:20px;
+	padding:11px 11px;
+	width:100%;
+	text-align: center;
+	font-size: 15px;
+}
+.problemas-ligue address{padding-right:15px;}
+.problemas-ligue address:last-child{padding:0!important}
+.comentarios_formulario-comentar span.comentar,span.comentar-nao-vip{
+	width:100%;
+	text-align:center;
+	padding:28px;
+	line-height:30px;
+	margin-top:25px;
+	color:#fff;
+	cursor:pointer;
+	display:block
+}
+.bt-contatos,.envie-para,.ligue{
+	text-transform:uppercase;
+	font-size:24px;
+	margin-bottom: 5px;
+}
+.comentarios_formulario-comentar span.comentar{
+	font-size:16px;
+	background-color:#e21531
+}
+span.comentar-nao-vip{
+	font-size:16px;
+	background-color:#474646
+}
+input.btn-primary{
+	width:100%!important;
+	border:1px solid rgba(18,34,40,.59);
+	background-color:#e31430!important
+}
+.comentarios-avatar img{
+	width:94%;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	-ms-border-radius:50px;
+	-o-border-radius:50px;
+	border-radius:50px
+}
+body.fundo-branco .container .espaco-comentarios{
+	font-family:"Open Sans",sans-serif;
+	line-height:26px;
+	color:#fff;
+	background:#0d0d0d;
+	padding:10px
+}
+body.fundo-preto .container .espaco-comentarios{
+	background-color:#232222;
+	font-family:"Open Sans",sans-serif;
+	line-height:26px;
+	padding:10px
+}
+.comentarios-responder-nao-vip,.comentarios_formulario-responder span{
+	display:block;
+	cursor:pointer;
+	font-size:16px;
+	margin-bottom:15px;
+	text-align:left;
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+}
+.comentarios_formulario-responder span.unit{
+	font-family:"Open Sans",sans-serif;
+}
+.botao-vermelho-enviar,.contato-modelo-anexos span,.contato_modelo-titulo-fotos p,.nome-comentarios,.opcao-pagamento{
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+}
+.nome-comentarios{
+	color:#fff!important;
+	float:left;
+	font-size:1.3em;
+	text-align:left
+}
+.comentarios_formulario-responder,.espaco-comentarios .comentarios,.nome-comentarios{
+	color:#fff;
+	padding-top:6px
+}
+.comentarios-periodo-da-postagem{
+	float:right;
+	text-align:right
+}
+.comentarios-lugar,.comentarios-periodo-da-postagem span,comentarios-lugar{
+	font-size:13px;
+	text-align:right;
+	line-height:14px
+}
+.comentario_resposta_box{
+	background:0 0;
+	padding:10px;
+	margin-bottom:12px
+}
+body.fundo-branco .comentario_resposta_box{
+	background:#111
+}
+body.fundo-preto .comentario_resposta_box{
+	background:#292828
+}
+P.titulo-comentar-formulario{
+	margin-bottom:15px;
+	text-transform:uppercase
+}
+.formulario-col-direita{
+	padding-left:10px!important
+}
+.botao-vermelho-enviar{
+	background:#e31330;
+	color:#fff;
+	line-height:30px;
+	margin-top:10px;
+	margin-bottom:15px;
+	text-align:center!important
+}
+.conteudo-area-cliente .todo-conteudo .botao-vermelho-enviar{
+	margin-top:20px;
+}
+.botao-vermelho-enviar input{
+	background:0 0!important;
+	float:left;
+	border:0;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.loading img,.navbar-default{
+	border:0!important
+}
+.paragrafos{
+	margin-bottom:20px;
+	padding:5px
+}
+.contato_modelo-titulo-fotos p{
+	font-size:20px;
+	text-align:left!important
+}
+.contato-texto_dispor-gravacao{
+	width:3%;
+	float:left!important
+}
+.contato-texto_maior-18anos {
+    width: 94%;
+    float: left;
+}
+.envia-contato input{
+	float:none;
+	margin:0 auto
+}
+p.item-paragrafo{
+	margin-left:10px
+}
+input#newsletter_rodape_nascimento,input#newsletter_rodape_nome{
+	width:100%!important
+}
+input#newsletter_rodape_nascimento{
+	margin-bottom:15px;
+	margin-top:5px
+}
+label[for=boleto],label[for=cartao-de-credito],label[for=paypal]{
+	width:100%;
+	cursor:pointer
+}
+label[for=bt-confirmar-pg],label[for=bt-confirmar-pg-cartao],label[for=bt-confirmar-pg-boleto],label[for=bt-enviar-form]{
+	display:block;
+	margin-top:4px;
+	margin-bottom:0;
+	font-weight:400;
+	cursor:pointer
+}
+.tutorial_cookies{
+	width:80%;
+	display:block;
+	margin:auto;
+	float:left
+}
+.banners_sites,body.fundo-branco img#icones-formas-pagamento-boleto.fundo-preto,body.fundo-branco img#icones-formas-pagamento-cartao.fundo-preto,body.fundo-branco img#icones-formas-pagamento-paypal.fundo-preto,body.fundo-preto img#icones-formas-pagamento-boleto.fundo-branco,body.fundo-preto img#icones-formas-pagamento-cartao.fundo-branco,body.fundo-preto img#icones-formas-pagamento-paypal.fundo-branco{
+	display:none
+}
+.tutorial_cookies img{
+	width:50%
+}
+.tutorial_texto_destaque{
+	color:#e31330
+}
+
+body.fundo-branco .boleto-pagamento p,body.fundo-branco .cartao-pagamento p,body.fundo-branco .paypal-pagamento p{
+	text-align:center;
+	color:#0d0d0d
+}
+body.fundo-preto .boleto-pagamento p,body.fundo-preto .cartao-pagamento p,body.fundo-preto .paypal-pagamento p{
+	text-align:center;
+	color:#fff
+}
+body.fundo-branco .assine-selecionado p, body.fundo-preto .assine-selecionado p{
+	color:#ffffff!important;
+	font-weight:normal!important;
+}
+
+.assine-senha{
+	margin-top:10px
+}
+.opcao-pagamento{
+    font-family: 'Fugaz One', cursive,sans-serif;
+    color: #292828;
+    margin-left: 0;
+    text-align: center;
+    font-weight: normal!important;
+    background-color: #292828;
+    padding: 10px;
+}
+.assine-periodo-pagamento{
+	color:#fff;
+	font-size:1.6em;
+	margin-bottom:.9em;
+	padding-top:.4em;
+	text-align:center;
+	padding:0!important;
+	margin:0!important
+}
+.assine-apenas,.assine-preco p{
+	margin-bottom:.4em;
+	font-weight:400
+}
+body.fundo-branco .menu-area-cliente .navbar-default .navbar-nav>li>a{color:#fff}
+body.fundo-branco .menu-area-cliente .navbar-default .navbar-nav>li>a,body.fundo-preto .menu-area-cliente .navbar-default .navbar-nav>li>a{
+	line-height:18px!important;
+	text-transform:capitalize
+}
+.enviar-assine{
+	margin:0 auto;
+	width:250px;
+	position:relative
+}
+.enviar-assine:after{
+	float:left;
+	content:'\25BA';
+	margin-top:10px;
+	
+}
+.assine-agora-e-veja ul{
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.assine-agora-e-veja,.titulo-pagina-assine{
+	float:none;
+	margin:0 auto;
+}
+.item-video video{
+	display:none;
+}
+video::-webkit-media-controls{
+	display:none
+}
+.loading{
+	position:absolute
+}
+.pimenta-erro{
+	position:relative;
+	background:url(https://www.hotboys.com.br/hot/imagens/paginas-erros/background-erro.jpg) repeat-x #948067
+}
+.pimenta-erro h1{
+	margin-top: 0!important;
+	width:100%;
+	color:#e31430!important;
+	text-transform:uppercase
+}
+.pimenta-fora-copo img{
+	float:right
+}
+.pimenta-erro h2{
+	text-align:left;
+	font-weight:400´;
+	color:#212529;
+}
+.pimenta-erro .textos{
+	position:absolute;
+	margin-left:10px
+}
+.pimenta-erro img{
+	margin-top:-20px
+}
+.pimenta-erro .coluna{
+	margin:0 auto;
+	float:none
+}
+i.fa.fa-eye{
+	margin-right:5px
+}
+.banner03 img{
+	width:90%!important
+}
+body.fundo-branco .tudo-area-cliente{
+	background-color:#171819;
+	float:left;
+	z-index:99
+}
+body.fundo-preto .tudo-area-cliente{
+	background-color:#fff;
+	float:left;
+}
+.perfil-mobile{
+    float: left;
+    background-color: #e31330!important;
+    width: 100%;
+}
+.perfil-mobile .menu-area-cliente{
+	display:block!important;
+	width:100%;
+	background-color: #e31330!important;
+}
+.perfil-mobile .menu-area-cliente .perfil-mobile-foto{
+	margin-left:20px;
+	margin-top:5px;
+}
+.perfil-mobile .menu-area-cliente .perfil-mobile-foto,.perfil-mobile .menu-area-cliente perfil-mobile-info{
+	float:left
+}
+.perfil-mobile .perfil-mobile-info{
+	float:left;
+	color:#fff
+}
+body.fundo-preto .menu-area-cliente{
+	background-color:#ffffff;
+}
+body.fundo-branco .menu-area-cliente{
+	background-color:#171819;
+}
+.menu-area-cliente .sidebar{
+	font-family:"Open Sans",sans-serif!important
+}
+.menu-area-cliente .navbar-nav{
+	width:100%
+}
+.menu-area-cliente .main{
+	padding:10px 10px 0
+}
+body.fundo-branco .menu-area-cliente .navbar-header{
+	background:linear-gradient(to bottom,#000 0,#1e1e1e 100%);
+}
+body.fundo-preto .menu-area-cliente .navbar-header{
+	background:#e31330;
+}
+body.fundo-preto .navbar-default .navbar-collapse,body.fundo-preto .navbar-default .navbar-form{
+	border: #e31330;
+    background-color: #b70f26!important;
+}
+body.fundo-branco .menu-area-cliente nav.sidebar{
+	background-color:#171819;
+	width:100%;
+	float:left;
+	margin-bottom:0
+}
+.menu-area-cliente .main,body.fundo-branco .menu-area-cliente nav.sidebar{
+	-webkit-transition:margin .2s ease-out;
+	-moz-transition:margin .2s ease-out;
+	-o-transition:margin .2s ease-out;
+	transition:margin .2s ease-out
+}
+body.fundo-branco .menu-area-cliente nav.sidebar .navbar-nav>li{
+	border-bottom:1px dashed #fff
+}
+body.fundo-branco .menu-area-cliente .perfil-info,body.fundo-preto .menu-area-cliente .perfil-info{
+	margin-bottom:20px;
+	margin-top:20px
+}
+body.fundo-preto .menu-area-cliente .perfil-info{
+	color:#0d0d0d
+}
+body.fundo-preto .menu-area-cliente nav.sidebar{
+	width:100%;
+	float:left;
+	margin-bottom:0
+}
+body.fundo-preto .menu-area-cliente nav.sidebar .navbar-nav>li{
+	border-bottom:1px dashed #fff;
+}
+body.fundo-preto .menu-area-cliente nav.sidebar .navbar-nav>li:last-child{
+	border-bottom:0!important;
+}
+body.fundo-preto .menu-area-cliente nav.sidebar a{
+	color:#211e1e!important;
+	font-weight:700!important
+}
+body.fundo-preto .menu-area-cliente nav.sidebar a:hover,body.fundo-preto .menu-area-cliente nav.sidebar .navbar-nav>li:hover a{
+	color:#fff!important;
+}
+body.fundo-preto .menu-area-cliente nav.sidebar .navbar-nav>li:hover a i.fa{
+	color: #fff!important;
+    background: #171819;
+}
+body.fundo-preto .conteudo-area-cliente .inicial_box_conteudo,body.fundo-preto .conteudo-area-cliente .inicial_box_series{
+	border:3px solid #171819
+}
+body.fundo-preto .conteudo-area-cliente .inicial_box_conteudo video,body.fundo-preto .conteudo-area-cliente .inicial_box_series video{
+	background:#171819
+}
+.menu-area-cliente .navbar-default .navbar-toggle .icon-bar{
+	background-color:#fff
+}
+.menu-area-cliente .perfil-menu{
+	display:block
+}
+.menu-area-cliente .perfil-foto{
+	margin-top:10px
+}
+.menu-area-cliente .perfil-info{
+	color:#fff;
+	float:left;
+	width:100%;
+	text-transform:capitalize;
+	font-weight:700
+}
+.menu-area-cliente .perfil-foto img{
+	width:80px;
+	border:3px solid #fff;
+	margin:5px
+}
+.menu-area-cliente .perfil_info h2,.menu-area-cliente .perfil_info span{
+	font-family:"Open Sans",sans-serif!important;
+	font-weight:700
+}
+.menu-area-cliente .barra-perfil{
+	background-color:#d4d0d0
+}
+.menu-area-cliente .texto-menu-mobile{
+	color:#fff;
+	text-transform:uppercase;
+	text-align:left;
+	float:left;
+	margin-left:30px;
+	margin-top:15px;
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+}
+.menu-area-cliente .container-fluid>.navbar-header{
+	margin-right:0!important;
+	margin-left:0!important
+}
+.menu-area-cliente .navbar-default .navbar-toggle:focus,.menu-area-cliente .navbar-default .navbar-toggle:hover{
+	background-color:transparent
+}
+.usuario-topo{
+	padding-left:10px;
+	padding-right:10px;
+	float:right
+}
+.usuario-topo .perfil-menu{
+	list-style:none!important;
+	background:#dddcd8;
+	width:auto;
+	height:62px
+}
+.usuario-topo .img-circle{
+	width:29%;
+	float:left
+}
+.usuario-topo .saudacao{
+	font-size:12px;
+	text-transform:capitalize
+}
+.usuario-topo .fa-caret-up:before{
+	position:absolute;
+	bottom:0;
+	height:21px;
+	color: #e31330;
+}
+body.fundo-branco .conteudo-area-cliente{
+	background-color:#fff;
+	padding:5px
+}
+body.fundo-preto .conteudo-area-cliente{
+	background-color:#171819;
+	padding:5px
+}
+body.fundo-branco .conteudo-area-cliente i.fa{
+	color:#171819!important
+}
+body.fundo-preto .conteudo-area-cliente i.fa{
+	color:#ffffff!important
+}
+.conteudo-area-cliente .foto-editavel{
+	width: 140px;
+	height: 140px
+}
+.conteudo-area-cliente .enviar-foto-cliente{
+	position:absolute;
+	margin-top:120px
+}
+.conteudo-area-cliente .enviar-area-cliente{
+	color:#fff;
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+	background-color:#e21531;
+	border-color:#d43f3a;
+	width:100%;
+	text-transform:uppercase;
+	padding:14px;
+	margin-top:15px;
+	margin-bottom:30px
+}
+.conteudo-area-cliente .telefone-area-cliente{
+	width:60%;
+	float:right;
+	margin:10px 24px 24px 80px
+}
+.conteudo-area-cliente .todo-conteudo{
+	font-family:"Open Sans",sans-serif;
+	font-weight:700
+}
+.conteudo-area-cliente .formulario-area-cliente{
+	line-height:25px
+}
+.conteudo-area-cliente .form-group{
+	margin-bottom:5px!important
+}
+.todo-conteudo .form-group{
+	font-size:14px
+}
+.sem_cenas_favoritas{
+	color: #e31330;
+	padding-left:5px;
+	text-align:left;
+	text-transform:uppercase;
+	margin-left:2px!important;
+	float:left;
+	margin-bottom:20px
+}
+h1.cenas-favoritas-vip{
+	border-left: 0!important
+}
+.cenas-favoritas-vip img{
+	margin-top:-6px
+}
+.favoritos i.fa-star{
+	color: #f5a309;
+}
+body.fundo-preto .favoritos i.fa-eye{
+	color: #d2ccce;
+}
+body.fundo-branco .cena-nao-favoritada input{
+	background: url("https://hotboys.com.br/imagens/icones/favoritos/estrela-favoritos-on.png") no-repeat;
+	width:34px;
+	height:31px;
+	border:0!important;
+	text-indent: 100px;
+	position: absolute;
+	margin-left: -41px;
+	margin-top: -5px;
+}
+body.fundo-branco .cena-favoritada input{
+	background: url("https://hotboys.com.br/imagens/icones/favoritos/estrela-favoritos-off.png") no-repeat;
+	width:34px;
+	height:31px;
+	border:0!important;
+	text-indent: 100px;
+	position: absolute;
+	margin-left: -41px;
+	margin-top: -5px;
+}
+body.fundo-preto .cena-nao-favoritada input{
+	background: url("https://hotboys.com.br/imagens/icones/favoritos/estrela-favoritos-fundo-preto-on.png") no-repeat;
+	width:34px;
+	height:31px;
+	border:0!important;
+	text-indent: 100px;
+	position: absolute;
+	margin-left: -41px;
+	margin-top: -5px;
+}
+body.fundo-preto .cena-favoritada input{
+	background: url("https://hotboys.com.br/imagens/icones/favoritos/estrela-favoritos-fundo-preto-off.png") no-repeat;
+	width:34px;
+	height:31px;
+	border:0!important;
+	text-indent: 100px;
+	position: absolute;
+	margin-left: -41px;
+	margin-top: -5px;
+}
+div[aria-expanded=false]{
+	margin:0!important
+}
+
+h1.contato_trabalhe-titulo{
+	margin-bottom:10px
+}
+.perguntas-frequentes,.politica-privacidade_titulos,.termo-de-uso{
+	font-size:18px;
+	font-family:'Baloo Bhaijaan',sans-serif;
+	margin-top:10px
+}
+body.fundo-preto .perguntas-frequentes,body.fundo-preto .politica-privacidade_titulos,body.fundo-preto .termo-de-uso{
+	color:#ffffff;
+}
+body.fundo-branco .perguntas-frequentes,body.fundo-branco .politica-privacidade_titulos,body.fundo-branco .termo-de-uso{
+	color:#122228;
+}
+body.fundo-preto .termo-de-uso{
+	color:#fafafa
+}
+.conteudo-termo-de-uso{
+	font-size:16px;
+	font-family:'Open Sans',sans-serif;
+	padding-top: 15px;
+}
+.btn-file{
+	position:relative;
+	overflow:hidden
+}
+.btn-file input[type=file]{
+	position:absolute;
+	top:0;
+	right:0;
+	min-width:100%;
+	min-height:100%;
+	font-size:100px;
+	text-align:right;
+	filter:alpha(opacity=0);
+	opacity:0;
+	outline:0;
+	background:#fff;
+	cursor:inherit;
+	display:block
+}
+.formulario-area-cliente .input-group-addon:last-child{
+	background:#262626;
+	color:#fff;
+	border:#171819
+}
+.formulario-area-cliente .input-group .form-control:first-child,.formulario-area-cliente .sel1#estado{
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+	text-transform:uppercase;
+	font-weight:400!important
+}
+.login-minha-conta,.validade-plano-minha-conta,body.fundo-branco .formulario-area-cliente .nome-sobrenome,body.fundo-preto .formulario-area-cliente .nome-sobrenome{
+	font-family:'Baloo Bhaijaan',cursive,sans-serif;
+	font-weight:400
+}
+body.fundo-branco .todo-espaco-informacoes-cliente{
+	margin-top:15px;
+	margin-bottom:15px;
+	background:#eee;
+	padding:14px
+}
+body.fundo-branco .espaco-saudacao-nome-sobrenome{
+	background:#d5d5d5;
+	padding:8px;
+	margin-bottom:10px
+}
+body.fundo-branco .formulario-area-cliente .nome-sobrenome{
+	text-transform:uppercase
+}
+body.fundo-branco .aba-editar-perfil-minha-conta{
+	margin-top:30px
+}
+body.fundo-branco .editar-perfil-minha-conta{
+	padding-left:14px;
+	background:#2e2e2e;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:12px;
+	padding-top:5px;
+	padding-bottom:5px
+}
+body.fundo-branco .conteudo-area-cliente .formulario-area-cliente .seta-cliente-topo-desktop{
+	font-size:2em;
+	color:#fff;
+	width:100%;
+	position:absolute;
+	margin-left:-30px
+}
+body.fundo-branco .conteudo-editar-perfil-cliente{
+	background:#171819;
+	padding:14px;
+	margin-bottom:40px
+}
+body.fundo-branco .conteudo-editar-perfil-cliente .texto{
+	color:#fff
+}
+body.fundo-preto .todo-espaco-informacoes-cliente{
+	margin-top:15px;
+	margin-bottom:15px;
+	background:#232424;
+	padding:14px
+}
+body.fundo-preto .espaco-saudacao-nome-sobrenome{
+	background:#363636;
+	padding:8px;
+	margin-bottom:10px
+}
+body.fundo-preto .formulario-area-cliente .nome-sobrenome{
+	text-transform:uppercase
+}
+body.fundo-preto .aba-editar-perfil-minha-conta{
+	margin-top:30px
+}
+body.fundo-preto .editar-perfil-minha-conta{
+	padding-left:14px;
+	background:#dfdddd;
+	color:#171819;
+	text-transform:uppercase;
+	font-size:12px;
+	padding-top:5px;
+	padding-bottom:5px
+}
+body.fundo-preto .conteudo-area-cliente .formulario-area-cliente .seta-cliente-topo-desktop{
+	font-size:2em;
+	color:#2e2e2e!important;
+	width:100%;
+	position:absolute;
+	margin-left:-30px
+}
+body.fundo-preto .conteudo-editar-perfil-cliente{
+	background:#fff;
+	padding:14px;
+	margin-bottom:40px
+}
+body.fundo-preto .conteudo-editar-perfil-cliente .texto{
+	color:#171819
+}
+body.fundo-preto .conteudo-area-cliente i.fa.fa-pencil{
+	color:#fff!important
+}
+img.imagem-paypal{
+	width:100%;
+	padding:10px
+}
+.cartoes-paypal{
+	display:flex;
+	align-items:center;
+	margin:0 auto
+}
+input#foto_perfil.excluir_imagem{
+	background-color:transparent;
+	border:none;
+	font-size:10px
+}
+/* Icones - Vantagens do Assinante */ 
+.icones-vantagens{background-color:#0d0d0d; margin-bottom: 15px; margin-top: 15px;}
+.icones-vantagens li {list-style: none; display: inline-block; text-align: center; float: left; width: 12%; padding: 1%;}
+.icones-vantagens li span{display: block; margin-top: 10px; font-size: 13px; text-transform: uppercase;background: #0d0d0d;color: #e0e0e0!important;}
+.icones-vantagens li img{width: 50%}
+
+/* Plano cartao - Copa Futebol - Assine */ 
+.copa-futebol.assine-nao-selecionado{background: #fda400 url('../imagens/assine/background-assine-brasil.jpg')!important;}
+.copa-futebol.assine-selecionado{background: #e31330!important;color: #ffffff;}
+
+/* Icones - Assine */
+.icones-assine i.fa{font-size: 1.4em; margin-right: 4px;color: #fff; background-color: #4e4d4d;}
+
+/* Abas - Assine */
+.tudo-banner-valor-assine{background: #000000;padding:0!important;float:left}
+.banner-valor-assine {background: #000000; background-size: 53%; background-repeat: no-repeat}
+
+.valores-assine .tabs-container {position: relative;min-height: 383px;width:100%;margin: 0 auto;float: left;}
+.valores-assine .tabs-container p{margin: 0;padding: 0;}
+.valores-assine .tabs-container:after {content: '.';display: block;clear: both;height: 0;font-size: 0;line-height: 0;visibility: none;}
+.valores-assine input.tabs {display: none;}
+.valores-assine input.tabs + label {line-height: 40px;padding: 0 20px;float: left;background: #484040;color: #fff;cursor: pointer;transition: background ease-in-out .3s;border-right: 3px solid #1e0c0c;}
+.valores-assine input.tabs:checked + label i.fa{background-color: #ffffff;color: #353131;}
+.valores-assine input.tabs + label i.fa{color: #fff;background-color: #484040;}
+.valores-assine input.tabs:checked + label {color: #0f0000;background: #ffffff;}
+.valores-assine input.tabs + label + div {text-align:center;opacity: 0;position: absolute;background: #ffffff;top: 38px;left: 0;z-index: -1;transition: opacity ease-in-out .3s; color: #0f0000; padding: 10px;}
+.valores-assine input.tabs:checked + label + div {width:100%;opacity: 1;z-index: 1;}
+.assine-preco-copadomundo p{color: #037107;font-size: 4em;margin-bottom: 13px!important}
+.tabs-container a,.tabs-container a:hover{color:#000000!important}
+.assine-apenas p {font-size: 10px;line-height: 9px;margin-top: 11px!important;}
+.assine-preco p{font-size: 34px!important}
+
+
+body.fundo-branco ul.navbar-nav li.ativo,body.fundo-branco ul.navbar-nav li.ativo a {
+	background-color: #ffffff!important;
+	color: #171819!important;
+	font-weight: bold!important;
+}
+body.fundo-preto ul.navbar-nav li.ativo, ul.navbar-nav li.ativo a {
+	background-color: #171819!important;
+	color: #fff!important;
+}
+
+/* Botao comentarios acima das tags */
+.buttonSquare {width:100%;border-radius: 0px; display: inline-block; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; position: relative; cursor: pointer; margin: 0px 0 4px 0; padding: 15px 0px 15px 0px; border: none; color: rgba(255,255,255,0.9); text-transform: capitalize; -o-text-overflow: clip; text-overflow: clip; background: #e21531; transition: all 0.2s;}
+.buttonSquare::before {display: inline-block; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; width: 63px; height: 100%; position: absolute; content: ""; cursor: pointer; top: 0; left: 0; border: none; color: rgba(0,0,0,0.9); -o-text-overflow: clip; text-overflow: clip; background: rgba(0,0,0,0.3); background-repeat: no-repeat; background-position: 50% 50%; -webkit-background-size: 48px auto; background-size: 48px auto; transition: all 0.2s;}
+.buttonSquare i, .buttonRounded i {color: white; font-size: 25px; margin: 0 0 0 17px; position: relative;}
+.buttonSquare span, .buttonRounded span {position: absolute; left: 78px; font-family: 'Baloo Bhaijaan',cursive,sans-serif; text-transform: uppercase; font-size: 14px; top: 17px; font-weight: normal!important;}
+
+
+/* Nomes dos modelos */
+h4.paginas-nome-modelos a{font-size: 19px}
+h4.nome-modelos-elenco {margin-top: 10px;}
+h4.nome-modelos-elenco a {font-size: 19px;}
+
+
+
+/* CENA - Icones abaixo do video */
+.cena-total-icones{}
+.cena-total-icones{float: right; margin-top: 7px; margin-bottom: 7px; font-size: 14px;}
+body.fundo-branco .cena-total-icones{color: #1d1d1d;font-weight: bold;}
+.cenas-total-icones{width: 100%;margin-top: 3px;font-family: 'Baloo Bhaijaan',cursive,sans-serif;float: left;}
+.cena-visualizacao,.cenas-visualizacao{float: left;margin-right: 10px;padding-right: 10px;border-width: thin;}
+body.fundo-branco .cena-visualizacao,body.fundo-branco .cenas-visualizacao{border-right: 1px solid #21252947;}
+body.fundo-preto .cena-visualizacao,body.fundo-preto .cenas-visualizacao{border-right: 1px solid #444343;}
+body.fundo-preto .cena-visualizacao:last-child,body.fundo-preto .cenas-visualizacao:last-child{border:0!important}
+.cena-comentarios,.cenas-comentarios{float: left;margin-right: 10px;padding-right: 10px;border-width: thin;}
+.cena-comentarios:last-child{border:0!important}
+body.fundo-branco .cena-comentarios,body.fundo-branco .cenas-comentarios{border-right: 1px solid #21252947;}
+body.fundo-preto .cena-comentarios,body.fundo-preto .cenas-comentarios{border-right: 1px solid #ffffff66;}
+.cena-duracao-video,.cenas-duracao-video{float: left;}
+body.fundo-preto .botao-comentar-branco,body.fundo-branco .botao-comentar-preto{display:none}
+body.fundo-branco .texto-video{font-weight: bold;}
+
+
+/* CENAS - Icones abaixo do titulo */
+.cenas-visualizacao .texto, .cenas-duracao-video .texto{font-size: 11px; margin-top: 1px; float: right; margin-left: 4px!important; font-family: "Open Sans",sans-serif; font-weight: bold;}
+
+@-webkit-keyframes color_change {0% {color:white } 100% { color:#FFC107 }}
+
+/* Contos eroticos - Home */
+body.fundo-branco .inicial_box_contos{border: 3px solid #ffffff;}
+body.fundo-preto .inicial_box_contos{border: 3px solid #0d0d0d;}
+
+
+/* mais fotos pagina modelo */
+.quant-fotos-assine{text-align: center; margin: 0 auto; float: none; font-size: 26px; text-transform: uppercase; width: 100%;}
+.total-fotos-assine{text-align: center; margin: 0 auto; float: none; text-transform: uppercase; width: 100%; background-color: #e31330; padding: 5px}
+.assine-liberar{margin:0 auto; float:none;text-align: center}
+.assine-liberar img{width: 13%!important;margin-top: -12px;}
+.total-assine-liberar{position: absolute;width: 100%;z-index:9;}
+.imagem-random-modelo{opacity: 0.9;position: absolute;}
+.imagem-random-modelo img.fundo{position:absolute;opacity: 0.8;}
+.maisfotos a:hover{color: #fff!important;text-decoration: underline!important;}
+
+/* modelo */
+.foto-principal-modelo{width:100%}
+body.fundo-branco .telefone-icone-preto,body.fundo-preto .telefone-icone-branco{display:none}
+
+/* cena */
+.cena-reportar-erro{float:left;border-right: 1px solid #444343;text-transform: uppercase;}
+.cena-reportar-erro a{font-size: 15px;}
+.cena-sugestao{text-align: center;float:left;text-transform: uppercase;}
+.cena-sugestao a{font-size: 15px;}
+body.fundo-branco .cena-sugestao a, body.fundo-branco .cena-reportar-erro a{font-weight:bold;color:#0d0d0d}
+
+.problema-video{order:1}
+.cena-comentar{text-align:center;float:left;background-color: #e31330;order:2}
+.total-icones-cena{text-align:center;float:left;order:3}
+.texto-pagina-contos {font-family: "Open Sans",sans-serif;line-height: 21px;font-size: 13px;margin: 0 auto;float: none;}
+body.fundo-branco .col-lg-9.cena-apresentacao-texto{font-weight: bold;}
+
+/* botao flutuante whatsapp */
+.botao-whatsapp a{position: fixed;z-index: 9999;right: 0;float: right;top: 40%;margin-top: -25px;cursor: pointer;min-width: 50px;max-width: 150px;color: #fff;text-align: center;padding: 10px;margin: 0 auto 0 auto;background: #20B038;-webkit-transition: All 0.5s ease;-moz-transition: All 0.5s ease;-o-transition: All 0.5s ease;-ms-transition: All 0.5s ease;transition: All 0.5s ease;}
+.botao-whatsapp a:hover{color:#fff!important;background:#e31330}
+
+.modal-open .modal{z-index:9999!important;}
+
+.modal-backdrop{z-index:0!important}
+
+
+.padding-0{padding:0!important;}
+.texto-centro{text-align:center}
+.conteudo-assine-ja{text-align: center; background-color: #e31330; text-transform: uppercase;line-height: 28px;font-family: 'Baloo Bhaijaan',cursive, sans-serif}
+.conteudo-assine-ja:hover,.conteudo-assine-ja a:hover,.conteudo-assine-ja a:hover div{background:#bc0b24;color:#fff!important;text-decoration:underline}
+
+body.fundo-preto .tudo-area-cliente .navbar-default .navbar-collapse{border: #ffffff; background-color: #ffffff!important;}
+.input-group .form-control,.input-group-addon{border-radius:0!important}
+
+
+
+/* Categorias Submenu */
+.menu-submenu{cursor:pointer;}
+
+.menu-submenu .seta-baixo{
+	margin: 0 auto;
+	margin-top: 2px!important;
+	border-width: 6px;
+	border-style: solid dashed dashed dashed;
+	border-color: #fff transparent transparent transparent;
+	background: transparent;
+	border-radius: 0;
+	width: 5px;
+	display: flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	position: relative;
+}
+.menu-submenu a:hover .seta-baixo{border-color: #fffdfd transparent transparent transparent;}
+
+.menu-submenu ul{
+	width: 770px;
+	display: none;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+	background-color: #0d0d0d;
+}
+
+.menu-submenu:hover ul{
+	display:block;
+}
+.menu-submenu ul .categorias-tags-imagens{
+	float:left
+}
+
+.menu-submenu ul .categorias-tags-imagens a{
+	float:left;
+	margin: 6px;
+}
+
+.menu-submenu ul .categorias-tags-imagens a:hover {
+    background-color: #e31330!important;
+    box-shadow: none!important;
+}
+
+.menu-submenu span.titulo-submenu{
+	font-size: 10px;
+	font-weight: normal!important;
+	font-family: 'Open Sans',sans-serif;
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-submenu img{
+	width:100%;
+}
+
+.categorias-tags-texto{
+	float: left; 
+	padding: 10px; 
+	border-top: 1px dashed #5f5d5d;
+}
+
+.categorias-tags-texto a{
+	float:left
+}
+
+.mais-categorias{
+	float:left;
+	width: 100%; 
+	padding: 8px; 
+	background-color: #e31330; 
+	font-size: 13px; 
+	margin-bottom: 10px; 
+	margin-top: 5px;
+	text-align: left;
+}
+
+.categorias-tags-texto a li span.titulo-submenu{
+	padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #0d0d0d;
+    padding: 9px;
+    background-color: #171717;
+	margin:3px;
+}
+.categorias-tags-texto a:hover li span.titulo-submenu{
+	background-color:#e31330!important;
+}
+
+.padding-0{padding:0!important;}
+.conteudo-assine-ja{text-align: center; background-color: #e31330; text-transform: uppercase;line-height: 28px;font-family: 'Baloo Bhaijaan',cursive, sans-serif}
+
+#cena_fotos .inicial_box_conteudo, #info1 .box{overflow:hidden;height:184px}
+
+img.assineja-mobile{width: 100%;}
+
+#div_fixa_rodape{
+    height: 62px;
+    color: #fff;
+	background-color: #000;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: -0.92px;
+    line-height: 60px;
+    text-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    float: left;
+}
+
+#div_fixa_rodape a.assine-agora{
+	background-color: #efb10c;
+    border-radius: 3px;
+    color: #000;
+	font-family: "Fira Sans",sans-serif; 
+	height: 44px; 
+	line-height: 44px; 
+	text-transform: uppercase; 
+	margin: 10px 15px;
+	font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+	transition: background-color 0.5s ease;
+}
+
+#div_fixa_rodape a:hover.assine-agora{
+	background-color: #e31330;
+    color: #fff!important;
+	transition: background-color 0.5s ease;
+}
+
+#div_fixa_rodape span.ja-e-assinante{color: #8a8888;}
+#div_fixa_rodape span a:hover.faca-login{
+	color: #fff!important;
+	text-decoration:underline;
+}
+
+.whatsapp_botao_rodape{
+	display:none;
+	width: 20%;
+    height: 62px;
+    line-height: 18px;
+    font-size: 14px;
+    float: left;
+}
+
+.whatsapp_botao_rodape img{
+	float:right;
+	margin-right: 15px;
+}
+
+#div_fixa_rodape .textos_rodape{
+	font-size: 14px; 
+	height: 31px; 
+	width: 100px;
+}
+
+
+/* Botões topo*/
+button.btn-assinar {
+	margin-top: 14px;
+	text-transform: uppercase;
+	width:30%;
+	height: 31px;
+	font-size: 15px;
+	line-height: 1;
+	color: #fff;
+	letter-spacing: 0.025em;
+	background: #e31330!important;
+	cursor: pointer;
+	border: 0;
+	border-radius: 2px;
+	min-width: 120px;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, 0%);
+	border-radius: 4px;
+}
+button.btn-login span{color: #fff!important;}
+body.fundo-preto button.btn-login{background:#0d0d0d}
+button.btn-login {
+    text-transform: uppercase;
+    width: 7%;
+    height: 31px;
+    font-size: 15px;
+    line-height: 1;
+    color: #ffffff;
+    letter-spacing: 0.025em;
+    cursor: pointer;
+    border: 0;
+    min-width: 120px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%);
+	border-radius: 6px;
+	margin: 0 5px 0 0;
+}
+
+button.btn-assinar span,button.btn-login span {
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+button.btn-assinar:after,
+button.btn-assinar:before,
+button.btn-login:after,
+button.btn-login:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: calc(-100% - 30px);
+	height: calc(100% - 29px);
+	width: calc(100% + 20px);
+	color: #fff;
+	border-radius: 2px;
+	transform: skew(-25deg);height:31px;
+}
+
+button.btn-assinar:after,button.btn-login:after {background: #fff;transition: left 0.8s cubic-bezier(0.86, 0, 0.07, 1) 0.2s;z-index: 0;opacity: 0.8;}
+button.btn-assinar:before {background: #e31330;z-index: 5;transition: left 1s cubic-bezier(0.86, 0, 0.07, 1);}
+button.btn-login:before {background: #5a5657;z-index: 5;transition: left 1s cubic-bezier(0.86, 0, 0.07, 1);}
+button.btn-login:before span{color:#fff!important}
+button.btn-assinar:hover:after,button.btn-login:hover:after {left: calc(0% - 10px);transition: left 0.8s cubic-bezier(0.86, 0, 0.07, 1);}
+button.btn-assinar:hover:before,button.btn-login:hover:before {left: calc(0% - 10px);transition: left 1s cubic-bezier(0.86, 0, 0.07, 1);}
+button.btn-login span:hover{color:#fff;}
+.texto-principal{width:100%;float:left}
+
+
+/*Div fixa do rodape */
+#div_fixa_rodape{height: 62px;color: #fff;background-color:#100f0f!important;display: -ms-flexbox;display: flex;font-size: 20px;letter-spacing: -0.92px;line-height: 60px;text-align: center;-ms-flex-pack: center;justify-content: center;-ms-flex-align: center;align-items: center;text-transform: uppercase;float: left;}
+#div_fixa_rodape a.assine-agora{background-color: #efb10c; border-radius: 3px; color: #000;font-family: "Fira Sans",sans-serif; height: 44px; line-height: 44px; text-transform: uppercase; margin: 10px 15px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;transition: background-color 0.5s ease;}
+#div_fixa_rodape a:hover.assine-agora{background-color: #e31330;color: #fff!important;transition: background-color 0.5s ease;}
+#div_fixa_rodape span.ja-e-assinante{color: #8a8888;}
+#div_fixa_rodape span a:hover.faca-login{color: #fff!important;text-decoration:underline;}
+.whatsapp_botao_rodape{display:none;width: 20%;height: 62px;line-height: 18px;font-size: 14px;float: left;}
+.whatsapp_botao_rodape img{float:right;margin-right: 15px;}
+#div_fixa_rodape .textos_rodape{font-size: 14px; height: 31px; width: 100px;}
+.div_fixa_rodape_total{width: 100%;bottom: 0;position: fixed;z-index: 2;}
+.antiflagra {visibility: visible;z-index: 99999!important;right: 0;float: right;}
+#antiflagra2 a img.imagem-antiflagra{width:150px;margin-right: 10px;}
+.texto-principal{width:100%;float:left}
+.texto-hallowen-rodape a:hover{color:#fff!important}
+
+#editar_perfil_conta{display:none}
+.quadro2_minha_conta h3, .quadro3_minha_conta h3, .quadro4_minha_conta h3{
+	margin-left: 12px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+}
+
+/* Rodape Fixo */
+.rodape-banner-fixo {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	overflow: hidden;
+	position: fixed;
+    z-index: 9;
+}
+.rodape-banner-fixo img {
+	position: relative;
+	display: block;
+	width: 100%;
+	visibility: visible;
+}
+.rodape-banner-fixo a {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	text-indent: 200px;
+}
+h1.home-titulo img{
+	margin-right: 0!important;
+}
+
+.texto-cena.cena-apresentacao-texto p,.texto-cena .cena-apresentacao-texto p{margin-bottom: 17px;}
+.todo-conteudo .quadro1_minha_conta input[type=file]{width: 100%!important;padding:0!important}
+
+.assine-nao-selecionado{background: linear-gradient(#ee0500, #b80100)!important;}
+.assine-selecionado{background-color:#2d2828!important;}
+.assine-selecionado, .assine-nao-selecionado{padding-bottom: 10px!important;border-radius:0!important}
+
+.assine-selecionado .preco-riscado-nao-selecionado span{font-size: 20px; margin-right: 10px;color: #4c4b4b; }
+.assine-selecionado .valor_principal_grupo2	{margin-right: 10px;color: #4c4b4b; }
+.assine-nao-selecionado .preco-riscado-nao-selecionado span{font-size: 20px; margin-right: 10px; color: #520504;}
+.assine-nao-selecionado .valor_principal_grupo2{margin-right: 10px; color: #520504;}
+
+.tudo-rodape{background-color:#100f0f;height:auto;}
+.promocao{border-bottom: 2px solid #fff;}
+.tudo-rodape-conteudo{float:none;background-color:#100f0f!important;margin:0 auto;height: 60px;}
+.tudo-rodape-imagem{float:left;height: 60px;}
+.tudo-rodape-imagem img{float:right;}
+.tudo-rodape #contador-black-friday{float:left;padding: 24px 0 32px 0;margin-top:8px;display: flex;align-items: center;justify-content: center;}
+.tudo-rodape .transition {
+	-webkit-transition: top 400ms linear;
+	-moz-transition: top 400ms linear;
+	-ms-transition: top 400ms linear;
+	-o-transition: top 400ms linear;
+	transition: top 400ms linear;
+}
+
+.anual.bt-plano-pagamento-assine,.semestral.bt-plano-pagamento-assine,
+.trimestral.bt-plano-pagamento-assine,.bimestral.bt-plano-pagamento-assine,
+.mensal.bt-plano-pagamento-assine{background-image: linear-gradient(#ee0500, #b80100)!important;}
+
+.assine-periodo-pagamento img{margin-right:5px;}
+
+.banner-valor-assine img {width: auto!important;}
+
+img.periodo-pagamento{margin-right:5px;}
+.gold_assine{color:#b3910b;}
+.premium_assine{color:#08879e;}
+.mega_assine{color:#779803;}
+.top_assine{color:#b045dc;}
+.hot_assine{color: #a29898;}
+.hot_assine{color: #6b5d5d;}
+
+.icones-assine a{color:#fff!important;}
+.assine-agora-e-veja .sprite-videos{background-position: 0 0;}
+.assine-agora-e-veja .sprite-horas-videos{background-position: -46px 0;}
+.assine-agora-e-veja .sprite-atualizacoes{background-position: -92px 0;}
+.assine-agora-e-veja .sprite-liberacao-imediata{background-position: -138px 0;}
+.assine-agora-e-veja .sprite-livre-virus{background-position: -184px 0;}
+.assine-agora-e-veja .sprite-fatura{background-position: -230px 0;}
+.assine-agora-e-veja .sprite-12anos-mercado{background-position: -276px 0;}
+.assine-agora-e-veja .sprite-suporte{background-position: -322px 0;}
+
+.icone-pimenta-titulo{
+	background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    width: 25px;
+    height: 20px;
+    background-position: 0 -54px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+.logo-hotmiidas-rodape{
+	background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    width: 200px;
+    height: 40px;
+    background-position: 0 -122px;
+    display: block;
+    margin: 0 auto;
+}
+.site-responsivo span{
+    background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    width: 126px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+	margin-top: 4px;
+}
+.formas-pagamento span{
+    background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    width: 368px;
+    height: 35px;
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+.site-seguro span{
+    background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    width: 133px;
+    height: 46px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 6px;
+    float: none;
+}
+.icone-solo-topo{
+	background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-position: -26px -56px;
+    float: left;
+}
+.icone-hot-topo{
+	background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-position: -26px -56px;
+    float: left;
+}
+.icone-bare-topo{
+	background-image: url(https://www.hotboys.com.br/imagens/icones/topo/icone-bare-topo.jpg);
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+}
+
+
+.sites-topo span{
+	float: left;
+    margin-top: -8px;
+	margin-left: 3px;
+}
+.sites-topo .solo span{
+	margin-top:0!important;
+}
+.input-group-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #b60b23;
+    border-radius: .25rem;
+}
+
+.titulo-plano-assine{
+	background: #e31330;
+	color: #fff;
+	width: 100%;
+	padding: 8px 20px 10px 20px;
+	font-weight: 700;
+	font-size: 18px;
+	position: relative;
+	border-radius: 8px 8px 0px 0px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	text-align: center;
+}
+
+.titulo-plano-assine:after {
+	content: '';
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	bottom: -6px;
+	left: 50%;
+	transform: rotate(45deg);
+	background: #e31330;
+	z-index: 2;
+}
+
+.precos-planos div{
+	display: inline-block;
+}
+
+.precos-parcelas-planos{
+	font-size: 10px;
+	text-transform: uppercase;
+	line-height: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.opcao-pagamento a{
+	float: left; 
+	width: 100%;
+}
+
+.conteudo-planos-pagamento{
+	color:black;
+	background-image: linear-gradient(#e6e6e6, #d4d4d4);
+	border-bottom: 0!important;
+}
+
+
+.titulos-planos-esquerda{
+	text-align: left;
+	padding-left: 10px;
+	color: #292828;
+	padding: 10px 0 0 12px;
+	margin-top: 5px;
+}
+
+.titulos-planos-direita{
+	text-align: right;
+	padding-right: 10px;
+	color: #292828;
+	padding: 15px 10px 8px;
+}
+.input-group-prepend {
+	margin-right: -1px;
+	float: left;
+}
+
+.input-group-append, .input-group-prepend {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.icones-assine i.fa.fa-lock {
+    color: #fff!important;
+    background-color: #b60b23;
+    font-size: 1.0em;
+    margin-left: 4px;
+	display:block!important
+}
+.icones-assine .nav-tabs>li{
+	margin-bottom: -4px;
+}
+
+.icones-assine .nav-tabs>li>a {
+	background-color: #292828;
+	font-size: 11px;
+}
+
+.icones-assine ul.nav.nav-tabs li.active a,.icones-assine ul.nav.nav-tabs li.active a i.fa{
+    float: left;
+	color: #080707!important;
+    background-color: #fff!important;
+    font-weight: bold;
+}
+
+.icones-assine .nav-tabs{
+	float: left;
+	border-bottom:0!important;
+}
+
+.icones-assine .tab-content>.active{
+	background-color:#fff;
+}
+
+.icones-assine .nav-tabs>li>a i.fa{
+	background-color: #4e4d4d;
+	color: #fff!important;
+}
+
+.icones-assine .nav-tabs>li>a:hover{
+	background-color: #4e4d4d;
+	border-color: #4e4d4d;
+	color: white!important;
+}
+
+.nav-tabs>li.active>a:hover{
+	color: #555!important;
+}
+
+.info-video{
+	background-color: #8b081a;
+	text-align:center;
+	margin:0 auto;
+	float:right;
+	display:flex;
+}
+
+.cena-nao-vip .botao-vermelho-enviar{
+	margin-top: 0px!important; 
+	margin-bottom: 0px!important;
+}
+
+.cena-nao-vip .periodo-plano{
+	background-color: #afa7a7;
+}
+
+.cena-nao-vip .plano{
+	margin-top:5px
+}
+
+.cena-nao-vip .valor{
+	font-size: 27px;
+	margin-bottom:5px;
+}
+.cena-nao-vip .plano-cena{
+	text-align:center;
+	background-image:linear-gradient(#f5f0f0, #a0a0a0);
+	margin-bottom: 4px;
+	color: #262626;
+	font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+	font-size: 17px;
+}
+.cena-nao-vip .plano-cena.mobile{
+	width: 49%; 
+	margin-right: 1%;
+}
+.cena-nao-vip .plano-cena.mensal{
+	text-align:center;
+	background-image: linear-gradient(#f5f0f0, #a0a0a0);
+	margin-bottom: 10px;
+	color: #262626;
+	font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+	font-size: 17px;
+}
+.comentarios-tudo #scrollinfinito {display:none}
+#carregarmais {cursor: pointer;font-weight: normal;text-align: center}
+#carregarmais:hover {text-decoration: underline}
+body.fundo-branco #carregarmais {color: #0d0d0d}
+body.fundo-preto #carregarmais {color: #ffffff}
+
+.icone-pimenta-titulo {
+    background-image: url(https://www.hotboys.com.br/imagens/assine/icones/sprites-01.png);
+    width: 25px;
+    height: 20px;
+    background-position: 0 -54px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+.comentarios .modal-header {
+    padding: 15px!important;
+}
+.comentarios .modal-footer{
+	text-align: center;
+}
+.paginas-titulo-visualizacoes h4.paginas-titulo a {
+    width: 100%;
+}
+.conteudo-cartoes-pg{float:left;border-top: 2px solid red;}
+.input-group .form-control {z-index: 1!important;}
+.mobile-info{height:67px;margin-bottom: 3px!important;display:block; overflow:hidden;word-break: break-word;word-wrap: break-word;}
+a.btn-overflow {display: none;text-decoration: none;background-color: #e31330;padding: 3px;color: #fff!important;justify-content: center;align-items: center;width: 60%;margin: 0 auto;text-align: center;border-radius: 10px;}
+.btn-overflow::before {float: left;color: #ffffff;font-size: 19px;margin-top: -1px;margin-left: 2px;}
+.btn-overflow.menos::before {content: "+";}
+.btn-overflow.mais::before {content: "-";}
+
+.perfil-mobile row{width:100%}
+
+.btn-assinar .fa-lock{float: left; color: white!important;background-color: transparent!important;margin-left: 3px;}
+.btn-assinar .fa-lock:before{background-color: transparent}
+
+body.fundo-preto ul.navbar-nav li.ativo a{color:#ffffff!important}
+
+body.fundo-preto .menu-area-cliente nav.sidebar .navbar-nav>li:hover{background-color: #171819;}
+.menu-area-cliente nav.sidebar .navbar-nav>li.perfil-menu:hover{background-color: #ffffff!important;}
+.page-item i.fa-caret-left,.page-item i.fa-caret-right{font-size: 0.9em;}
+
+/* novo layout */
+.tituloTudo{
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    padding-left: 2%;
+    font-size: 22px;
+    padding-right: 2%;
+}
+.tituloTudo h4{
+	border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+@media (min-width:1200px){
+	.conteudo-imagens{min-height:300px}
+	input[type=search]#search{width: 94%;padding-left: 45px;font-size: 17px;color: #676767;border: 1px solid #cecece;border-radius: 50px;background: url(https://hotboys.com.br/imagens/icones/lupa-pesquisa-40px.png) no-repeat #e0e0e0;height: 37px;margin-top: 10px;-webkit-appearance: none}
+	.busca-topo {margin-right: 15px!important;float: right;margin-top: 8px;}
+	body.fundo-preto #navicon.open{margin-left: 28px;text-align: left;margin-top: 42px;text-indent: 4px;font-size: 27px;}
+	.comentarios-avatar .perfil-foto{margin-top: 10px;margin-right: 5px;}
+	.titulos-planos-esquerda{font-size: 20px!important;}
+	.conteudo-planos-pagamento .precos-planos .moeda{font-size: 18px;}
+	.conteudo-planos-pagamento .precos-planos .reais{font-size: 35px;}
+	.conteudo-planos-pagamento .precos-planos .centavos{font-size: 20px;}
+	.input-group-prepend{height: 50px;}
+	.site-responsivo span{background-position: -242px -78px;}
+	.formas-pagamento span{background-position: 0 -159px;}
+	.site-seguro span{background-position: 0px -194px;}
+    .assine-agora-e-veja .sprite-videos,
+	.assine-agora-e-veja .sprite-horas-videos,
+	.assine-agora-e-veja .sprite-atualizacoes,
+	.assine-agora-e-veja .sprite-liberacao-imediata,
+	.assine-agora-e-veja .sprite-livre-virus,
+	.assine-agora-e-veja .sprite-fatura,
+	.assine-agora-e-veja .sprite-12anos-mercado,
+	.assine-agora-e-veja .sprite-suporte
+	{
+		background-image: url(https://www.hotboys.com.br/imagens/assine/icones/icones-assine-sprites2.png);
+		margin: 0 auto;
+		width: 46px;
+		height: 54px;
+		display: block;
+	}
+	
+	.gold_assine,.icones-assine p.titulos-planos-assine{font-size:27px}
+	
+	.titulos-maiores-planos-assine{font-size: 10px;line-height: 13px;}
+	.titulos-menores-planos-assine{font-size: 13px!important; text-transform: uppercase; padding: 6px!important; background-color: #484040; color: #fff;}
+	#div_fixa_rodape img{margin-bottom: 13px; width: 100%; margin-left: 2.5%; float: none;}
+	.valor_principal_grupo2{font-size: 24px; padding: 10px;}
+	#assine-valores-pagamentos p{font-size:29px;padding:10px;color:#fff}
+	.preco-dia-mes-assine p{font-size: 10px;line-height: 13px;}
+	label[for=bt-confirmar-pg], label[for=bt-confirmar-pg-cartao], label[for=bt-confirmar-pg-boleto], label[for=bt-enviar-form]{display: block;margin-top: 4px!important;margin-bottom: 0;font-weight: 400;cursor: pointer;}
+	.assine-periodo-pagamento p.titulo_assine{font-size: 19px;text-transform: uppercase;padding: 6px;background-color:#484040;color: #fff;border-right: 1px solid;}
+	
+	
+	span.fa-play-circle{
+		top:50%;
+	}
+	span.fa-spin{
+		top:39%;
+	}
+	.rodape_secundario{
+		padding:11px;
+		background-color:#010101;
+		    padding-bottom: 100px;
+		margin-top:15px;
+	}
+	
+	a.page-link.next,a.page-link.previous{
+		color:#000;
+		font-size:3.5em;
+		padding:0!important;
+		border:0!important;
+		background:0 0;
+		line-height:0!important;
+		margin-top:-11px!important
+	}
+	
+	.banner-valor-assine .modelos-assine img{margin: 0 auto; display: -ms-flexbox; display: flex; -ms-flex-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center;}
+	.valores-assine{padding: 10px; margin-bottom: 15px; margin-top: 15px;}
+	.logo-fundo-branco img, .logo-fundo-preto img{margin-left: 16px;}
+	.fundo-botao-on-off{width: 100%;}
+	
+	.texto-hallowen-rodape{width:25%;line-height:24px;}
+	#div_fixa_rodape{width: 100%;}
+	#div_fixa_rodape a.assine-agora{width: 179px;}
+	#div_fixa_rodape a.assine-agora{font-size: 16px;}
+	#div_fixa_rodape .textos_rodape{line-height: 18px; }
+	a.assine-agora.mobile{display:none}
+	
+	
+	.home.inicial_box_contos,.contos.inicial_box_contos,.contos.inicial_box_conteudo{overflow: hidden;height: 320px;}
+	
+	#modelo_fotos .inicial_box_conteudo, #info1 .box,#modelo_fotos{overflow:hidden;height:185px}
+	
+	
+	/* slider principal */
+	.carousel-indicators{bottom: 4px!important;}
+	
+	/* modelo */
+	.modelo-col-modelo1{margin-left: 1%;}
+	
+	/* botao on off */
+	.texto-on-off{margin-top: -2px;font-size: 0.8em;}
+	
+	/* pagina 404*/
+	.pimenta-erro h1{font-size:50px!important}
+	.pimenta-erro h2{font-size:32px}
+	.pimenta-erro .coluna{margin-top:50px}
+	
+	/*mais fotos pagina modelo */
+	.total-assine-liberar{margin-top: 18%;}
+	.quant-fotos-assine{margin-bottom: 10px;}
+	
+	/* Icones - Vantagens do Assinante */ 
+	.icones-vantagens li {list-style: none; display: inline-block; text-align: center; float: left; width: 12.4%; padding: 1%;}
+	.icones-vantagens li img{width: 50%}
+	.icones-vantagens li span{display: block; margin-top: 10px; font-size: 13px; text-transform: uppercase;}
+	
+	.copa-brasil img{ margin-right: 20px;}
+	/* Pagina Modelos */
+	.texto-tesudos-letra h1{
+		font-size:35px!important;
+	}
+	
+	/* INICIO Botao ON-OFF */
+	.botao-on-off .texto{line-height: 2}
+	/* FIM Botao ON-OFF */
+	
+	footer .logo-rodape img{
+		width:75%!important
+	}
+	.bg-dark-top{
+		display:block
+	}
+	.assineja-mobile,.bt-vejamais-mobile,.carousel-mobile,.fade,.fade_menu_mobile,.fade_tabs,.navbar-header,.navbar-toggler,.titulo-mobile-modelo,.topo-menu-principal-mobile,header.assineja-entrar{
+		display:none
+	}
+	.paginas-titulo-visualizacoes p,cenas-titulo-cena p{
+		margin-left:2px!important
+	}
+	.bt-vejamais a{
+		font-size:29px
+	}
+	.cena-textos-cena,.cenas-textos-cena,.home-textos-cenas-recentes,.home-textos-clientes-assistindo,.modelo-textos-assistatambem,.modelo-textos-cenascommodelo{
+		float:left;
+		height:50px;
+		-ms-flex:1 1 auto;
+		flex:1 1 auto;
+		padding-left:.1rem
+	}
+	.conto-banner-topo img{
+		width:100%;
+		margin-top:-350px
+	}
+	.contato-texto_dispor-gravacao{
+		width:2%!important
+	}
+	.contato-texto_maior-18anos{
+		width:98%
+	}
+	.home-textos-cenas-recentes,.home-textos-clientes-assistindo,.modelo-textos-assistatambem,.modelo-textos-cenascommodelo{
+		height:50px
+	}
+	.cenas .inicial_box_conteudo,.contos .inicial_box_conteudo,.home .inicial_box_conteudo,.inicial_box_series{
+		min-height:240px
+	}
+	.assine-preco{
+		font-size:34px
+	}
+	body.fundo-branco .anual{
+		border-right:3px solid #fff;
+		border-bottom:6px solid #fff
+	}
+	body.fundo-branco .semestral{
+		border-left:3px solid #fff;
+		border-bottom:6px solid #fff
+	}
+	body.fundo-branco .bimestral,body.fundo-branco .trimestral{
+		border-right:6px solid #fff
+	}
+	body.fundo-preto .anual{
+		border-bottom:3px solid #d5d5d5;
+	}
+	body.fundo-preto .semestral,body.fundo-preto .trimestral{
+		border-bottom:2px solid #d5d5d5;
+	}
+	body.fundo-preto .trimestral{
+		border-right: 0px solid #ffffff!important;
+	}
+	body.fundo-preto .cartao-pagamento,body.fundo-preto .paypal-pagamento{
+		border-right:1px solid #fff
+	}
+	body.fundo-branco .cartao-pagamento,body.fundo-branco .paypal-pagamento{
+		border-right:1px solid #a1a0a0
+	}
+	body.fundo-branco .conto-banner-topo h4 p,body.fundo-branco .contos-eroticos-home a,body.fundo-preto .conto-banner-topo h4 p,body.fundo-preto .contos-eroticos-home a{
+		font-size:24px!important
+	}
+	.menu-area-cliente{
+		min-height:0
+	}
+	.menu-area-cliente .main{
+		position:absolute;
+		width:calc(100% - 40px);
+		margin-left:40px;
+		float:right
+	}
+	.menu-area-cliente nav.sidebar:hover+.main{
+		margin-left:200px
+	}
+	.menu-area-cliente .navbar>.container-fluid .navbar-brand,.menu-area-cliente nav.sidebar.navbar.sidebar>.container .navbar-brand,.menu-area-cliente nav.sidebar:hover{
+		margin-left:0
+	}
+	.menu-area-cliente nav.sidebar .navbar-brand,.menu-area-cliente nav.sidebar .navbar-header{
+		text-align:center;
+		width:100%;
+		margin-left:0
+	}
+	.menu-area-cliente nav.sidebar a{
+		padding-right:13px
+	}
+	.menu-area-cliente nav.sidebar .navbar-nav .open .dropdown-menu{
+		position:static;
+		float:none;
+		width:auto;
+		margin-top:0;
+		background-color:transparent;
+		border:0;
+		-webkit-box-shadow:none;
+		box-shadow:none
+	}
+	.menu-area-cliente nav.sidebar .container-fluid,.menu-area-cliente nav.sidebar .navbar-collapse{
+		padding:0
+	}
+	.menu-area-cliente .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+		color:#777
+	}
+	.menu-area-cliente nav.sidebar{
+		height:100%;
+		float:left;
+		margin-bottom:0
+	}
+	.menu-area-cliente nav.sidebar li{
+		width:100%
+	}
+	.menu-area-cliente .forAnimate{
+		opacity:0
+	}
+	.menu-area-cliente .texto-menu-mobile{
+		display:none!important
+	}
+	.menu-area-cliente .perfil-info{
+		margin-top:5px!important
+	}
+	.conteudo-area-cliente{
+		min-height:294px
+	}
+	
+	a.nome,a:hover.nome{
+		position: absolute;
+		left: 0;
+		top: 40%;
+		text-align: center;
+		width: 99%;
+		font-size: 23px;
+		display: none;
+		line-height: 50px;
+		background: #0d0d0dd1;
+		color: #fff!important;
+	}
+	
+	
+	.conteudoModelo:hover .nome {
+		display: block;
+		top: 38%;
+	}
+	
+	.conteudoModelo span{
+		float: left;
+	}
+	
+	
+	.conteudoModelo .nome-modelos{
+		width:80%;
+		text-align:center;
+	}
+	
+	.conteudoModelo .icone-pimenta img{
+		width: 100%!important;
+		border:0!important;
+		margin-top:0px;
+	}
+}
+@media (min-width:992px) and (max-width:1199px){
+	.conteudo-imagens{min-height: 285px;}
+	input[type=search]#search{width: 94%;padding-left: 45px;font-size: 17px;color: #676767;border: 1px solid #cecece;border-radius: 50px;background: url(https://hotboys.com.br/imagens/icones/lupa-pesquisa-40px.png) no-repeat #e0e0e0;height: 37px;margin-top: 6px;-webkit-appearance: none}
+	.busca-topo {margin-right: 15px!important;margin-top: 8px;float: right;}
+	.conteudo-cartoes-pg{float:left;border: 2px solid #dadada;border-top: 2px solid red;}
+	.gold_assine,.icones-assine p.titulos-planos-assine{font-size:27px}
+	body.fundo-preto #navicon.open{margin-left: 46px;text-align: left;margin-top: 42px;text-indent: 4px;font-size: 27px;}
+	.titulos-planos-esquerda{font-size: 26px!important;}
+	.conteudo-planos-pagamento .precos-planos .moeda{font-size: 18px;}
+	.conteudo-planos-pagamento .precos-planos .reais{font-size: 38px;}
+	.conteudo-planos-pagamento .precos-planos .centavos{font-size: 20px;}
+	.input-group-prepend{height: 50px;}
+	.site-responsivo span{background-position: -242px -78px;}
+	.formas-pagamento span{background-position: 0 -159px;}
+	.site-seguro span{background-position: 0px -194px;}
+	
+	
+	.assine-agora-e-veja .sprite-videos,
+	.assine-agora-e-veja .sprite-horas-videos,
+	.assine-agora-e-veja .sprite-atualizacoes,
+	.assine-agora-e-veja .sprite-liberacao-imediata,
+	.assine-agora-e-veja .sprite-livre-virus,
+	.assine-agora-e-veja .sprite-fatura,
+	.assine-agora-e-veja .sprite-12anos-mercado,
+	.assine-agora-e-veja .sprite-suporte
+	{
+		background-image: url(https://www.hotboys.com.br/imagens/assine/icones/icones-assine-sprites2.png);
+		margin: 0 auto;
+		width: 47px;
+		height: 55px;
+		display: block;
+		background-size: 798%;
+	}
+	
+	.valor_principal_grupo2 {font-size: 20px;padding: 0px;}
+	
+	#assine-valores-pagamentos p{font-size:29px;padding:10px;}
+	
+	.assine-periodo-pagamento p.titulo_assine {font-size: 17px;text-transform:uppercase;padding: 6px; background-color: #484040; color: #fff;}
+	
+	.titulos-maiores-planos-assine{font-size: 10px;line-height: 13px;}
+	
+	.titulos-menores-planos-assine {font-size:11px!important;text-transform:uppercase;padding: 6px!important; background-color: #484040;
+	color: #fff;}
+	
+	.preco-dia-mes-assine p {font-size: 10px; line-height:13px;}
+	
+	
+	span.fa-play-circle{
+		top:50%;
+	}
+	span.fa-spin{
+		top:39%;
+	}
+	.rodape_secundario{
+		padding:11px;
+		background-color:#010101;
+		padding-bottom: 100px;
+		margin-top:15px;
+	}
+	
+	a.page-link.next,a.page-link.previous{
+		color:#000;
+		font-size:3.5em;
+		padding:0!important;
+		border:0!important;
+		background:0 0;
+		line-height:0!important;
+		margin-top:-11px!important
+	}
+	
+	.banner-valor-assine .modelos-assine img{width:100%!important}
+	.icones-assine .nav-tabs>li>a{font-size: 11px!important;}
+	.logo-fundo-branco img, .logo-fundo-preto img{margin-left: 16px;width: 82%;}
+	.fundo-botao-on-off{width: 100%;}
+	
+	#div_fixa_rodape{width: 100%;height: 57px!important;}
+	#div_fixa_rodape img{margin-bottom: 14px; width: 95%; margin-left: 2.5%; float: none;}
+	#div_fixa_rodape .texto-principal{font-size: 15px;}
+	#div_fixa_rodape a.assine-agora{width: 179px;}
+	#div_fixa_rodape a.assine-agora{font-size: 16px;}
+	#div_fixa_rodape .textos_rodape{line-height: 18px; }
+	.texto-hallowen-rodape{line-height:20px;width: 25%!important;}
+	a.assine-agora.mobile{display:none}
+	
+	.home.inicial_box_contos,.contos.inicial_box_contos,.contos.inicial_box_conteudo{overflow: hidden;height: 300px;}
+	
+	#modelo_fotos .inicial_box_conteudo, #info1 .box,#modelo_fotos{overflow: hidden; min-height: 179px!important; height: 179px!important;}
+	
+	
+	.menu-submenu ul{width:600px!important}
+	
+	.menu-submenu .seta-baixo{margin-top: 0px!important;}
+	
+	#cena_fotos .inicial_box_conteudo, #info1 .box{overflow: hidden; min-height: 179px!important; height: 179px!important;}
+	
+	/* menu topo */
+	.navbar-nav>li>a{font-size: 13px;}
+	.navbar-nav li.nav-item:not(:first-child){padding-left: 10px!important;}
+	
+	/* slider principal */
+	.carousel-indicators{bottom: 4px!important;}
+	
+	/* botao on off */
+	.texto-on-off{margin-top: -2px;font-size: 13px;}
+	
+	/*404 */
+	.pimenta-erro h1{font-size:22px!important;}
+	.pimenta-erro h2{font-size:27px;}
+	.pimenta-erro .coluna{margin-top:50px;}
+	
+	
+	/*mais fotos pagina modelo */
+	.total-assine-liberar{margin-top: 23%;}
+	.quant-fotos-assine{margin-bottom: 12px;}
+	
+	/* Pagina Assine */ 
+	.assine-preco p{font-size: 23px!important}
+	.icones-assine .nav-tabs>li>a{font-size: 10px!important;}
+	
+	/* Icones - Vantagens do Assinante */ 
+	.icones-vantagens{background-color:#b8b7b7;}
+	.icones-vantagens li {list-style: none; display: inline-block; text-align: center; float: left; width: 12.4%; padding: 1%;}
+	.icones-vantagens li img{width: 57%}
+	.icones-vantagens li span{display: block; margin-top: 10px; font-size: 11px; text-transform: uppercase;}
+	
+	
+	.copa-brasil img{ margin-right: 20px;}
+	/* Pagina Modelos */
+	.texto-tesudos-letra h1{
+		font-size:35px!important
+	}
+	
+	.assineja-mobile,.bt-vejamais-mobile,.carousel-mobile,.fade,.fade_menu_mobile,.fade_tabs,.navbar-expand-lg .navbar-toggler,.navbar-toggler,.navlogo-expand-lg .navlogo-toggler,.titulo-mobile-modelo,navbar-expand-lg .navbar-toggler{
+		display:none
+	}
+	body.fundo-branco h1.bt-vejamais,body.fundo-preto h1.bt-vejamais{
+		font-size:28px
+	}
+	.rodape_secundario .formas-pagamento img{
+		width:95%!important
+	}
+	.cenas .inicial_box_conteudo,.contos .inicial_box_conteudo,.home .inicial_box_conteudo,.inicial_box_conteudo,.inicial_box_series{
+		min-height:240px
+	}
+	.assine-preco{
+		font-size:47px
+	}
+	body.fundo-branco .anual{
+		border-right:3px solid #292828;
+		border-bottom:6px solid #292828
+	}
+	body.fundo-branco .semestral{
+		border-bottom:2px solid #292828
+	}
+	body.fundo-branco .bimestral,body.fundo-branco .trimestral{
+		border-right:6px solid #fff
+	}
+	body.fundo-preto .anual{
+		border-bottom:3px solid #292828
+	}
+	.boleto-pagamento img,.cartao-pagamento img,.paypal-pagamento img{
+		width:30%
+	}
+	.cartao-pagamento{
+		border-right:3px solid #fff
+	}
+	body.fundo-branco .conto-banner-topo h4 p,body.fundo-branco .contos-eroticos-home a,body.fundo-preto .conto-banner-topo h4 p,body.fundo-preto .contos-eroticos-home a{
+		font-size:24px!important
+	}
+	.menu-area-cliente{
+		min-height:0
+	}
+	.menu-area-cliente .main{
+		position:absolute;
+		width:calc(100% - 40px);
+		margin-left:40px;
+		float:right
+	}
+	.menu-area-cliente nav.sidebar:hover+.main{
+		margin-left:200px
+	}
+	.menu-area-cliente .navbar>.container-fluid .navbar-brand,.menu-area-cliente nav.sidebar.navbar.sidebar>.container .navbar-brand,.menu-area-cliente nav.sidebar:hover{
+		margin-left:0
+	}
+	.menu-area-cliente nav.sidebar .navbar-brand,.menu-area-cliente nav.sidebar .navbar-header{
+		text-align:center;
+		width:100%;
+		margin-left:0
+	}
+	.menu-area-cliente nav.sidebar a{
+		padding-right:13px
+	}
+	.menu-area-cliente nav.sidebar .navbar-nav .open .dropdown-menu{
+		position:static;
+		float:none;
+		width:auto;
+		margin-top:0;
+		background-color:transparent;
+		border:0;
+		-webkit-box-shadow:none;
+		box-shadow:none
+	}
+	.menu-area-cliente nav.sidebar .container-fluid,.menu-area-cliente nav.sidebar .navbar-collapse{
+		padding:0
+	}
+	.menu-area-cliente .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+		color:#777
+	}
+	.menu-area-cliente nav.sidebar{
+		height:100%;
+		float:left;
+		margin-bottom:0
+	}
+	.menu-area-cliente nav.sidebar li{
+		width:100%
+	}
+	.menu-area-cliente .forAnimate{
+		opacity:0
+	}
+	.menu-area-cliente .texto-menu-mobile{
+		display:none!important
+	}
+	.bg-white .perfil-foto{
+		width:35%!important
+	}
+	.perfil-mobile-info .nome-area-cliente{
+		line-height:50px;
+		margin-top:17px;
+		font-weight:700
+	}
+	.perfil-mobile-info .saudacao{
+		margin-left:8px;
+		text-transform:initial
+	}
+	.tutorial_cookies img{
+		margin-left:13px
+	}
+	
+	a.nome,a:hover.nome{
+		position: absolute;
+		left: 0;
+		top: 40%;
+		text-align: center;
+		width: 99%;
+		font-size: 23px;
+		display: none;
+		line-height: 50px;
+		background: #0d0d0dd1;
+		color: #fff!important;
+	}
+	
+	
+	.conteudoModelo:hover .nome {
+		display: block;
+		top: 38%;
+	}
+	
+	.conteudoModelo span{
+		float: left;
+	}
+	
+	.conteudoModelo .nome-modelos{
+		width: 80%;
+		text-align: center;
+		font-size: 17px;
+	}
+	
+	.conteudoModelo .icone-pimenta{
+		width: 20%;
+	}
+	
+	.conteudoModelo .icone-pimenta img{
+		width: 100%!important;
+		border:0!important;
+		margin-top:0px;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.conteudoModelo a.nome{display:none}
+	.botoes-topo-acesso{margin-right: 12px;}
+	button.btn-assinar {margin-top: 9px!important;}
+	input[type=search]#search { width: 94%; padding-left: 45px; font-size: 17px; color: #676767; border: 1px solid #cecece; border-radius: 50px; background: url(https://hotboys.com.br/imagens/icones/lupa-pesquisa-40px.png) no-repeat #e0e0e0; height: 36px; margin-top: 1px; -webkit-appearance: none; }
+	.busca-topo{margin-top: 3px;}
+	.conteudo-planos-pagamento{padding-bottom: 10px;}
+	.texto-carnaval-assine { width: 100%; font-size: 23px; margin-left: 0px; float: left; margin-top: 8px; margin-bottom: 6px; }
+	body.fundo-preto #navicon.open{margin-left: 28px;text-align: left;margin-top: 42px;text-indent: 4px;font-size: 27px;}
+	.titulos-planos-esquerda{font-size: 33px!important;}
+	.conteudo-planos-pagamento .precos-planos .moeda{font-size: 18px;}
+	.conteudo-planos-pagamento .precos-planos .reais{font-size: 49px;}
+	.conteudo-planos-pagamento .precos-planos .centavos{font-size: 20px;}
+	.input-group-prepend{height: 50px;}	
+	.site-responsivo span{background-position: -242px -78px;}
+	.formas-pagamento span{background-position: 0 -159px;}
+	.site-seguro span{background-position: 0px -194px;}
+	
+	.assine-agora-e-veja .sprite-videos,
+	.assine-agora-e-veja .sprite-horas-videos,
+	.assine-agora-e-veja .sprite-atualizacoes,
+	.assine-agora-e-veja .sprite-liberacao-imediata,
+	.assine-agora-e-veja .sprite-livre-virus,
+	.assine-agora-e-veja .sprite-fatura,
+	.assine-agora-e-veja .sprite-12anos-mercado,
+	.assine-agora-e-veja .sprite-suporte
+	{
+		background-image: url(https://www.hotboys.com.br/imagens/assine/icones/icones-assine-sprites2.png);
+		margin: 0 auto;
+		width: 44px;
+		height: 53px;
+		display: block;
+		background-size: 798%;
+	}
+	
+	.texto-pagina-contato_trabalhe{line-height:0!important}
+	span.fa-play-circle{
+		top:50%;
+	}
+	span.fa-spin{
+		top:39%;
+	}
+	.rodape_secundario{
+		padding:11px;
+		background-color:#010101;
+		padding-bottom: 100px;
+		margin-top:15px;
+	}
+	
+	a.page-link.next,a.page-link.previous{
+		color:#000;
+		font-size:3.5em;
+		padding:0!important;
+		border:0!important;
+		background:0 0;
+		line-height:0!important;
+		margin-top:-11px!important
+	}
+	
+	.banner-valor-assine .modelos-assine img{width:100%!important}
+	.icones-assine .nav-tabs>li>a{font-size: 11px!important;}
+	.fundo-botao-on-off{width: 75%;}
+	.quadro1_minha_conta{width: 44%!important}
+	.quadro2_minha_conta{width: 54%!important}
+	.quadro3_minha_conta{width: 100%!important;margin-left:0!important;margin-top: 1.5em;}
+	
+	#assine-valores-pagamentos p{padding:5px}
+	#div_fixa_rodape{width: 100%;background-color: transparent!important;}
+	#div_fixa_rodape img{width: 99%;float: none;margin-top: 4px;}
+	#div_fixa_rodape .texto-principal{font-size: 14px;line-height: 13px;margin-top: 3px;}
+	#div_fixa_rodape .textos_rodape{line-height: 18px; }
+	#div_fixa_rodape a.assine-agora{width: 130px;}
+	#div_fixa_rodape a.assine-agora{font-size: 16px;}
+	.whatsapp_botao_rodape,a.assine-agora.mobile{display: none;}
+	.texto-hallowen-rodape{width:27%!important;}
+	
+	.tudo-rodape{height: auto!important;}
+	.tudo-rodape-imagem img{width: 99%!important;}
+	.tudo-rodape-conteudo,.tudo-rodape-imagem{height:auto!important}
+	.tudo-rodape #contador-black-friday{float: none!important;margin-top: 6px!important;display: flex;align-items: center;justify-content: center;}
+	
+	
+	.home.inicial_box_contos,.contos.inicial_box_contos,.contos.inicial_box_conteudo{overflow: hidden;height: 235px;}
+	
+	#modelo_fotos .inicial_box_conteudo, #info1 .box,#modelo_fotos{overflow:hidden;height:137px}
+	
+	.menu-submenu ul{width:600px!important}
+	
+	.menu-submenu .seta-baixo{
+		margin-top: -10px!important;
+	}
+	
+	#cena_fotos .inicial_box_conteudo, #info1 .box{overflow:hidden;height:113px}
+	
+	#redes-sociais{padding-bottom: 25px;}
+	
+	.navbar-nav>li>a{line-height: 34px!important}
+	.problemas-ligue address {padding-right: 0px!important}
+	
+	.contatos-opcoes{margin-top: 10px;}
+	
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	/* slider principal */
+	.carousel-indicators{bottom: 4px!important;}
+	
+	/* botao on off */
+	.texto-on-off{margin-top: -2px;margin-top: -3px;font-size: 11px;}
+	
+	/* 404 */
+	.pimenta-erro h1{font-size:17px!important}
+	.pimenta-erro h2{font-size:22px}
+	.pimenta-erro .coluna{margin-top:20px}
+	
+	/*mais fotos pagina modelo */
+	.total-assine-liberar{margin-top: 13%;}
+	.quant-fotos-assine{margin-bottom: 20px;}
+	
+	.sites-topo{float:none;margin: 0 auto}
+	
+	/* Formulario Assine */
+	.valores-assine,.modelos-assine{height: 730px!important;}
+	
+	.menu-area-cliente,.perfil-mobile .menu-area-cliente{
+		min-height:0
+	}
+	footer .logo-rodape img{
+		width:38%!important
+	}
+	footer .formas-pagamento img{width: 85%;}
+	img.assineja-desktop{
+		display:block
+	}
+	.antiflagra,.assineja-mobile,.bt-vejamais-desktop,.carousel-indicators,.menu-area-cliente .texto-menu-mobile,.navbar-expand-lg .navbar-toggler,.navbar-expand-md .navbar-toggler,.titulo-mobile-modelo,div.row.home-modelos.desktop,navbar-expand-lg .navbar-toggler{
+		display:none!important
+	}
+	body.fundo-branco h1.bt-vejamais,body.fundo-preto h1.bt-vejamais{
+		font-size:28px
+	}
+	.logo-fundo-branco img,.logo-fundo-preto img{
+		width: 88%;
+		margin-left: 6px!important;
+	}
+	.logo-rodape img{
+		width:85%!important
+	}
+	.busca-topo form{
+		width:80%
+	}
+	button.tres-botoes-modelos{
+		font-size:14px!important
+	}
+	.conto-banner-topo img{
+		margin-top:-208px
+	}
+	.rodape_secundario .formas-pagamento img{
+		width:95%!important
+	}
+	.navbar-nav>li>a{
+		padding:5px!important
+	}
+	.navbar-nav li.nav-item:not(:first-child){
+		padding-left:0px!important
+	}
+	.boleto-pagamento,.cartao-pagamento,.paypal-pagamento{
+		border-bottom:1px solid #fff
+	}
+	.assine-preco{
+		font-size:47px
+	}
+	.boleto-pagamento,.cartao-pagamento{
+		border-bottom:1px solid #fff
+	}
+	.boleto-pagamento img,.cartao-pagamento img,.paypal-pagamento img{
+		width:50%
+	}
+	.cartao-pagamento{
+		border-right:2px solid #fff
+	}
+	.well h2{
+		font-weight:700;
+		margin-top:18px
+	}
+	body.fundo-branco .conto-banner-topo h4 p,body.fundo-branco .contos-eroticos-home a,body.fundo-preto .conto-banner-topo h4 p,body.fundo-preto .contos-eroticos-home a{
+		font-size:24px!important
+	}
+	.menu-area-cliente .main{
+		position:absolute;
+		width:calc(100% - 40px);
+		margin-left:40px;
+		float:right
+	}
+	.menu-area-cliente nav.sidebar:hover+.main{
+		margin-left:200px
+	}
+	.menu-area-cliente .navbar>.container-fluid .navbar-brand,.menu-area-cliente nav.sidebar.navbar.sidebar>.container .navbar-brand,.menu-area-cliente nav.sidebar:hover{
+		margin-left:0
+	}
+	.menu-area-cliente nav.sidebar .navbar-brand,.menu-area-cliente nav.sidebar .navbar-header{
+		text-align:center;
+		width:100%;
+		margin-left:0
+	}
+	.menu-area-cliente nav.sidebar a{
+		padding-right:13px
+	}
+	.menu-area-cliente nav.sidebar .navbar-nav .open .dropdown-menu{
+		position:static;
+		float:none;
+		width:auto;
+		margin-top:0;
+		background-color:transparent;
+		border:0;
+		-webkit-box-shadow:none;
+		box-shadow:none
+	}
+	.menu-area-cliente nav.sidebar .container-fluid,.menu-area-cliente nav.sidebar .navbar-collapse{
+		padding:0
+	}
+	.menu-area-cliente .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+		color:#777
+	}
+	.menu-area-cliente nav.sidebar{
+		height:100%;
+		float:left;
+		margin-bottom:0
+	}
+	.menu-area-cliente nav.sidebar li{
+		width:100%
+	}
+	.menu-area-cliente .forAnimate{
+		opacity:0
+	}
+	.menu-area-cliente .navbar-default .navbar-nav>li>a,.menu-area-cliente .perfil-info span{
+		font-size:12px
+	}
+	.bg-white .perfil-foto{
+		width:45%!important
+	}
+	.perfil-mobile-info .saudacao{
+		margin-left:8px;
+		text-transform:initial
+	}
+	.perfil-mobile-info .nome-area-cliente{
+		line-height:50px;
+		margin-top:17px;
+		font-weight:700
+	}
+	.perfil-mobile nav.sidebar{
+		height:auto!important
+	}
+	.perfil-mobile .navbar{
+		margin-bottom:0!important
+	}
+	.tutorial_cookies img{
+		margin-left:13px
+	}
+	.busca-topo form input[type=search]{
+		font-size:13px
+	}
+	.col-xs-12.formulario-col-direita{
+		padding-left:0!important
+	}
+	.titulos-menores-planos-assine {font-size: 13px!important; text-transform: uppercase; padding: 6px!important; background-color: #484040; color: #fff; }
+	
+	
+}
+@media (max-width:767px){
+	.letras-paginacao{display:none}
+	.conteudoModelo a.nome{display:none}
+	input[type=search]#search{width: 94%;padding-left: 45px;font-size: 17px;color: #676767;border: 1px solid #cecece;border-radius: 50px;background: url(https://hotboys.com.br/imagens/icones/lupa-pesquisa-40px.png) no-repeat #e0e0e0;height: 37px;margin-top: 10px;-webkit-appearance: none}
+	aside.info-modelo{margin-top: 15px;}
+	.home.inicial_box_contos{overflow: hidden; height: 300px;}
+	.texto-carnaval-assine{width:100%;margin-left: 0px;float: left;margin-top: 8px;margin-bottom: 6px;}
+	
+	.semestral.conteudo-planos-pagamento{border-top: 1px solid #e0e0e0!important;border-bottom: 1px solid #e0e0e0!important;}
+	
+	body.fundo-preto #navicon.open{margin-left: 78px;text-align: left;margin-top: 42px;text-indent: 4px;font-size: 27px;}
+	.comentarios-avatar .perfil-foto{margin-top: 4px;margin-right: 3px;}
+	.titulos-planos-esquerda{font-size: 28px!important;}
+	.conteudo-planos-pagamento .precos-planos .moeda{font-size: 18px;}
+	.conteudo-planos-pagamento .precos-planos .reais{font-size: 49px;}
+	.conteudo-planos-pagamento .precos-planos .centavos{font-size: 20px;}
+	.input-group-prepend{height: 50px;
+	}
+	.formas-pagamento span {
+		float: left;
+		width: 90%!important;
+		height: 34px!important;
+		background-position: 0px -379px;
+		background-size: 101%;
+	}
+	.site-seguro span {
+		background-position: 0px -196px;
+		margin-top: 2px!important;
+		width: 70%!important;
+		height: 42px!important;
+		float: right;
+	}
+	
+	.assine-agora-e-veja .sprite-videos,
+	.assine-agora-e-veja .sprite-horas-videos,
+	.assine-agora-e-veja .sprite-atualizacoes,
+	.assine-agora-e-veja .sprite-liberacao-imediata,
+	.assine-agora-e-veja .sprite-livre-virus,
+	.assine-agora-e-veja .sprite-fatura,
+	.assine-agora-e-veja .sprite-12anos-mercado,
+	.assine-agora-e-veja .sprite-suporte
+	{
+		background-image: url(https://www.hotboys.com.br/imagens/assine/icones/icones-assine-sprites2.png);
+		margin: 0 auto;
+		width: 39px;
+		height: 47px;
+		display: block;
+		background-size: 792%;
+	}
+	
+	.preco-dia-mes-assine p{font-size: 10px;line-height: 13px;}
+	.assine-periodo-pagamento p.titulo_assine {font-size: 17px; text-transform: uppercase; padding: 6px; background-color: #484040; color: #fff;}
+	.titulos-menores-planos-assine {font-size: 13px!important; text-transform: uppercase; padding: 6px!important; background-color: #484040; color: #fff; }
+	
+	span.fa-play-circle{
+		top:45%;
+	}
+	span.fa-spin{
+		top:34%;
+	}
+	.rodape_secundario{
+		padding:11px;
+		background-color:#010101;
+		padding-bottom: 100px;
+		margin-top:15px;
+	}
+	
+	.contos.inicial_box_conteudo{overflow: hidden; height:215px;}
+	
+	a.page-link.next, a.page-link.previous {
+		color: #000;
+		font-size: 2.2em;
+		padding: 0!important;
+		line-height: 0!important;
+	}
+	
+	.banner-valor-assine .modelos-assine img{width:100%!important}
+	.fundo-botao-on-off{width: 85%;}
+	.quadro1_minha_conta{width: 44%!important}
+	.quadro2_minha_conta{width: 54%!important}
+	.quadro3_minha_conta{width: 100%!important;margin-left:0!important;margin-top: 1.5em;}
+	
+	#div_fixa_rodape{width: 100%;padding: 10px;background-color: transparent!important;}
+	#div_fixa_rodape img{width: 99%; float: none;margin-top: 4px;}
+	#div_fixa_rodape .textos_rodape{display:none;line-height: 13px;width: 125px!important;}
+	#div_fixa_rodape .texto-principal{font-size: 15px;line-height: 15px;margin-top: 2px;}
+	#div_fixa_rodape a.assine-agora{display:none;width: 120px;font-size: 15px;margin:0!important}
+	#div_fixa_rodape span.ja-e-assinante{width: 100%;float:left;margin-bottom: 5px;}
+	.whatsapp_botao_rodape{display:none}
+	.texto-hallowen-rodape{width: 45%;}
+	a.assine-agora.mobile{width: 100%;float: left;background-color:#eb5512;padding: 5px;text-align: center;text-transform: uppercase;    color: black;}
+	
+	#assine-valores-pagamentos p{padding:5px}
+	.tudo-rodape{height: auto!important;}
+	.tudo-rodape-imagem img{width: 99%!important;}
+	.tudo-rodape-conteudo,.tudo-rodape-imagem{height:auto!important}
+	
+	
+	#modelo_fotos .inicial_box_conteudo, #info1 .box,#modelo_fotos{overflow:hidden;height:210px}
+	
+	#cena_fotos .inicial_box_conteudo, #info1 .box{overflow:hidden;height:210px}
+	
+	#redes-sociais{padding-bottom: 25px;}
+	
+	.inicial_box_conteudo.maisfotos{height: 250px;}
+	img.card-img-top-cena{margin-bottom:0!important;width:100%}
+	
+	.contos-eroticos-home a{font-size: 18px;display: inline-block;}
+	
+	.problemas-ligue address {padding-right: 0px!important}
+	
+	.contatos-opcoes{margin-top: 10px;}
+	
+	.total-icones-cena{order:1}
+	.problema-video{order:2;}
+	.cena-comentar{order:3}
+	
+	
+	/* botao on off */
+	.texto-on-off{margin-top: -2px;font-size: 0.8em;}
+	
+	/*404 */
+	.pimenta-erro h1{font-size: 14px!important;}
+	.pimenta-erro h2{font-size:22px}
+	.pimenta-erro .coluna{margin-top:20px}
+	.pimenta-fora-copo img{width:70%}
+	.pimenta-copo img{width:70%}
+	.pimenta-erro{background-size:15px}
+	input[type="submit"],input[type="hidden"]{font-size: 15px;}
+	
+	
+	/*mais fotos pagina modelo */
+	.total-assine-liberar{margin-top: 21%;}
+	.quant-fotos-assine{margin-bottom: 10px;}
+	.assine-liberar{font-size: 13px;}
+	
+	.sites-topo{float:none;margin: 0 auto}
+	.ultimos-dias{ font-size: 14px;}
+	.promocao-copa img{margin-top: 0px;width:99%;margin-top: -5px!important;}
+	#mudarcor-sol-lua,.topo-slogan{display:none}
+	.logo-fundo-branco img, .logo-fundo-preto img{float:none!important}
+	
+	
+	/* Icones - Vantagens do Assinante */ 
+	.icones-vantagens{background-color:#b8b7b7;}
+	.icones-vantagens li {list-style: none; display: inline-block; text-align: center; float: left; width: 12.5%; padding: 1%;}
+	.icones-vantagens li img{width: 57%}
+	.icones-vantagens li span{display: block; margin-top: 10px; font-size: 9px; text-transform: uppercase;}
+	
+	
+	.copa-brasil img{
+		width: 181%;
+	}
+	#navicon,.well h2,body.fundo-preto .informacoes-modelo .unit p{
+		font-weight:700
+	}
+	footer .logo-rodape img{
+		width:50%!important
+	}
+	footer .formas-pagamento img{width: 90%;}
+	
+	footer .site-responsivo{display:none}
+	
+	header.cf{
+		display:block!important
+	}
+	.assineja-desktop,.bg-danger,.botoes-pretos-topo,.bt-vejamais-desktop,.busca-topo,.carousel-indicators,.titulo-desktop-modelo .titulo-modelo,div.row.home-modelos.desktop{
+		display:none!important
+	}
+	.logo-rodape img{
+		width:55%
+	}
+	header.assineja-entrar{
+		height:32px;
+		float:left;
+		width:100%
+	}
+	#navicon{
+		display:block!important;
+		color:#ffffff!important;
+		background:#e31330;
+		font-size:2em;
+		text-decoration:none;
+		padding:5px;
+		margin:0 auto
+	}
+	.menu-area-cliente,.rodape_secundario .site-responsivo{
+		display:none
+	}
+	#navicon.closed{
+		width:50%!important;
+		margin-top:10px
+	}
+	button.tres-botoes-modelos{
+		font-size:12px!important
+	}
+	.conto-banner-topo img{
+		margin-top:-120px
+	}
+	.rodape_secundario .formas-pagamento img{
+		width:70%!important
+	}
+	
+	.assine-preco{
+		font-size:35px
+	}
+	body.fundo-branco .anual,body.fundo-branco .semestral,body.fundo-branco .trimestral{
+		border-bottom:2px solid #fff
+	}
+	body.fundo-branco .bimestral,body.fundo-branco .semestral{
+		border-right:3px solid #fff
+	}
+	body.fundo-branco .mensal,body.fundo-branco .trimestral{
+		border-left:3px solid #fff
+	}
+	
+	.boleto-pagamento,.cartao-pagamento{
+		border-bottom:1px solid #fff
+	}
+	.boleto-pagamento img,.cartao-pagamento img,.paypal-pagamento img{
+		width:30%
+	}
+	.well h2{
+		margin-top:18px
+	}
+	.carnaval-contato,.carnaval-home{
+		height:193px
+	}
+	.carnaval img,.carnaval-contato img,.carnaval-home img{
+		margin-bottom:20px
+	}
+	.carnaval-contato .inscricao,.carnaval-home .inscricao{
+		float:none!important;
+		margin-right:0!important;
+		text-transform:uppercase
+	}
+	.banner03 img{
+		width:70%!important
+	}
+	.perfil-mobile-info .saudacao{
+		margin-left:8px;
+		text-transform:initial
+	}
+	.perfil-mobile-info .nome-area-cliente{
+		line-height:55px;
+		font-weight:700
+	}
+	.conto-texto-conteudo p{
+		margin-top:6px!important
+	}
+	.tutorial_cookies img{
+		width:80%;
+		margin-left:13px
+	}
+	.col-xs-12.formulario-col-direita{
+		padding-left:0!important
+	}
+	.promocao-copa img{margin-top: 0px;width:99%}
+	.contato-texto_maior-18anos {margin-left: 3%;margin-bottom: 13px;}
+}
+@media (max-width:480px){
+	.letras-paginacao{display:none}
+	.conteudoModelo a.nome{display:none}
+	input[type=search]#search{width: 94%;padding-left: 45px;font-size: 17px;color: #676767;border: 1px solid #cecece;border-radius: 50px;background: url(https://hotboys.com.br/imagens/icones/lupa-pesquisa-40px.png) no-repeat #e0e0e0;height: 37px;margin-top: 10px;-webkit-appearance: none}
+	.logo-fundo-branco img, .logo-fundo-preto img	{width:100%;margin-top:12px}	
+    .informacoes-modelo.idade,.informacoes-modelo.peso,.informacoes-modelo.signo,.informacoes-modelo.etnia{border-right:1px solid #fff;}
+	.informacoes-modelo.dote{border-bottom:1px solid #fff!important;}
+	aside.info-modelo{margin-top: 15px;}
+	.home.inicial_box_contos{overflow: hidden; height: 320px;}
+	body.fundo-preto .inicial_box_contos {border: 3px solid #0d0d0d;overflow: hidden;height: 210px;}
+	.texto-carnaval-assine{width:100%;font-size: 23px;margin-left: 0px;float: left;margin-top: 8px;margin-bottom: 6px;}
+	.paginas-titulo-visualizacoes{margin-bottom: 17px!important;height: 41px;}
+	.contato-texto_maior-18anos {margin-left: 3%;margin-bottom: 13px;}
+	.g-recaptcha{display: flex;justify-content: center;align-items: center;}
+   	body.fundo-preto #navicon.open{margin-left: 21px;text-align: left;margin-top: 42px;text-indent: 4px;font-size: 27px;}
+	.comentarios-avatar .perfil-foto{margin-top: 4px;margin-right: 3px;}
+	.titulos-planos-esquerda{font-size: 22px!important;}
+	.conteudo-planos-pagamento .precos-planos .moeda{font-size: 18px;}
+	.conteudo-planos-pagamento .precos-planos .reais{font-size: 40px;}
+	.conteudo-planos-pagamento .precos-planos .centavos{font-size: 20px;}
+	.input-group-prepend{height: 50px;}
+	
+	.site-responsivo span{
+		background-position: -242px -78px;
+	}
+	
+	.formas-pagamento span{
+		float: left;
+		width: 96%!important;
+		height: 26px!important;
+		background-position: 0px -290px;
+		background-size: 100%;
+	}
+	
+	.site-seguro span{
+		background-position: 0px -154px;
+		width: 81%!important;
+		height: 36px!important;
+		background-size: 245%!important;
+		float: right;
+	}
+	
+	.assine-agora-e-veja .sprite-videos,
+	.assine-agora-e-veja .sprite-horas-videos,
+	.assine-agora-e-veja .sprite-atualizacoes,
+	.assine-agora-e-veja .sprite-liberacao-imediata,
+	.assine-agora-e-veja .sprite-livre-virus,
+	.assine-agora-e-veja .sprite-fatura,
+	.assine-agora-e-veja .sprite-12anos-mercado,
+	.assine-agora-e-veja .sprite-suporte{
+		background-image: url(https://www.hotboys.com.br/imagens/assine/icones/icones-assine-sprites2.png);
+		margin: 0 auto;
+		width: 39px;
+		height: 44px;
+		display: block;
+		background-size: 800%;
+	}
+	
+	.titulos-planos-assine{font-size:16px}
+	
+	body.fundo-preto .mensal,body.fundo-preto .trimestral{border-left:0!important}
+	
+	span.fa-play-circle{
+		top:40%;
+	}
+	span.fa-spin{
+		top:29%;
+	}
+	.paginas-titulo-visualizacoes.contos h4, .paginas-titulo-visualizacoes.contos-home h4{
+		font-size: 14px;
+	}
+	
+	.rodape_secundario{
+		padding:11px;
+		background-color:#010101;
+		padding-bottom: 100px;
+		margin-top:15px;
+	}
+	
+	.contos.inicial_box_conteudo{overflow: hidden; height:105px;}
+	a.page-link.next, a.page-link.previous {
+		color: #000;
+		font-size: 2.2em;
+		padding: 0!important;
+		line-height: 0!important;
+	}
+	
+	.titulos-maiores-planos-assine{font-size: 10px;line-height: 13px;}
+	.titulos-menores-planos-assine{font-size: 10px!important; text-transform: uppercase; padding: 6px!important; background-color: #484040; color: #fff;}
+	
+	.banner-valor-assine .modelos-assine img{width:100%!important}
+	.navlogo .logo-fundo-branco, .navlogo .logo-fundo-preto{margin-top: 0!important;}
+	span.reportar-erro, span.sugestao{width:100%;float:right}
+	span.sugestao{margin-top: 15px;}
+	.reportar-erro a, p.numeros-itens{margin-right:0!important}
+	
+	.quadro1_minha_conta{width: 100%!important}
+	.quadro2_minha_conta{width: 100%!important;margin-top: 1.5em;}
+	.quadro3_minha_conta{width: 100%!important;margin-left:0!important;margin-top: 1.5em;}
+	
+	#div_fixa_rodape{width: 100%;background-color: transparent!important;padding:0!important}
+	#div_fixa_rodape .halloween{width:42%;margin-right: 3%;}
+	#div_fixa_rodape .halloween img{width:100%}
+	#div_fixa_rodape .textos_rodape{display:none;line-height: 13px;width: 190px!important;}
+	#div_fixa_rodape .texto-principal{font-size: 14px;width:100%}
+	#div_fixa_rodape a.assine-agora{display:none;width: 140px;font-size: 12px;margin: 8px!important;}
+	#div_fixa_rodape img{width: 99%; height:0;float: none;margin-top: 4px;}
+	.whatsapp_botao_rodape{display:none}
+	.texto-hallowen-rodape {width: 50%;}
+	#div_fixa_rodape .mobile{color: black;text-align: center;margin: 0 auto;float: none;}
+	a.assine-agora.mobile{width: 100%;float: left;background-color: #eb5512;padding: 5px;text-align: center;text-transform: uppercase;    color: black;}
+	
+	.tudo-rodape{height: auto!important;}
+	.tudo-rodape-imagem img{width: 99%!important;}
+	.tudo-rodape-conteudo,.tudo-rodape-imagem{height:auto!important}
+	.tudo-rodape #contador-black-friday{float: none!important;margin-top: 2px!important; display: flex;align-items: center;justify-content: center;}
+	
+	.assine-periodo-pagamento img {margin-right: 3px;width: 27px!important;margin-left: -12px;}
+	.assine-periodo-pagamento p.titulo_assine{font-size: 14px;text-transform: uppercase;padding: 6px;background-color:#484040;color: #fff;}
+	.preco-dia-mes-assine p{font-size: 10px;line-height: 13px;margin-top:7px;}
+	
+	#modelo_fotos .inicial_box_conteudo, #info1 .box,#modelo_fotos{overflow:hidden;height:122px}
+	
+	#cena_fotos .inicial_box_conteudo, #info1 .box{overflow:hidden;height:122px}
+	
+	.inicial_box_conteudo.maisfotos{height: 169px;}
+	img.card-img-top-cena{margin-bottom:0!important;width:100%}
+	
+	.contos-eroticos-home a{font-size: 14px;display: inline-block;}
+	.reportar-erro a, .sugestao a{font-size: 1.2em;}
+	.tags-links{font-size: 1.4em;}
+	
+	.contatos-opcoes{margin-top: 10px;}
+	
+	/* cena */
+	.total-icones-cena{order:1}
+	.problema-video{
+		order:2;
+		background-color: #232222; 
+		padding-bottom: 10px; 
+		margin-top: 10px; 
+		margin-bottom: 10px;
+		text-align: center; 
+	}
+	.cena-comentar{order:3}
+	
+	
+	/* botao on off */
+	.texto-on-off{margin-top: -2px;font-size: 10px;line-height: 11px;}
+	
+	/* 404 */
+	.pimenta-erro{background-size:15px;position:relative;}
+	.pimenta-erro h1{font-size: 14px!important;}
+	.pimenta-erro h2{font-size:18px}
+	.pimenta-erro .coluna{margin-top:20px}
+	.banner03 img,.pimenta-erro img{width:100%!important}
+	.titulo-newsletter img{width:auto!important}
+	.imagens-pimentas-newsletter{margin-top: 80px;}
+	input[type="submit"],input[type="hidden"]{font-size: initial;}
+	
+	/*mais fotos pagina modelo */
+	.total-assine-liberar{margin-top: 12%;}
+	.quant-fotos-assine {margin-bottom: 7px;margin-top: 9px;}
+	.assine-liberar{font-size: 11px;}
+	
+	.logo-fundo-branco img, .logo-fundo-preto img{float:none!important;margin-left: 0px!important;}
+	#mudarcor-sol-lua,.topo-slogan{display:none}
+	
+	.ultimos-dias{ font-size: 10px;}
+	
+	/*.inicial_box_conteudo{margin-bottom: 21px;}
+		
+	/* Formulario Assine */
+	.valores-assine,.modelos-assine{height: auto}
+	.icones-assine .nav-tabs>li>a{font-size: 9px!important;}
+	
+	/* Icones - Vantagens do Assinante */ 
+	.icones-vantagens{background-color:#b8b7b7;}
+	.icones-vantagens li {list-style: none; display: inline-block; text-align: center; float: left; width: 97%; padding: 1%;}
+	.icones-vantagens li img{width: 77%}
+	.icones-vantagens li span{display: block; margin-top: 10px; font-size: 5px; text-transform: uppercase;}
+	.icones-assine i.fa{display:none}
+	
+	
+	/* INICIO Botao ON-OFF */
+	.botao-on-off .texto{
+		line-height:1
+	}
+	/* FIM Botao ON-OFF */
+	
+	footer .logo-rodape img{
+		width:80%!important
+	}
+	footer .formas-pagamento img{width: 90%;}
+	footer .site-seguro img{width: 75%;}
+	footer .site-responsivo{display:none}
+	header.cf{
+		display:block!important
+	}
+	.bg-danger,.botoes-pretos-topo,.bt-vejamais-desktop,.busca-topo,.carousel-indicators,.titulo-desktop-modelo .titulo-modelo,div.row.home-modelos.desktop{
+		display:none!important
+	}
+	#navicon{
+		width:50%!important;
+		display:block!important;
+		background:#dc0606;
+		font-size:2.1em;
+		text-decoration:none;
+		padding:5px;
+		font-weight:700;
+		margin:0 auto
+	}
+	body.fundo-branco #navicon{
+		color:#0d0d0d!important;
+	}
+	body.fundo-preto #navicon{
+		color:#ffffff!important;
+	}
+	.espaco-banner03,.espaco-carnaval,.menu-area-cliente,.rodape_secundario .site-responsivo{
+		display:none
+	}
+	.home-textos-cenas-recentes,.home-textos-clientes-assistindo,.modelo-textos-assistatambem,.modelo-textos-cenascommodelo{
+		height:55px;
+		float:left
+	}
+	#navicon.closed{
+		width:75%!important;
+		margin-top:9px;
+		margin-bottom:8px
+	}
+	button.tres-botoes-modelos{
+		font-size:9px!important
+	}
+	.conto-banner-topo img{
+		margin-top:-60px
+	}
+	.rodape_secundario .formas-pagamento img{
+		width:85%!important
+	}
+	h1.bt-vejamais{
+		margin-top:0!important
+	}
+	.assine-preco{
+		font-size:32px
+	}
+	.assine-apenas{
+		font-size:12px
+	}
+	.boleto-pagamento,.cartao-pagamento{
+		border-bottom:1px solid #fff
+	}
+	.boleto-pagamento img,.cartao-pagamento img,.paypal-pagamento img{
+		width:50%
+	}
+	.btn{
+		padding:7px!important
+	}
+	.well h2{
+		font-weight:700;
+		margin-top:18px
+	}
+	.contatos-opcoes p{
+		font-size:17px
+	}
+	.carnaval-contato,.carnaval-home{
+		height:160px!important
+	}
+	.carnaval img,.carnaval-contato img,.carnaval-home img{
+		height:100px;
+		margin-bottom:20px
+	}
+	.carnaval-contato .inscricao,.carnaval-home .inscricao{
+		float:none!important;
+		margin-right:0!important;
+		text-transform:uppercase
+	}
+	.todo-conteudo .form-group{
+		font-size:13px
+	}
+	.perfil-mobile-info .saudacao{
+		margin-left:8px;
+		text-transform:initial
+	}
+	.perfil-mobile-info .nome-area-cliente{
+		line-height:55px;
+		font-size:12px;
+		font-weight:700
+	}
+	.conto-texto-conteudo p{
+		margin-top:6px!important
+	}
+	.tutorial_cookies img{
+		width:80%;
+		margin-left:13px
+	}
+	.col-xs-12.formulario-col-direita{
+		padding-left:0!important
+	}
+	.logo-modal img{
+		width:75%
+	}
+}		
+a.whatsappFixo{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 29px;
+    right: 13px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px!important;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+a:hover.whatsappFixo{
+	color:#FFF;
+}
+a.whatsappFixo p{
+	font-size: 12px;
+	background-color: #161917bd;
+	margin-top: 10px;
+	margin-right: -11px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+}

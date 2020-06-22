@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:400,700');
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Khula', sans-serif;
+	font-size:12px;	
+}
+.c{
+	clear:both;	
+}
+body{
+	background:#000 url(https://www.hotboys.com.br/imagens/backgrounds/bg-assinar02.jpg);
+}	
+img{
+	max-width:100%;
+}
+
+
+#conteudo{
+	box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 16px -6px;
+    background-clip: border-box;
+    background-color: rgba(175, 175, 175, 0.15);
+    margin: 188.6px 39% 0%;
+    border-radius: 5px;
+    padding: 5.1px;
+}
+#msg-alerta-topo{
+	width:96%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:2%;
+	padding-right:2%;
+	line-height:15px;
+	background:#FF9933;
+	color:#000;
+	position:absolute;
+	top:0px;
+	font-weight:bold;
+	font-size:14px;
+}
+#logo{
+	text-align:center;		
+}
+#titulo{
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;		
+}
+
+#mensagem-sucesso{
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	background: #008643;
+	color:#fff;
+	text-align:center;
+	line-height: 30px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:5px;
+	margin-top:20px;
+	display: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;		
+}
+#mensagem-erro{
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	background: #e21531;
+	color:#fff;
+	text-align:center;
+	line-height: 30px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:5px;
+	margin-top:20px;
+	display: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#formulario{
+	margin-top:0px;
+}
+.formulario-linha{
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	margin-bottom:10px;
+	background:#D0D4DF;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.formulario-linha-icone{
+	float:left;
+	width:12.5%; /* 50 / 400 */
+	padding-top:5px;
+	height:40px;
+	text-align:center;
+}
+.formulario-linha-campo{
+	float:left;
+	width:87.5%; /* 350 / 400 */
+	height:45px;
+}
+.formulario-linha-campo-input{
+	border:0px;
+	width:97%; /* 340 / 350 */
+	height:45px;					
+	padding-left:1.5%; /* 5 / 350 */
+	padding-right:1.5%; /* 5 / 350 */
+	font-size:14px;
+	background:#D0D4DF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.formulario-btn-enviar{
+	text-align:center;
+	padding-top:30px;					
+}
+.formulario-btn-enviar input,.formulario-btn-enviar div{
+	height:45px;
+	line-height:50px;					
+	width:190px;
+	border:0px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	cursor:pointer;
+	margin:5px;
+	display: inline-block;
+}
+
+.formulario-btn-enviar input{
+	background: #fafafa;
+    color: #e70322
+}
+
+.formulario-btn-enviar div{
+    background: -moz-linear-gradient(top,#e5475c 0,#fa0c2c 60%);
+    background: -webkit-linear-gradient(top,#e5475c 0,#fa0c2c 60%);
+    background: linear-gradient(to bottom,#51e547 0,#039810 60%)
+}
+
+.formulario-btn-enviar input:hover{
+	opacity:0.8;	
+}
+#links{
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+font-size:11px;			
+}
+#link-esq{
+float:left;	
+text-align:left;			
+}				
+#link-dir{
+float:right;
+text-align:right;	
+}
+#link-esq span, #link-dir span{
+position:relative;
+top:-5px;	
+}
+#link-esq a, #link-dir a{
+color:#fff;
+text-decoration:none;
+line-height:10px;
+}
+#link-esq a:hover, #link-dir a:hover{
+text-decoration:underline;
+}
+
+
+
+/*
+Celular
+*/			
+@media all and (max-width: 500px) {	
+#conteudo{
+width:90%;
+margin:0 auto;
+box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 16px -6px;
+background-clip: border-box;
+background-color: rgba(175, 175, 175, 0.15);
+margin: 188.6px 39% 0% 4%;
+border-radius: 5px;
+padding: 5.1px;
+}
+
+#link-esq{
+float:none;
+text-align:left;		
+}
+#link-esq br, #link-dir br{
+display:none;	
+}
+
+#link-esq span, #link-dir span{
+top:inherit;
+margin-left:5px;
+font-size:13px;	
+}
+
+#link-esq a, #link-dir a{
+font-size:13px;	
+}
+
+#link-dir{
+float:none;
+text-align:left;
+}
+}
+
+
+

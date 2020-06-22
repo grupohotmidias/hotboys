@@ -1,0 +1,178 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+body.fundo-preto{
+	background-image: url(../imagens/audicoes/fundo-formulario-audicoes.jpg)!important;
+}
+.votacao-audicoes .menu-area-cliente .navbar-header {
+	background: #e31330;
+}
+.votacao-audicoes h1{
+	color: #e3132d;
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+	padding:0;
+}
+.votacao-audicoes h2{
+	text-align: center;
+	margin: 0 auto;
+	color: #e31330;
+	margin-top: -12px;
+	white-space: nowrap;
+}
+
+.votacao-audicoes .pergunta { 
+	/*font-weight: bold;*/
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	font-weight: normal!important;
+	margin-left: 4%!important;
+}
+.votacao-audicoes .alternativas {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.votacao-audicoes .alternativa {
+	margin-top: 3px;
+	display: inline-block;
+	vertical-align:top;
+	padding: 10px;
+}
+.votacao-audicoes .alternativa label {
+	font-size: 2.3em;
+	display: inline-block;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.votacao-audicoes img.foto{
+	width: 100%;
+}
+.votacao-audicoes #botao {
+	text-align: center;
+}
+.votacao-audicoes #botao input {
+	margin-bottom:30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 100%;
+	max-width: 400px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 21px;
+	border: 0px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 15px;
+	color:#fff;
+	background-color: #e31330;
+	text-transform: uppercase;
+	font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+}
+.votacao-audicoes #sem-enquetes {
+	text-align: center;
+	font-size: 16px;
+}
+.votacao-audicoes #ja-votou {
+	text-align: left;
+	margin-top: 35px;
+	font-style: italic;
+}
+.votacao-audicoes .alternativa-barra {
+	height: 10px;
+	background: #00CC66;
+	margin-bottom: 5px;
+	min-width: 1px;
+}
+.votacao-audicoes #enquete-index .alternativa:first-child,.votacao-audicoes #enquete-index .alternativa:last-child {
+	color: #c7c2c2!important;
+}
+.votacao-audicoes .marcador1,.votacao-audicoes .marcador2,.votacao-audicoes .marcador3,.votacao-audicoes .marcador4,.votacao-audicoes .marcador5,.votacao-audicoes .marcador6,.votacao-audicoes .marcador7,.votacao-audicoes .marcador8{position: absolute;left: 35%;top: 35%;}
+
+.votacao-audicoes img#selecionado3,.votacao-audicoes img#selecionado6,.votacao-audicoes img#selecionado9,.votacao-audicoes img#selecionado12, .votacao-audicoes img#selecionado15,.votacao-audicoes img#selecionado18{
+	position: absolute;
+	margin: 0 auto;
+	float: none;
+	transform: translate(0,-75%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 66%;
+	left: 40%;
+}
+
+.votacao-audicoes input[type=checkbox], .votacao-audicoes input[type=radio]{
+	visibility: hidden;
+}
+
+.votacao-audicoes #cabecograma{
+	padding-top:0!important;
+}
+.votacao-audicoes .pergunta{
+	margin-bottom:25px;
+	text-align:left!important
+}
+
+@media (max-width:480px){
+	.votacao-audicoes h2{
+	    font-size: 16px!important;
+	}
+	h1.chamada-enquete{
+		padding: 10px;
+	}
+	.votacao-audicoes .pergunta{
+		margin-bottom: 0;
+		text-align: left!important;
+		margin-top: 10px!important;
+	}
+	.votacao-audicoes h1{
+		text-align:left;
+	}
+	.votacao-audicoes .pergunta { 
+		margin-left: 0%!important;
+	}
+	.votacao-audicoes .alternativa labelm.logo-eliminacao img{
+		width: 90%!important;
+	}
+	.votacao-audicoes .alternativa label{
+		width: 93%;
+	}
+	.votacao-audicoes #botao.assine{
+		width:100%
+		}
+	
+}
+@media (max-width:767px){
+	h1.chamada-enquete {
+		padding: 10px;
+	}
+	.logo-eliminacao img{
+		width: 90%;
+	}
+	.votacao-audicoes .alternativa label{
+		width: 93%;
+	}
+	.votacao-audicoes #botao.assine{
+		width:100%
+		}
+}
+@media (min-width:768px) and (max-width:991px){
+	.votacao-audicoes .alternativa{
+		margin: 0 auto;
+		float: none;
+	}
+}
+@media (min-width:992px) and (max-width:1199px){
+	.votacao-audicoes .alternativa{
+		margin: 0 auto;
+		float: none;
+	}
+}
+@media (min-width:1200px){
+	.votacao-audicoes .alternativa{
+		margin: 0 auto;
+		float: none;
+	}
+}

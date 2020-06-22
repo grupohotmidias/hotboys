@@ -1,0 +1,31 @@
+.painel h6,.painel i{
+	color: var(--white);
+}
+.painel .dropdown-item:hover i,.painel .dropdown-item:active i{
+	color: var(--black);
+}
+.painel .card-header,.painel .card-title{
+	    text-transform: inherit!important;
+}
+.painel td.vazio{
+	color: gray;
+}
+.painel table td.first-child{
+	border-top: 1px solid #191919!important;
+}
+.painel .text-danger {
+    color: var(--red)!important;
+}
+.bspImgWrapper {
+	overflow: hidden;
+	height: 150px;
+	background-position-x: center !important;
+	background-position-y: center !important;
+	background-size: cover !important;
+	border: 5px solid #191919;
+}
+@media (max-width: 767.98px){
+.painel .card-header {
+     padding: .75rem 0!important;
+}
+}

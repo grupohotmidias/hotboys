@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Countdown</title>
+<link rel="stylesheet" href="http://www.hotboys.com.br/contador/jquery.countdown2.css">
+<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+<style type="text/css">
+#defaultCountdown { width: 36.2%;  }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://www.hotboys.com.br/contador/jquery.plugin.js"></script>
+<script src="http://www.hotboys.com.br/contador/jquery.countdown.js"></script>
+<script src="http://www.hotboys.com.br/contador/jquery.countdown-pt-BR.js"></script>
+<script>
+$(function () {
+	var austDay = new Date(2019, 1-1, 1);
+	
+	$('#defaultCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+	
+});
+
+
+
+
+
+
+
+</script>
+</head>
+
+<body>
+<style>
+.contador_black{width:100%; height:auto;}
+</style>
+<div class="contador_black">
+<a href="http://www.hotboys.com.br/pt/assine_cartao.php" target="_parent"><img src="http://www.hotboys.com.br/contador/banner_black_2017.jpg" width="100%"  class="fancybox fancybox.iframe" title="Black Fridai Hot Boys"  /></a>
+<div id="defaultCountdown"></div>
+</div>
+

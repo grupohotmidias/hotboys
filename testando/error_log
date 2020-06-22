@@ -1,0 +1,84 @@
+[23-Oct-2019 19:12:45 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/hotboys19/public_html/testando/index.php on line 8
+[23-Oct-2019 19:13:10 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/hotboys19/public_html/testando/index.php on line 8
+[23-Oct-2019 19:15:30 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in /home/hotboys19/public_html/testando/index.php on line 7
+[23-Oct-2019 19:15:54 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/hotboys19/public_html/testando/index.php on line 8
+[23-Oct-2019 19:16:28 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/hotboys19/public_html/testando/index.php on line 8
+[24-Oct-2019 12:49:04 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/hotboys19/public_html/testando/index.php on line 134
+[24-Oct-2019 12:50:09 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/hotboys19/public_html/testando/index.php on line 134
+[24-Oct-2019 12:50:44 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/hotboys19/public_html/testando/index.php on line 134
+[24-Oct-2019 12:50:50 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/hotboys19/public_html/testando/index.php on line 134
+[24-Oct-2019 12:51:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')' in /home/hotboys19/public_html/testando/index.php on line 134
+[24-Oct-2019 12:52:15 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/hotboys19/public_html/testando/index.php on line 133
+[24-Oct-2019 15:21:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?>' in /home/hotboys19/public_html/testando/index.php on line 140
+[31-Oct-2019 15:32:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home/hotboys19/public_html/testando/index.php on line 15
+[31-Oct-2019 15:35:54 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/hotboys19/public_html/testando/index.php on line 104
+[31-Oct-2019 15:36:19 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/hotboys19/public_html/testando/index.php on line 104
+[31-Oct-2019 17:17:58 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:18:04 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:18:51 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:18:56 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:39 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:39 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:39 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:39 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:39 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:40 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:48 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:48 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:48 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:49 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:49 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:49 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:49 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:49 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:49 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:20:50 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:02 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:02 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:03 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:03 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:04 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:04 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:05 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:15 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:18 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:21:31 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 11
+[31-Oct-2019 17:23:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/hotboys19/public_html/testando/index2.php on line 7
+[31-Oct-2019 18:04:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 109
+[31-Oct-2019 18:05:25 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 109
+[31-Oct-2019 18:08:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/hotboys19/public_html/testando/index2.php on line 109
+[31-Oct-2019 18:08:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/hotboys19/public_html/testando/index2.php on line 109
+[31-Oct-2019 18:25:15 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 17
+[31-Oct-2019 18:33:08 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/hotboys19/public_html/testando/index2.php on line 93
+[31-Oct-2019 18:38:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting '(' in /home/hotboys19/public_html/testando/index2.php on line 122
+[31-Oct-2019 18:39:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting '(' in /home/hotboys19/public_html/testando/index2.php on line 122
+[31-Oct-2019 18:39:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting '(' in /home/hotboys19/public_html/testando/index2.php on line 122
+[31-Oct-2019 18:39:34 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting '(' in /home/hotboys19/public_html/testando/index2.php on line 118
+[31-Oct-2019 18:39:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting '(' in /home/hotboys19/public_html/testando/index2.php on line 118
+[31-Oct-2019 18:48:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/hotboys19/public_html/testando/index2.php on line 92
+[31-Oct-2019 18:52:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '[' in /home/hotboys19/public_html/testando/index2.php on line 98
+[31-Oct-2019 18:53:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '{' in /home/hotboys19/public_html/testando/index2.php on line 97
+[31-Oct-2019 18:57:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'strtolower' (T_STRING) in /home/hotboys19/public_html/testando/index2.php on line 103
+[31-Oct-2019 18:59:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/hotboys19/public_html/testando/index2.php on line 137
+[31-Oct-2019 19:03:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/hotboys19/public_html/testando/index2.php on line 116
+[31-Oct-2019 19:03:57 America/Sao_Paulo] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/hotboys19/public_html/testando/index2.php on line 114
+[31-Oct-2019 19:04:28 America/Sao_Paulo] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/hotboys19/public_html/testando/index2.php on line 114
+[31-Oct-2019 19:10:02 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/hotboys19/public_html/testando/index2.php on line 93
+[31-Oct-2019 19:10:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/hotboys19/public_html/testando/index2.php on line 93
+[31-Oct-2019 19:11:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/hotboys19/public_html/testando/index2.php on line 93
+[31-Oct-2019 19:12:38 America/Sao_Paulo] PHP Fatal error:  Can't use function return value in write context in /home/hotboys19/public_html/testando/index2.php on line 92
+[31-Oct-2019 19:13:31 America/Sao_Paulo] PHP Fatal error:  Can't use function return value in write context in /home/hotboys19/public_html/testando/index2.php on line 92
+[31-Oct-2019 19:13:47 America/Sao_Paulo] PHP Fatal error:  Can't use function return value in write context in /home/hotboys19/public_html/testando/index2.php on line 92
+[31-Oct-2019 19:14:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 26
+[31-Oct-2019 19:14:59 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index2.php on line 126
+[04-Nov-2019 14:52:02 America/Sao_Paulo] PHP Warning:  mysqli_connect(): (HY000/1203): User hotboys1_admin already has more than 'max_user_connections' active connections in /home/hotboys19/public_html/testando/config/configuracao.php on line 2
+[19-Nov-2019 10:28:20 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/hotboys19/public_html/testando/index.php on line 28
+[19-Nov-2019 10:28:20 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboys19/public_html/testando/index.php on line 28
+[19-Nov-2019 10:28:20 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index.php on line 116
+[19-Nov-2019 10:34:44 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/hotboys19/public_html/testando/index.php on line 20
+[19-Nov-2019 10:34:44 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboys19/public_html/testando/index.php on line 20
+[19-Nov-2019 10:34:44 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboys19/public_html/testando/index.php on line 20
+[19-Nov-2019 10:35:45 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/hotboys19/public_html/testando/index.php on line 20
+[19-Nov-2019 10:35:45 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboys19/public_html/testando/index.php on line 20
+[19-Nov-2019 10:35:45 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hotboys19/public_html/testando/index.php on line 20
+[19-Nov-2019 10:36:03 America/Sao_Paulo] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/hotboys19/public_html/testando/index.php on line 20

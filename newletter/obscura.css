@@ -1,0 +1,19 @@
+a.menu{text-decoration:none;font:10pt;color:white};
+a.menu:hover{text-decoration:none;color:gray};
+a.menu:active{color:white};
+a.menu:visited{font:10pt;color:white};
+td.menu{background-color:#202020;cursor:hand};
+font.data{color:white;font:9pt};
+a.data{color:white;font:9pt};
+a.data:hover{color:gray;font:9pt};
+a.data:active{color:gray;font:9pt};
+a.data:visited{color:white;font:9pt};
+a{text-decoration:none;font:10pt;color:blue};
+a:hover{text-decoration:underline;font:10pt;color:black};
+a:active{text-decoration:underline;font:10pt;color:black};
+a:visited{font:10pt;color:#b0b0b0};
+a.principal{text-decoration:none; font:13pt; font-family:comic sans ms; color:blue};
+a.principal:hover{text-decoration:underline;font:13pt;font-family:comic sans ms;color:blue};
+a.principal:active{text-decoration:underline;font:13pt;font-family:comic sans ms; color:blue};
+a.principal:visited{font:13pt; font-family:comic sans ms; color:blue};
+/*

@@ -1,0 +1,2 @@
+#Url amigaveis
+RewriteRule ^noticias$ noticias-audicoes.php [QSA,L,NC]

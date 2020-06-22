@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /sistema/ #arquivos do servidor(interno)
+Disallow: /sistema/financas/ 
+Disallow: /sistema/projetos/
+Disallow: /sistema/redes-sociais/
+
+Allow: /
+
+Sitemap: http://invyne.com.br/sitemap.xml

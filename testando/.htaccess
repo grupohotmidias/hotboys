@@ -1,0 +1,7 @@
+#Url amigaveis
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+Redirect index.php https://www.hotboys.com.br/testando/index.php
+
+RewriteRule ^(.*)$ index.php?nome=$1 [QSA,L,NC]

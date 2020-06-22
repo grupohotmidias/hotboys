@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Countdown</title>
+<link rel="stylesheet" href="http://www.hotboys.com.br/contador/jquery.countdown2mb.css">
+<style type="text/css">
+#defaultCountdown { width: 48%;  }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://www.hotboys.com.br/contador/jquery.plugin.js"></script>
+<script src="http://www.hotboys.com.br/contador/jquery.countdown.js"></script>
+<script src="http://www.hotboys.com.br/contador/jquery.countdown-pt-BR.js"></script>
+<script>
+$(function () {
+	var austDay = new Date(2018, 2-4, 25);
+	
+	$('#defaultCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+	
+});
+
+
+
+
+
+
+
+</script>
+</head>
+
+<body>
+<style>
+.contador_black{width:100%; height:auto;}
+</style>
+<div class="contador_black">
+<a href="http://m.hotboys.com.br/assine.php" target="_parent"><img src="http://www.hotboys.com.br/contador/banner_blackmobile.jpg" width="100%"  class="fancybox fancybox.iframe" title="Black Fridai Hot Boys"  /></a>
+<div id="defaultCountdown"></div>
+</div>
+

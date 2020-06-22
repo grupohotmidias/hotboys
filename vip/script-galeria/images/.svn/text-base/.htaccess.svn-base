@@ -1,0 +1,4 @@
+ExpiresActive On
+ExpiresDefault "access plus 720 hours"
+
+#http://kevin.vanzonneveld.net/techblog/article/control_cache_expire_dates_using_htaccess/

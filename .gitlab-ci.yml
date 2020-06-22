@@ -1,0 +1,22 @@
+image: debian
+
+stages:
+  - production
+  
+variables: 
+    PRODUCAO_IP_SERVIDOR: hotboys.com.br
+    PRODUCAO_IP_PORTA: 1157
+    PRODUCAO_DIRETORIO_SITE:  /home/hotboys19/public_html
+    PRODUCAO_DIRETORIO_PHP: php  #ispconfig: /opt/php-7.1/bin/php   locaweb: php71
+
+   
+production site:
+  stage: production 
+  before_script:
+    - apt-get update && apt-get -y upgrade
+    - echo "Y" | apt-get install sshpass
+  script:    
+    - sshpass -p $SSH_PRODUCAO_SENHA ssh -o StrictHostKeyChecking=no $SSH_PRODUCAO_USUARIO@$PRODUCAO_IP_SERVIDOR -p $PRODUCAO_IP_PORTA "cd ${PRODUCAO_DIRETORIO_SITE}  &&   git config --global user.email "alemysql@hotmail.com"   &&   git config --global user.name "Alessandro Scherer"   &&   git reset --hard   &&   git pull origin master   &&   git pull" 
+  only:
+    - master
+    

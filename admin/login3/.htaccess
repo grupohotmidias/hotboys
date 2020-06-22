@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^painel/$ painel2.php [QSA,L,NC]
+RewriteRule ^editar-info/$ editar-info.php?nome=$1 [QSA,L,NC]
+RewriteRule ^editar-video/$ editar-video.php?nome=$1 [QSA,L,NC]
+RewriteRule ^editar-fotos/$ editar-fotos.php?nome=$1 [QSA,L,NC]

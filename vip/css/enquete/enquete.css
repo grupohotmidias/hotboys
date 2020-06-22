@@ -1,0 +1,277 @@
+body{
+	
+	background: #160705 url("../../imagens/enquete/background.jpg") no-repeat;
+	
+}
+.fundo-ativos img:hover, .fundo-passivos img:hover{    border: 2px solid #ff0000;}
+.tudo{
+    position: relative;
+}
+/* RODAPÉ MOBILE */
+.rodape-mobile{
+	display:none;
+}
+
+/* DIVS DE IMAGENS */
+
+.col-12.logo-rodape{
+	width: 38%;
+}
+.titulo-enquete{
+	margin-top: 20px;
+}
+/* TEXTOS*/
+.col-4 p {
+	color: #e2690a;
+	}
+
+p.titulo-ativos, p.titulo-passivos{
+	text-shadow: 0px 3px 3px rgba(141, 141, 141, 0.57);
+	color:red;
+	font-family: 'Baloo Bhaijaan', cursive;
+
+	margin-top:50px;
+	text-align:center;
+}
+
+.integrantes{
+	margin-top: 50px;
+	float:left;
+}
+.fundo-ativos, .espaco-desktop, .fundo-passivos, .logo{
+	float:left;
+}
+/* FUNDOS -  Backgrounds */
+.fundo-ativos{
+	background-size: 100% 100%;
+	height: 450px;
+}
+
+.fundo-passivos{
+	background-size: 100% 100%;
+	height: 450px;
+}
+
+/* IMAGENS */
+.fundo-ativos img, .fundo-passivos img{
+	width:100%;
+	border:2px solid #e2690a;
+}
+.audicoes img{
+	width: 40%;
+}
+
+/* ÍCONES DE PIMENTA */
+.icone-pimenta img{
+    width: 53px;
+    border: none!important;
+}
+.col-12, .col-sm-5, .col-md-5{
+	padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.rodape-mobile-audicoes img{
+	opacity:1!important;
+}
+.rodape-mobile img{
+	width:100%;
+	opacity: 0.6;
+}
+
+
+
+/* MEDIA */
+@media (max-width: 339px) {
+	html, body {height:100%;}
+	
+	img {width:100%;}
+	
+	.tudo{
+		position: relative;
+		min-height: 100%;
+	}
+	p.titulo-ativos, p.titulo-passivos{
+		margin-top:0px!important;
+		font-size: 30px!important;
+	}
+	
+	.espaco-desktop{
+		display:none;
+	}
+	
+	.integrantes{
+		margin-top: 0px!important;
+	}
+	.col-12.audicoes{
+		display: none!important;
+	}
+	.fundo-ativos{
+		background-image: none!important;
+		background-size: 100% 100%;
+		height: 162px!important;
+	}
+	.fundo-passivos{
+		background-image: none!important;
+		background-size: 100% 100%;
+		height: 199px!important;
+		margin-top: 37px;
+	}
+    .col-4 {
+		padding-right: 3px!important;
+		padding-left: 3px!important;
+		float: left;
+	}
+	.rodape-mobile{
+		display:block!important;
+		width:100%;
+		margin-top: 50px;
+	}
+
+	.logo-rodape{margin-bottom:30px;}
+	
+	.titulo-enquete{
+	margin-bottom: 30px;
+}
+.titulo-enquete img{
+	width:100%;
+}
+.icone-pimenta img{
+    width: 33px;;
+}
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 576px) {
+	html, body {height:100%;}
+	
+
+	.tudo{
+		position: relative;
+		min-height: 100%;
+	}
+	
+	
+	p.titulo-ativos, p.titulo-passivos{
+		margin-top:0px!important;
+		font-size: 30px!important;
+	}
+	.espaco-desktop{
+		display:none;
+	}
+	.fundo-ativos{
+		background-image: none!important;
+		background-size: 100% 100%;
+		height: 190px!important;
+	}
+	.fundo-passivos{
+		background-image: none!important;
+		background-size: 100% 100%;
+		height: 190px!important;
+		margin-top: 60px;
+	}
+	.integrantes{
+		margin-top: 0px!important;
+	}
+	.col-4 {
+		padding-right: 5px!important;
+		padding-left: 5px!important;
+		float: left;
+	}
+	.col-12.audicoes{
+		display:none;
+	}
+	.rodape-mobile{
+		margin-top: 68px;
+	}
+	.rodape-mobile-audicoes{
+		width:100%;
+	}
+	.rodape-mobile-audicoes img{
+		opacity:1!important;
+	}
+	
+	.rodape-mobile-audicoes .fundo-esquerdo img, .rodape-mobile .fundo-direito img{
+		display:block!important;
+		width:77%!important;
+		
+		
+	}
+	.rodape-mobile{
+		display:block!important;
+		width:100%;
+	}
+	.rodape-mobile img{
+		width:100%;
+		opacity: 0.7;
+	}
+	.logo-rodape{margin-bottom:30px;margin-top: 50px;}
+	
+	.icone-pimenta img{
+    width: 40px;
+}
+.titulo-enquete img{
+	width:100%;
+}
+	    
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.fundo-ativos, .fundo-passivos{
+		height: 280px;
+	}
+	.col-4{
+		padding-right: 2px!important;
+		padding-left: 2px!important;
+		float: left;
+	}
+	.integrantes {
+		margin-top: -16px;
+	}
+	.audicoes {
+		position: absolute!important;
+		margin-top: -54px;
+		margin-left: -12px;
+	}
+	.icone-pimenta img{
+    width: 50px;
+}
+p.titulo-ativos, p.titulo-passivos{
+	    font-size: 31px!important;
+}
+.col-4 p{    
+	font-size: 12px;
+	}
+}		
+
+@media screen and (min-width: 768px)  {
+	.fundo-ativos, .fundo-passivos{
+		height: 300px;
+	}
+	.col-4{
+		padding-right: 5px!important;
+		padding-left: 5px!important;
+		float: left;
+	}
+	.integrantes {
+		margin-top: 0px;
+	}
+	.audicoes {
+		position: absolute!important;
+		margin-top: -83px;
+		margin-left: -12px;
+	}
+		p.titulo-ativos, p.titulo-passivos{
+		margin-top:0px!important;
+		font-size: 38px!important;
+	}
+	.titulo-enquete{
+	    margin-bottom: 40px;
+		}
+		.col-4 p{    
+	font-size: 15px;
+	}
+}
+	

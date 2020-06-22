@@ -1,0 +1,21 @@
+---------- CRIA A TABELA DE NEWSLETTER ----------
+
+CREATE TABLE `tbl_newsletter` (
+  `idemail` int(11) NOT NULL auto_increment,
+  `email` varchar(150) NOT NULL,
+  `data_cadastro` varchar(20) default NULL,
+  PRIMARY KEY  (`idemail`)
+);
+
+---------- CRIA A TABELA DOS USUÁRIOS QUE FARÃO O ACESSO À ÁREA GERENCIAL ----------
+
+CREATE TABLE `tbl_usuarios` (
+  `id` int(11) NOT NULL auto_increment,
+  `nome` varchar(150) NOT NULL default '',
+  `email` varchar(150) NOT NULL default '',
+  `senha` varchar(50) NOT NULL default '',
+  `status` varchar(10) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+);
+
+INSERT INTO `tbl_usuarios` VALUES (1,'Administrador','teste@teste.com','123456','1');

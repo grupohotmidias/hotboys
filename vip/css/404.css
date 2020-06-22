@@ -1,0 +1,41 @@
+.pimenta-erro {position:relative;background: url(../imagens/paginas-erros/background-erro.jpg) repeat-x #948067}
+.pimenta-erro h1{text-align: left;width:100%;color:#e31430 !important;text-transform: uppercase}
+.pimenta-erro h2{text-align: left;font-weight: normal;}
+.pimenta-erro .textos{position:absolute;margin-left: 10px;}
+.pimenta-erro img{margin-top: -20px;}
+
+
+@media (min-width: 1200px) {
+	
+	.pimenta-erro h1{font-size: 50px;}
+	.pimenta-erro h2{font-size: 32px;}
+	.pimenta-erro .coluna{margin-top:50px}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.pimenta-erro h1{font-size: 39px;}
+	.pimenta-erro h2{font-size: 27px;}
+	.pimenta-erro .coluna{margin-top:50px}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.pimenta-erro h1{font-size: 33px;}
+	.pimenta-erro h2{font-size: 22px;}
+	.pimenta-erro .coluna{margin-top:20px}
+	
+}
+@media (max-width: 767px) {
+	.pimenta-erro h1{font-size: 33px;}
+	.pimenta-erro h2{font-size: 22px;}
+	.pimenta-erro .coluna{margin-top:20px}
+}
+
+@media (max-width: 480px) {
+	.pimenta-erro {position:relative;background: url(../imagens/paginas-erros/background-erro-mobile.jpg) repeat-x #948067!important}
+	.pimenta-erro h1{font-size: 27px;}
+	.pimenta-erro h2{font-size: 18px;}
+	.pimenta-erro .coluna{margin-top:20px}
+	.pimenta-erro img{ width: 100%;}
+	
+}

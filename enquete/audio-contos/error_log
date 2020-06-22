@@ -1,0 +1,6 @@
+[07-May-2019 09:11:23 America/New_York] PHP Warning:  mysql_query(): Access denied for user 'hotboysc'@'localhost' (using password: NO) in /home/hotboysc/public_html/enquete/audio-contos/index.php on line 13
+[07-May-2019 09:11:23 America/New_York] PHP Warning:  mysql_query(): A link to the server could not be established in /home/hotboysc/public_html/enquete/audio-contos/index.php on line 13
+[07-May-2019 09:28:32 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/enquete/audio-contos/index.php on line 24
+[07-May-2019 09:32:52 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/enquete/audio-contos/index.php on line 24
+[07-May-2019 09:33:15 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/enquete/audio-contos/index.php on line 24
+[07-May-2019 09:38:09 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/hotboysc/public_html/enquete/audio-contos/index.php on line 29

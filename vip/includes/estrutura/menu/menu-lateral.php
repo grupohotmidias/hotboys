@@ -1,0 +1,172 @@
+<div class="app-sidebar sidebar-shadow">
+	<div class="app-header__logo">
+		<div class="logo-src"></div>
+		<div class="header__pane ml-auto">
+			<div>
+				<button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="app-header__mobile-menu">
+		<div>
+			<button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+	<div class="app-header__menu">
+		<span>
+			<button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+				<span class="btn-icon-wrapper">
+					<i class="fa fa-ellipsis-v fa-w-6"></i>
+				</span>
+			</button>
+		</span>
+	</div>    
+	
+	<!-- Comeco do menu -->
+	<div class="scrollbar-sidebar">
+		<div class="app-sidebar__inner">
+			<ul class="vertical-nav-menu metismenu">
+				<li class="app-sidebar__heading">ÁREA VIP</li>
+				
+				<!-- Home -->
+				<li class="home">
+					<a class="nav-link" href="<?php echo URL_VIP ?>index.php">
+						<i class="fa fa-home fa-1x"></i> 
+						Home
+					</a>
+				</li>
+				
+				<!-- Atores -->
+				<li class="cenas_hot">
+					<a class="nav-link" href="<?php echo URL_VIP ?>videos/">
+						<i class="fas fa-play-circle"></i>
+						Cenas Hot
+					</a>
+				</li>
+
+				<?php /*<!-- Amadores HoT -->
+				<li class="amadores_hot">
+					<a class="nav-link" href="<?php echo URL_VIP ?>amadores-hot/">
+							<i class="fas fa-mobile-alt" style="color:gray;font-size: 25px;"><i class="fas fa-video" style="color:gray;font-size: 6px;position: relative;left: -11px;top: -9px;"></i></i>
+						Amadores Hot
+					</a>
+				</li>*/
+				?>
+
+				<!-- Atores -->
+				<li class="modelos">
+					<a class="nav-link" href="<?php echo URL_VIP ?>atores/">
+						<i class="fas fa-users"></i>
+						Atores Hot
+					</a>
+				</li>	
+				
+				<!-- Séries -->
+				<li class="series">
+					<a class="nav-link" href="<?php echo URL_VIP ?>series/">
+						<i class="fas fa-film"></i> 
+						Séries Hot
+					</a>
+				</li>
+				
+				
+				<!-- Contos Eroticos  -->
+				<li class="contos">
+					<a class="nav-link" href="<?php echo URL_VIP ?>contos/">
+						<i class="fas fa-book"></i> 
+						Contos Hot
+					</a>
+				</li>
+				
+				<!-- Audicoes Hot 3 -->
+				<li class="audicoes">
+					<a class="nav-link" href="<?php echo URL_VIP ?>audicoes/">
+						<i class="fas fa-couch fa-1x"></i>
+						Audições Hot 3
+					</a>
+				</li>
+				
+				<!-- Categorias -->
+				<?php 	
+				$query_continuacao_categorias = "SELECT * FROM `categorias` ORDER BY categoria ASC";
+				$consulta_continuacao_categorias = mysql_query($query_continuacao_categorias);
+				$total_continuacao_categorias = mysql_num_rows($consulta_continuacao_categorias); 
+?>
+				<!-- Categorias -->
+				<li class="nav-item has-treeview">
+					<a class="nav-link" href="#">
+						<i class="fas fa-object-group fa-1x"></i>
+						Categorias
+					</a>
+					<ul class="nav nav-treeview" >
+					<div style="overflow-y:scroll;height: 320px;">
+<?php  while($dados_categoria = mysql_fetch_array($consulta_continuacao_categorias)){
+		$associador_categorias = mysql_query("SELECT * FROM `cenas` WHERE `tag_principal`='$dados_categoria[categoria]'");
+		$total_associador_categorias = mysql_num_rows($associador_categorias);
+		if($total_associador_categorias > 0){
+	?>
+						<li class="nav-item">
+							<a href="<?php echo URL_VIP.'busca.php?'.'search='.$dados_categoria['categoria'] ; ?>" class="nav-link">
+							<i class="fas fa-object-group"></i>
+							<p style="color:#fff;"><?php echo utf8_encode($dados_categoria['categoria']) ?></p>
+							</a>
+						</li>
+
+<?php } }?>
+					</div>
+					</ul>
+				</li>
+				<!-- FIM Categorias -->
+
+				<li class="app-sidebar__heading mt-4">Meu Hot</li>
+				
+				<!-- Meus favoritos -->
+				<li class="meusFavoritos">
+					<a class="nav-link" href="<?php echo URL_VIP ?>meus-favoritos/">
+						<i class="fa fa-star fa-1x"></i>
+						Meus Favoritos
+					</a>
+				</li>
+				
+				<!-- Meus favoritos -->
+				<li class="minhaConta">
+					<a class="nav-link" href="https://contas.hotmidias.com.br/usuario/alterar-perfil" target="_blank">
+						<i class="fas fa-address-book fa-1x"></i>
+						Minha Conta
+					</a>
+				</li>
+				
+			</ul>
+			
+			<!-- Sair 
+			<div class="scrollbar-sidebar">
+				<div class="app-sidebar__inner">
+					<ul class="vertical-nav-menu metismenu">
+						<li>
+							<a class="nav-link" href="<?php echo URL_VIP ?>login/index.php?acao=sair">
+								<i class="fa fa-power-off fa-1x"> 
+								</i>Sair
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			-->
+			 
+		</div>
+
+	</div>
+	
+	
+	
+</div>    
+
+		

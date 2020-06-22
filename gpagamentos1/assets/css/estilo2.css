@@ -1,0 +1,214 @@
+@font-face {
+	font-family: "proxima_novaregular";
+	src: url("../fonts/proximanova-regular-webfont.eot?#iefix")
+	format("embedded-opentype"),
+	url("../fonts/proximanova-regular-webfont.woff2") format("woff2"),
+	url("../fonts/proximanova-regular-webfont.woff") format("woff"),
+	url("../fonts/proximanova-regular-webfont.ttf") format("truetype"),
+	url("../fonts/proximanova-regular-webfont.svg#proxima_novaregular")
+	format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "proxima_novasemibold";
+	src: url("../fonts/proximanova-semibold-webfont.eot?#iefix")
+	format("embedded-opentype"),
+	url("../fonts/proximanova-semibold-webfont.woff2") format("woff2"),
+	url("../fonts/proximanova-semibold-webfont.woff") format("woff"),
+	url("../fonts/proximanova-semibold-webfont.ttf") format("truetype"),
+	url("../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold")
+	format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "proxima_novamedium";
+	src: url("../fonts/proximanova-medium-webfont.eot?#iefix")
+	format("embedded-opentype"),
+	url("../fonts/proximanova-medium-webfont.woff2") format("woff2"),
+	url("../fonts/proximanova-medium-webfont.woff") format("woff"),
+	url("../fonts/proximanova-medium-webfont.ttf") format("truetype"),
+	url("../fonts/proximanova-medium-webfont.svg#proxima_novamedium")
+	format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+    font-family: "proxima_novamedium", Helvetica, Arial, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+h6{
+	background-color: #dedddd;
+    padding: 8px;
+}
+.row{
+	margin:0;
+}
+#header{
+	border-bottom: 1px solid #d6d6d6;
+	padding: 15px 0 15px 0;
+	margin-bottom: 10px;
+}
+.form-pagamento .form-control{
+	height: calc(2rem + 2px);
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.form-pagamento .form-control:first-child{
+	margin-top: 5px;
+}
+.form-pagamento .form-check-label{
+	padding-top: 7px;
+}
+.form-pagamento a{
+	color: #5b8dc5;
+}
+#dadosAcesso .control-label,#FormularioPagamento .control-label{
+	margin-top: 12px;
+}
+#dadosAcesso .control-label span,#FormularioPagamento .control-label span{
+	font-weight:700;
+}
+.form-pagamento button[type="submit"]{
+	font-family: "proxima_novamedium", Helvetica, Arial, sans-serif;
+    background: #5b8dc5;
+    border: none;
+    width: auto;
+    padding: 10px;
+    height: auto;
+    color: #ffffff;
+    font-size: 19px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    border-radius: 0;
+    margin: 0 auto;
+    white-space: initial;
+}
+#TextosInformacoes ul li{
+	color: #777;
+    text-align: center;
+    list-style: none;
+}
+.footer{
+	border-top: 1px solid #d6d6d6;
+    padding-top: 15px;
+    margin-top: 15px;
+	
+}
+.footer p{
+	color: #777;
+    text-align: center;
+}
+
+/* MODAL */
+.modal-content{
+	background-color: transparent;
+}
+.close span {
+	background-color: white;
+    padding: 0 5px;
+}
+.modal-header{
+	background-color: #5b8dc5;
+    color: #fff;
+}
+.modal-footer{
+	border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+.modal-body,.modal-footer{
+	background-color: #fff;
+}
+.modal .texto {
+    overflow-y: scroll;
+    position: relative;
+    margin-left: 0;
+    max-height: 450px;
+}
+.modal .texto p {
+    margin: 0 0 18px 0;
+    font-size: 14px;
+    color: #575757;
+    line-height: 155%;
+}
+.col-12,ul{
+	padding:0;
+}
+.tooltip .tooltip-inner{ 
+	color:black;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+	border: 1px solid #b5b4b4;
+	float:left;
+}
+.tooltip p{
+	color:black;
+	border-bottom:1px solid #80808040;
+	padding-bottom:5px
+}
+.tooltip img{
+	padding-bottom:10px;
+	float:left;
+	margin-left:5%
+}
+.tooltip .arrow:before {
+    border-top-color: #808080;
+    border-bottom-color:#808080;
+}
+
+@media (min-width: 768px){
+	.container {
+		max-width: 730px;
+		overflow-x: hidden;
+	}
+	#dadosAcesso .control-label,#FormularioPagamento .control-label {
+		text-align: right;
+	}
+}
+@media (min-width: 576px){
+	.modal-dialog {
+		max-width: 70%;
+	}
+	#header img.mobile{
+		display:none;
+	}
+}
+@media (max-width: 575.98px) {
+	#header img.desktop{
+		display:none;
+	}
+	#dadosAcesso .control-label span,#FormularioPagamento .control-label span{
+		font-size: 11px;
+	}
+	#dadosAcesso .control-label,#FormularioPagamento .control-label,#dadosAcesso .campo,#FormularioPagamento .campo{
+		padding: 0;
+	}
+	.cartoes{
+		margin-left: 0;
+	}
+	.tipos-pagamentos img{
+		padding: 2px;
+	}
+	.tipos-pagamentos.paypal img{
+		width: auto;
+	}
+	.form-check:first-child{
+		margin-bottom: .25rem!important;
+	}
+    #InfoPagamento{
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 767.98px) {
+	.cartoes{
+		margin-left: 0;
+	}
+	.tooltip{
+		display:none;
+	}
+}

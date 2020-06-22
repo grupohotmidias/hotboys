@@ -1,0 +1,10 @@
+[22-Aug-2012 02:30:45] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'h41370'@'localhost' (using password: YES) in /home/hotboysc/public_html/newletter/conectar.inc on line 2
+[22-Aug-2012 02:30:45] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home/hotboysc/public_html/newletter/conectar.inc on line 3
+[22-Aug-2012 02:30:45] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/hotboysc/public_html/newletter/administracao.php on line 29
+[22-Aug-2012 02:30:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/hotboysc/public_html/newletter/administracao.php on line 30
+[22-Aug-2012 02:30:45] PHP Warning:  mysql_close(): supplied argument is not a valid MySQL-Link resource in /home/hotboysc/public_html/newletter/administracao.php on line 45
+[21-Sep-2012 18:37:55] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'h41370'@'localhost' (using password: YES) in /home/hotboysc/public_html/newletter/conectar.inc on line 2
+[21-Sep-2012 18:37:55] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home/hotboysc/public_html/newletter/conectar.inc on line 3
+[21-Sep-2012 18:37:55] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/hotboysc/public_html/newletter/administracao.php on line 29
+[21-Sep-2012 18:37:55] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/hotboysc/public_html/newletter/administracao.php on line 30
+[21-Sep-2012 18:37:55] PHP Warning:  mysql_close(): supplied argument is not a valid MySQL-Link resource in /home/hotboysc/public_html/newletter/administracao.php on line 45

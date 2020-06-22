@@ -1,0 +1,120 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www\.
+
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+Redirect index.php https://www.hotboys.com.br/index.php
+
+
+
+
+#Compactacao gzip
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/opentype
+# For Older Browsers Which Can't Handle Compression
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+#Força a utilizar Cache-Control e Expires header
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+FileETag None
+<IfModule mod_expires.c>
+ ExpiresActive on
+ ExpiresDefault "access plus 1 month"
+ ExpiresByType text/cache-manifest "access plus 0 seconds"
+ # Html
+ ExpiresByType text/html "access plus 0 seconds"
+ # Data
+ ExpiresByType text/xml "access plus 0 seconds"
+ ExpiresByType application/xml "access plus 0 seconds"
+ ExpiresByType application/json "access plus 0 seconds"
+ # Feed
+ ExpiresByType application/rss+xml "access plus 1 hour"
+ ExpiresByType application/atom+xml "access plus 1 hour"
+ # Favicon
+ ExpiresByType image/x-icon "access plus 1 week"
+ # Media: images, video, audio
+ ExpiresByType image/gif "access plus 1 month"
+ ExpiresByType image/png "access plus 1 month"
+ ExpiresByType image/jpg "access plus 1 month"
+ ExpiresByType image/jpeg "access plus 1 month"
+ ExpiresByType video/ogg "access plus 1 month"
+ ExpiresByType audio/ogg "access plus 1 month"
+ ExpiresByType video/mp4 "access plus 1 month"
+ ExpiresByType video/webm "access plus 1 month"
+ # HTC files
+ ExpiresByType text/x-component "access plus 1 month"
+ # Webfonts
+ ExpiresByType application/x-font-ttf "access plus 1 month"
+ ExpiresByType font/opentype "access plus 1 month"
+ ExpiresByType application/x-font-woff "access plus 1 month"
+ ExpiresByType image/svg+xml "access plus 1 month"
+ ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+ # CSS / JS
+ ExpiresByType text/css "access plus 1 year"
+ ExpiresByType application/javascript "access plus 1 year"
+ ExpiresByType application/x-javascript  "access plus 1 year"
+</IfModule>
+#Força o IE a sempre carregar utilizando a última versão disponível
+<IfModule mod_headers.c>
+  Header set X-UA-Compatible "IE=Edge,chrome=1"
+  <FilesMatch "\.(js|css|gif|png|jpeg|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+    Header unset X-UA-Compatible
+  </FilesMatch>
+</IfModule>
+
+#conexao permanente - Keep Alive
+<ifModule mod_headers.c>
+Header set Connection keep-alive
+</ifModule>
+
+
+
+#Redireciona diretorio modelos para atortes
+RewriteRule ^modelos/?$ $1/atores$2 [R=301,L]
+
+RewriteRule ^busca/$ busca.php [QSA,L,NC]
+RewriteRule ^audicoes/votacao/$ votacao.php [QSA,L,NC]
+RewriteRule ^audicoes/noticia/(.*)/(.*) noticia-audicoes.php?id=$1 [QSA,L,NC]
+RewriteRule ^audicoes/noticias/$ noticias-audicoes.php [QSA,L,NC]
+RewriteRule ^busca/$ busca.php [QSA,L,NC]
+RewriteRule ^audicoes/$ audicoes.php [QSA,L,NC]
+RewriteRule ^assine/$ assine.php [QSA,L,NC]
+RewriteRule ^atores$ modelos.php [QSA,L,NC]
+RewriteRule ^atores/(.*) modelos.php?pag=$1  [QSA,L,NC]
+RewriteRule ^atores-audicoes/$ modelos-audicoes.php [QSA,L,NC]
+RewriteRule ^ator/(.*)/(.*) modelo.php?id=$1 [QSA,L,NC]
+RewriteRule ^ator-audicoes/(.*)/(.*) modelo-audicoes.php?id=$1 [QSA,L,NC]
+RewriteRule ^videos$ cenas.php [QSA,L,NC]
+RewriteRule ^videos/(.*) cenas.php?pag=$1 [QSA,L,NC] 
+RewriteRule ^audicoes/videos/$ cenas-audicoes.php [QSA,L,NC]
+RewriteRule ^cena/(.*)/(.*) cena.php?id=$1 [QSA,L,NC]
+RewriteRule ^cena-audicoes/(.*)/(.*) cena-audicoes.php?id=$1 [QSA,L,NC]
+RewriteRule ^seja-um-ator/$ contato_modelo.php [QSA,L,NC]
+RewriteRule ^trabalhe-conosco/$ trabalhe_conosco.php [QSA,L,NC]
+RewriteRule ^audicoes/videos/$ cenas-audicoes.php [QSA,L,NC]
+RewriteRule ^audicoes/participantes/$ participantes-audicoes.php [QSA,L,NC]

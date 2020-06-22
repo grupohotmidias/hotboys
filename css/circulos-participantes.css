@@ -1,0 +1,37 @@
+#circulos-participantes{position:relative;display: flex;align-items: center;justify-content: center;background-color: #000000a3; padding-top: 30px}
+#circulos-participantes.pequeno{padding-top:0px!important}
+#circulos-participantes.pequeno .logo-audicoes{margin-top:0!important;}
+#circulos-participantes.pequeno h1{margin-top:0!important}
+#circulos-participantes h1{color:#e31330!important;font-size:80px!important;margin-top:-100px!important;}
+#circulos-participantes ul{z-index: 0;height: 100%; min-height: 100%; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; -webkit-justify-content: center; justify-content: center;}
+#circulos-participantes ul li{display:inline}
+#circulos-participantes .nome{position:absolute;text-align: center;margin: 0 auto;display: inline-block;margin-top:0;}
+#circulos-participantes img{cursor:pointer;-webkit-filter: grayscale(100%);filter: grayscale(100%);margin-left:-20px;;margin-top: 30px;	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+-o-transition: margin 0.5s ease-out;}
+#circulos-participantes img.oculto2{cursor:auto!important;-webkit-transition: 0; -moz-transition: 0; -o-transition: 0; margin-top: 0;}
+#circulos-participantes img.oculto2:hover{margin-top: 0!important}
+#circulos-participantes img:hover{-webkit-filter: grayscale(0%);filter: grayscale(0%); margin-top: 5px;}
+#circulos-participantes .logo-audicoes{-webkit-filter: grayscale(0%)!important;filter: grayscale(0%)!important;margin-top:-71px!important;
+}
+
+#circulos-participantes.pequeno{height: 132px; padding-top: 26px!important;}
+#circulos-participantes.pequeno img.oculto2{margin-top: 30px!important;}
+#circulos-participantes.pequeno h1 {margin-left: 0!important;margin-top: -50px!important; }
+#circulos-participantes.pequeno .logo-audicoes{width: 80%;margin-top: -25px!important;}
+#circulos-participantes.pequeno img:hover {margin-top: 14px!important;}
+
+@media (min-width:1200px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+}
+@media (min-width:768px) and (max-width:991px){
+}
+@media (max-width:767px){
+	#circulos-participantes{display:none}
+}
+
+@media (max-width:480px){
+	#circulos-participantes{display:none}
+}

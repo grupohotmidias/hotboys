@@ -1,0 +1,1 @@
+[11-Mar-2015 09:12:24] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/hotboysc/public_html/traducao/admin/includes/xajax-login.php on line 18

@@ -1,0 +1,1 @@
+[18-Jan-2019 14:42:24 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/hotboysc/public_html/blog/wp-content/themes/hotblog/index.php on line 15

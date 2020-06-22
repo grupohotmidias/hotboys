@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8"/>
+<title>HTML5 – Estrutura básica</title>
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<style>
+	#myModalClose{
+	width: 100%;
+    background-color: #e31330;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	}
+	</style>
+<div class="modal fade" id="myModal_enquete" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel" style="text-transform: uppercase;">Enquete Hotboys</h4>
+      </div>
+      <div class="modal-body">
+	  <p style="margin-bottom:30px">Estamos a cada dia melhorando a sua experiência aqui no Hotboys. Com este intuito, criamos uma nova ennquete e a sua opinião é muito importante para crescermos juntos.</p>
+ <a href="https://hotboys.com.br/vip/enquete" id="myModalClose" data-dismiss="modal" data-target="#myModal">Quero Votar!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+	$(document).ready(function () {
+    // se o cookie não tiver sido definido ...
+    if (document.cookie.indexOf("ModalShown=true")<0) {
+        $("#myModal_enquete").modal("show");
+        //Modal has been shown, now set a cookie so it never comes back
+        $("#myModalClose").click(function () {
+            $("#myModal_enquete").modal("hide");
+        });
+        document.cookie = "ModalShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+    }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+
+		<!-- CSS do ccontador de dias - Promocoes -->
+		<link rel='stylesheet' href='//hotboys.com.br/css/contador-promocao.css' type='text/css' media='all' />
+		
+		
+		<!--## INICIO - Javascripts do ccontador de dias - Promocoes ##-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="//hotboys.com.br/js/contador-promocao.js"></script>
+		<script>
+			jQuery(document).ready(function($){
+				$('.demo2').dsCountDown({
+					endDate: new Date("July 16, 2018 23:59:00"),
+					theme: 'black'
+				});
+				
+			});
+		</script>
+		<!--## FIM - Javascripts do ccontador de dias - Promocoes ##-->
+		
+		
+	</head>
+	<body>
+		<!-- Promocao Copa Hot - Div Fixa no rodape da Pagina-->
+		<div class="promocao-copa">
+			<div class="col-md-9 center">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<a href="assine">
+					<img src="//hotboys.com.br/imagens/promocoes/imagem-promocao-copa2.png"/>
+				</a>
+			</div>
+			
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				
+				<!-- O contador aparece aqui -->
+				<div class="demo2"></div>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>

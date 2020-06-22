@@ -1,0 +1,10 @@
+[06-Jul-2019 16:42:15 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/fsockopen.php on line 15
+[06-Jul-2019 16:42:28 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/cURL.php on line 15
+[07-Jul-2019 15:50:44 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/cURL.php on line 15
+[07-Jul-2019 15:50:47 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/fsockopen.php on line 15
+[25-Sep-2019 00:28:42 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/cURL.php on line 15
+[25-Sep-2019 00:28:45 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/fsockopen.php on line 15
+[28-Sep-2019 04:23:10 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/cURL.php on line 15
+[28-Sep-2019 04:23:12 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/fsockopen.php on line 15
+[01-Oct-2019 06:21:56 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/cURL.php on line 15
+[01-Oct-2019 06:21:58 America/Sao_Paulo] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/hotboys19/public_html/blog/off/wp-includes/Requests/Transport/fsockopen.php on line 15

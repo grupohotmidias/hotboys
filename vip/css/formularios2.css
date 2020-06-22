@@ -1,0 +1,203 @@
+/* FORMULARIO ==================================== */
+
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"]
+select.sel1, input.sel1, select.sel1 {
+    width: 100% !important;
+    height: 50px;
+    text-align-last: center;
+    border: 1px solid rgba(18, 34, 40, 0.59);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center !important;
+    color: #132228
+}
+
+textarea.sel1 {
+    width: 100% !important;
+    border: 1px solid rgba(18, 34, 40, 0.59);
+    background-color: rgba(221, 221, 221, 0.38);
+    padding: 35px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center !important;
+}
+
+.textarea-box {
+    padding: 1px;
+    position: relative;
+}
+
+input {
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+.form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control, .input-group-sm > .form-control-plaintext.input-group-addon, .input-group-sm > .input-group-btn > .form-control-plaintext.btn, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control, .input-group-lg > .form-control-plaintext.input-group-addon, .input-group-lg > .input-group-btn > .form-control-plaintext.btn {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.form-control-sm, .input-group-sm > .form-control, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]), .input-group-sm > select.input-group-addon:not([size]):not([multiple]), .input-group-sm > .input-group-btn > select.btn:not([size]):not([multiple]) {
+    height: calc(1.8125rem + 2px);
+}
+
+.form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.form-control:not([size]):not([multiple]), .input-group-lg > select.input-group-addon:not([size]):not([multiple]), .input-group-lg > .input-group-btn > select.btn:not([size]):not([multiple]) {
+    height: calc(2.3125rem + 2px);
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.form-row > .col, .form-row > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-check.disabled .form-check-label {
+    color: #868e96;
+}
+
+.form-check-label {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.25rem;
+    margin-left: -1.25rem;
+}
+
+.form-check-input:only-child {
+    position: static;
+}
+
+.form-check-inline {
+    display: inline-block;
+}
+
+.form-check-inline .form-check-label {
+    vertical-align: middle;
+}
+
+.form-check-inline + .form-check-inline {
+    margin-left: 0.75rem;
+}
+
+.form-control {
+    border-radius: 0px !important;
+	    text-align: center;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.input-group .form-control:focus, .input-group .form-control:active, .input-group .form-control:hover {
+    z-index: 3;
+}
+
+.unit {
+    position: absolute;
+    display: block;
+    left: 5px;
+    top: 3px;
+    color: #9b9898;
+    font-family: "Open Sans";
+}
+
+.unit.disponivel-assinantes {
+    left: 5px;
+    top: 1px;
+}
+
+textarea.sel1 span.unit {
+    position: absolute;
+    display: block;
+    left: 12px;
+    top: 6px;
+    color: #9b9898;
+    font-family: "Open Sans";
+}
+
+.contato-texto-abaixo-formulario {
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+input#country, select#country, input#state, select#state {
+    width: 100% !important;
+    height: 50px;
+    text-align-last: center;
+    border: 1px solid rgba(18, 34, 40, 0.59);
+    background-color: #e0e0e0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center !important;
+    color: #132228
+
+}
+
+body.fundo-branco .assine-selecionado, body.fundo-preto .assine-selecionado{
+    background-color:#E31430;
+}
+body.fundo-branco .assine-nao-selecionado{
+    background-color: #122228;
+}
+body.fundo-branco .assine-nao-selecionado *, body.fundo-branco .assine-selecionado *,body.fundo-preto .assine-nao-selecionado:visited{
+    color: #ffffff !important;
+}
+
+
+
+body.fundo-preto .assine-nao-selecionado{
+    color: #122228;
+}
+body.fundo-preto .assine-nao-selecionado{
+    background-color: #ffffff;
+}

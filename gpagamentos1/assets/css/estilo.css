@@ -1,0 +1,248 @@
+.p-0{
+	padding:0
+}
+.logo{
+	padding:15px;
+	background-color: #385565;
+}
+.dados-acesso{
+	padding:10px;
+	text-transform:uppercase;
+	text-align:center;
+	background-color:#46b19d;
+	color:white
+}
+.dados-acesso h5{
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-bottom: 0;
+}
+.bread{
+	background-color: #e4e3e3; 
+	margin-top: 10px; 
+	margin-bottom: 10px
+}
+.bread.mobile{
+	display:none;
+}
+.bread.desktop{
+	display:flex;
+}
+.breadcrumb{
+	background: transparent;
+}
+.desktop .breadcrumb-item{
+    padding: .75rem 1.75rem;
+    font-size: 14px;
+    position: relative;
+    border-left: 5px solid white;
+}
+.mobile .breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+.mobile .breadcrumb-item.active {
+    color: #46b19d;
+    font-weight: bold;
+}
+.breadcrumb-item:first-child{
+	border-left: 0;
+}
+.breadcrumb-item.current {
+    background-color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	display:none;
+}
+.breadcrumb-item.current:before{
+	border-left: 12px solid #d2d2d2;
+    border-bottom: 12px solid #d2d2d2;
+}
+.breadcrumb .icone{
+	width: 23px;
+    height: 23px;
+    background: #7f7f7f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    display: inline-block;
+    margin: -1px 8px 0 0;
+    border-radius: 100%;
+    position: relative;
+}
+.input-group-text{
+	background-color:#fff;
+	padding: .275rem .65rem
+}
+.input-group>.form-control{
+	font-size: 14px
+}
+.input-group-addon{
+	position: absolute; 
+	right: 0; 
+	padding: .3rem .5rem
+}
+.dadosAcesso .form-control{
+	border-left: 0
+}
+.conta form{
+	width:50%;
+	padding: 3rem 4rem;
+}
+.conta form p{
+	color:#777;
+	font-size:11px;
+	line-height:138%;
+	margin:8px 0 6px 0;
+	text-align:left;
+	display:inline-block;
+}
+.fa-eye:before,.fa-eye-slash:before{
+	color: #9c9c9c
+}
+button.prosseguir {
+    width: 100%;
+    display: inline-block;
+    height: 58px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 2px;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    background: rgb(66, 158, 141);
+    background: -moz-linear-gradient(top, rgba(67,205,1,1) 0%, rgba(47,153,4,1) 100%);
+    background: -webkit-linear-gradient(top, rgb(66, 158, 141) 0%,rgb(70, 177, 157) 100%);
+    background: linear-gradient(to bottom, rgb(66, 158, 141) 0%,rgb(70, 177, 157) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43cd01', endColorstr='#2f9904',GradientType=0 );
+    -webkit-box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.3), inset 0px 0px 10px 1px rgba(0,0,0,0.1), inset 0px 2px 2px 0px rgb(66, 158, 141), 0 5px 8px -1px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.3), inset 0px 0px 10px 1px rgba(0,0,0,0.1), inset 0px 2px 2px 0px rgba(110,255,2,0.85), 0 5px 8px -1px rgba(0,0,0,0.4);
+    box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.3), inset 0px 0px 10px 1px rgba(0,0,0,0.1), inset 0px 2px 2px 0px rgb(75, 218, 192), 0 5px 8px -1px rgba(0,0,0,0.4);
+}
+footer{
+	border-top: 16px solid #d5d5d5
+}
+footer h3{
+	font-size: 1rem;
+}
+footer ul li{
+	font-size: 13px;
+}
+.formas-pagamento{
+	border: 1px solid #cacaca;
+}
+.formas-pagamento p{
+	font-size: 14px;
+}
+.formas-pagamento .codigo-seguranca{
+	    margin-left: 4%;
+}
+.cartao-credito .form-group label{
+	font-weight:700;
+	margin-bottom:0;
+	font-size: 13px;
+}
+.cartao-credito .form-control {
+    font-size: 12px;
+	height: 43px;
+}
+
+/* medias */
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) { 
+	.conta form{
+		width:100%;
+		padding: 1rem 0;
+	}
+	.logo {
+		padding: 7px;
+	}
+	.breadcrumb-item{
+		font-size: 12px;
+	}
+	.breadcrumb .icone{
+		width: 17px;
+		height: 16px;
+		font-size: 11px;
+		margin-left:1px;
+	}
+	.bread.mobile{
+		display:block;
+		margin-top: 5px;
+	}
+	.bread.desktop{
+		display:none;
+	}
+	.input-group,.input-group>.form-control{
+		height: 50px;
+	}
+	.input-group-addon{
+		padding: 0.8rem .5rem;
+	}
+	.dados-acesso h5{
+	    font-size: 1rem;
+	}
+	.logo img{
+		width:85%;
+	}
+	footer {
+		border-top: 5px solid #d5d5d5;
+		margin-top: 10px;
+	}
+	button.prosseguir{
+		font-size: 15px;
+		height:46px;
+	    -webkit-box-shadow: initial;
+		-moz-box-shadow:initial;
+		box-shadow: initial;
+		border:0;
+		padding:0;
+	}
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.conta form{
+		width:100%;
+	}
+	.desktop .breadcrumb-item {
+		padding: .75rem .75rem;
+		font-size: 12px;
+	}
+	.formas-pagamento{
+	    max-width: 560px;
+	}
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.conta form{
+		width:100%;
+	}
+	.formas-pagamento{
+		max-width: 720px;
+	}
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.formas-pagamento{
+		max-width: 720px;
+	}
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { 
+	.formas-pagamento{
+		max-width: 720px;
+	}
+}	

@@ -1,0 +1,491 @@
+<?php
+	session_start();
+	
+	require_once('config/configuracoes.php');
+	require_once('includes/funcoes.php');
+	
+	// Detecta a resolucao do cliente - Mobile ou Computador //
+	require_once('mobili/Mobile_Detect.php');
+	$detect = new Mobile_Detect;
+	$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+	$scriptVersion = $detect->getScriptVersion();
+	
+	//Caso o cookie esteja vazio e seja desktop, carrega a pagina de entrada(+18 anos)
+	if ($detect->isMobile()) { 
+		
+		}else{
+		//Cookie que carrega a pagina de entrada = verificacao de idade
+		if(@$_COOKIE['verificacao_idade'] != 'sim'){
+			
+			header('Location: home/');
+		} }
+		
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<title>HOTBOYS O Site Mais Quente da Net - Seu Mundo Mais Prazeroso</title>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="pt-br, en">
+		<meta name="keywords" content="Bareback video, videos, mundo gay, garotos hot, gay videos, free videos, ensaios gay, homens dotados, cafuçu, gay brasil, dotados, big dotado, hot boys, hotboys, web videos, gay mais,">
+		<meta name="description" CONTENT="HOTBOYS Ensaios e videos de sexo bareback dos garotos mais gostosos do Rio de Janeiro Brasil">
+		
+		
+		<!-- HEAD (Include) -->
+		<?php include ('includes/head.php');?> 
+		
+		
+		<!-- Animate CSS - Animacao do novo css3 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		
+		<!-- CSS Principal - Circulos Participantes -->
+		<link rel="stylesheet" href="css/circulos-participantes.css">
+		
+		
+		<!-- CSS da pagina -->
+		<link rel="stylesheet" href="css/audicoes.css">
+		
+		<style>
+			body {
+			background: #252525;
+			color: #C7C2C2;
+			background-image: url(imagens/audicoes/fundo-formulario-audicoes.jpg)!important;
+			}
+			.pergunta { 
+			/*font-weight: bold;*/
+			color: #fff;
+			font-size: 20px;
+			letter-spacing: 0.5px;
+			line-height: 26px;
+			font-weight: normal!important;
+			}
+			.alternativas {
+			margin-top: 5px;
+			margin-bottom: 25px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			}
+			.alternativa {
+			margin-top: 3px;
+			display: inline-block;
+			vertical-align:top;
+			}
+			.alternativa label {
+			font-size: 2.3em;
+			margin: 10px;
+			text-transform: capitalize;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			}
+			#botao {
+			text-align: center;
+			margin-top: 35px;
+			}
+			#botao input {
+			padding-left: 25px;
+			padding-right: 25px;
+			width: 100%;
+			max-width: 400px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 21px;
+			border: 0px;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 15px;
+			color:#fff;
+			background-color: #e31330;
+			text-transform: uppercase;
+			font-family: 'Baloo Bhaijaan',cursive, sans-serif;
+			}
+			#sem-enquetes {
+			text-align: center;
+			font-size: 16px;
+			}
+			#ja-votou {
+			text-align: left;
+			margin-top: 35px;
+			font-style: italic;
+			}
+			.alternativa-barra {
+			height: 10px;
+			background: #00CC66;
+			margin-bottom: 5px;
+			min-width: 1px;
+			}
+			label{background-image: url(imagens/audicoes/votacao/fundo-votacao-participantes-audicoes.jpg);background-size:100%;}
+			#enquete-index .alternativa:first-child,#enquete-index .alternativa:last-child {
+			color: #c7c2c2!important;
+			}
+			img#selecionado1, img#selecionado2, img#selecionado3, img#selecionado4, img#selecionado5, img#selecionado6, img#selecionado7, img#selecionado8 {
+			display: block;
+			position: absolute;
+			margin: 0 auto;
+			float: none;
+			transform: translate(0,-75%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			top: 66%;
+			left: 40%;
+			}
+			
+			.marcador1,.marcador2,.marcador3,.marcador4,.marcador5,.marcador6,.marcador7,.marcador8{position: absolute;left: 35%;top: 35%;}
+			
+			img#selecionado1, img#selecionado2, img#selecionado3, img#selecionado4, img#selecionado5, img#selecionado6, img#selecionado7, img#selecionado8 {
+			position: absolute;
+			margin: 0 auto;
+			float: none;
+			transform: translate(0,-75%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			top: 60%;
+			left: 15%;
+			}
+			.texto-pagina-contato_trabalhe p{
+			color: white;
+			text-align: center;
+			font-size: 17px!important;
+			margin-bottom:20px!important;
+			text-align:left;
+			}
+			.alerta-manutencao p{
+			font-size: auto!important;
+			margin-bottom: 0!important;
+			text-align: left;}
+			
+			input[type="radio"],.aviso-audicoes{display:none}
+			
+			@media (min-width:1200px){}
+			@media (min-width:992px) and (max-width:1199px){}
+			@media (min-width:768px) and (max-width:991px){
+			.alternativa span.assine{padding: 7px!important;font-size: 14px!important;line-height: 12px!important;}
+			}
+			@media (max-width:767px){
+			.alternativa span.localidade{display:none}
+			.alternativa span.assine{font-size: 14px!important;}
+			}
+			@media (max-width:480px){
+			img.foto,.logo-votacao img{width:95%}
+			img#selecionado1, img#selecionado2, img#selecionado3, img#selecionado4, img#selecionado5, img#selecionado6, img#selecionado7, img#selecionado8{width: 68%;}
+			.alternativa span.localidade{display:none}
+			.alternativa span.assine,.alternativa .assine-veja-video,.alternativa .assine-veja-fotos{font-size: 11px!important;}
+			.alternativa h2{margin-top:-6px!important;}
+			}
+			
+			
+		</style>
+	</head>
+	<body id="body" class="fundo-preto">
+		
+		
+		<!-- TOP (Include) -->
+		<?php include ('includes/top.php');?>
+		
+		
+		<div class="container">
+			
+			<!-- Acima do conteudo da pagina -->
+			<div class="row" style="width:100%;float:left;background-color: #010101;margin-top: 30px;margin-bottom: 30px;padding-top: 15px;padding-bottom: 20px;">
+				
+				<!-- imagens circulos dos participantes -->
+				<div class="col-lg-9 col-md-11 texto-pagina-contato_trabalhe">
+					<img src="<?php echo URL ?>imagens/audicoes/participantes/participantes_circulos.jpg" style="width:99%"/>
+				</div> 
+			</div>
+			
+			
+			<div class="col-md-12 col-xs-12">
+				
+				<!-- Imagem - logo da votação -->
+				<div class="col-lg-9 col-md-11 texto-pagina-contato_trabalhe">
+					<div class="col mx-auto text-center logo-votacao">
+						<img src="<?php echo URL ?>imagens/audicoes/logo-audicoes3.png" />
+					</div>
+				</div>
+				
+				<div class="col-lg-9 col-md-11 texto-pagina-contato_trabalhe"> 
+					<h1 style="margin-top: 37px!important;margin-bottom: 37px!important;color:white;text-align: center;margin: 0 auto;float: none;">Vem aí o  Reality Show mais quente da net! “As Audições Hot 3”.</h1>
+					
+					<div class="col-lg-9 col-md-9 col-xs-11 texto-pagina-contato_trabalhe">
+						<p>Se preparem para muito glamour, festas badaladas de tirar o fôlego, disputas quentíssimas, homens maravilhosos, além de muito, mais muito sexo.</p>
+						
+						<p>Em breve vocês conhecerão os 8 candidatos que selecionamos, que vão tacar fogo nesse parquinho de diversões sexual. Porém o site Hotboys resolveu dar a chance a mais 2 gostosos de entrar nesse jogo. Mas para isso, se torne um VIP e participe. Além de estar por dentro de todo Reality, você poderá escolher 2 participantes para ingressarem nesta disputa, fique por dentro de todo jogo, e trace os rumos dessa competição, e escolha as 2 novas ESTRELAS EXCLUSIVAS do site Hotboys.</p>
+						
+						<p>Fique calmo! O jogo ainda não começou. Assine agora! Ainda dá tempo de você fazer parte desse Show.</p>
+						
+						<p>Pois o site Hotboys se rendeu a submissão, e você sendo nosso cliente VIP terá todo controle!</p>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				<div class="col-lg-9 col-md-11 texto-pagina-contato_trabalhe"> 
+					
+					<div class="col-lg-12 col-md-12 col-xs-11 texto-pagina-contato_trabalhe">
+						
+						<!-- Formulario -->
+						<form id="form_enquete" name="form_enquete" method="post" onSubmit="xajax_votar(xajax.getFormValues('form_enquete')); return false;">
+							
+							<?php	
+								
+								//pega infos da enquete
+								$queryEnquete = "SELECT * FROM `enquetes` WHERE id='$idEnquete'";
+								$consultaEnquete = mysql_query($queryEnquete);
+								$linha = mysql_fetch_array($consultaEnquete);
+							?>
+							
+							<!-- Titulo Ativos -->
+							<div class="col-lg-12 col-xs-12">
+								<h1 class="pergunta" style="font-size:2em;text-transform: uppercase;"><span class="icone-pimenta-titulo"></span> Ativos</h1>
+							</div>
+							
+							
+							<div class="col-lg-12 col-xs-12 alternativas">
+								<?php
+									//consulta alternativas
+									$queryAlternativas = "SELECT * FROM `enquetes_alternativas` WHERE id_enquete='$linha[id]' order by id";
+									$consultaAlternativas = mysql_query($queryAlternativas);
+									
+								?>
+								
+								
+								
+								<!-- Caio Gaspar -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show1()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 99;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Sao Paulo - SP</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												
+												<img class="foto" id="foto1" src="https://server2.hotboys.com.br/arquivos/e1b06_Caio-Gaspar.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 1;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_20" value="70"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Caio Gaspar</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Fabricio Silva -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show2()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 99;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Mesquita - RJ</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto2" src="https://server2.hotboys.com.br/arquivos/34feb_fabricio-silva.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 1;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_20" value="71"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Fabricio Silva</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Junior Almeida -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show3()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 99;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Curitiba - PR</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto3" src="https://server2.hotboys.com.br/arquivos/ef251_Junior-Almeida.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 1;background-color: #df2137;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_20" value="72"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Junior Almeida</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Gustavo Nutella -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show4()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 1;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Rio de Janeiro - RJ</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto4" src="https://server2.hotboys.com.br/arquivos/2b30f_Gustavo-Nutella.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 99;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_20" value="73"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Gustavo Nutella</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Titulo Passivos -->
+								<div class="col-lg-12 col-xs-12">
+									<h1 class="pergunta" style="font-size:2em;margin-top:50px!important;text-transform: uppercase;"><span class="icone-pimenta-titulo"></span> Passivos</h1>
+								</div>
+								
+								
+								<!-- Max Ford -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show5()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 1;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Rio de Janeiro - RJ</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto5" src="https://server2.hotboys.com.br/arquivos/80758_Max-Ford.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 99;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_21" value="74"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Max Ford</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Caio Rodrigues -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show6()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 1;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Vila Velha - ES</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto6" src="https://server2.hotboys.com.br/arquivos/9e9ae_caio-rodirgues.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 99;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_21" value="75"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Caio Rodrigues</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Riicky -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show7()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 1;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Recife - PE</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto7" src="https://server2.hotboys.com.br/arquivos/895ba_Riicky.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 99;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_21" value="76"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Riicky</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								
+								<!-- Lucas Rodrigues -->
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alternativa">
+									<label>
+										<div class="col-lg-12 col-xs-12  text-center" onclick="show8()">
+											<span class="localidade" style="position: absolute;color: white;z-index: 1;bottom: 10px;background-color: #00000070;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;">Sao Gonçalo - RJ</span>
+											<a href="<?php echo URL ?>assine" style="float: left;width: 100%;">
+												<img class="foto" id="foto8" src="https://server2.hotboys.com.br/arquivos/9c549_Lucas-Rodrigues.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"/>
+												
+												<span class="assine" style="top: 50%;position: absolute;color: white;z-index: 1;background-color: #df21378f;padding: 3px;font-size: 14px;width: 100%;text-align: center;left:0;font-size: 19px;font-family: 'Baloo Bhaijaan',cursive, sans-serif;">ASSINE PARA VOTAR!</span>
+											</a>
+										</div>
+										<input type="radio" name="enquete_21" value="77"/>
+									</label>
+									<h2 style="text-align: center;margin: 0 auto;color: #e31330;margin-top: -12px;font-size: 17px;">Lucas Rodrigues</h2>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-video" style="background-color: #df2137;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja o vídeo</div>
+									</a>
+									<a href="<?php echo URL?>assine">
+										<div class="col-lg-12 col-xs-12 assine-veja-fotos" style="background-color: #3a3838;width: 95%;margin: 0 auto;float: none;text-transform: uppercase;color: #ffffff;font-family: 'Baloo Bhaijaan',cursive, sans-serif;line-height: 23px;margin-top: 5px;text-align: center;"> Assine e veja as fotos</div>
+									</a>
+								</div>
+								
+								<!-- Botão - Sofa Vote -->
+								<div class="col-lg-9 col-md-11 texto-pagina-contato_trabalhe"> 
+									<a href="https://www.hotboys.com.br/assine" style="float:left;width:100%;margin-top: 30px;">
+										<img src="https://www.hotboys.com.br/imagens/audicoes/botao_sofa_assine.png" style=" margin-top:25px;margin-bottom:25px;width:100%">
+									</a>
+								</div>
+								
+							</div>
+							
+							
+						</form><!-- Fim do formulario -->
+						
+						
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			
+			
+			
+			
+			<!-- FOOTER (Include) -->
+			<?php include ('includes/footer.php')?>
+			
+			
+			<!-- JAVASCRIPTS PADROES (Include) -->	
+			<?php 
+				if ($detect->isMobile()) { 
+					include ('includes/javascript-mobile.php'); 
+					}else{
+					include ('includes/javascript.php'); 
+				}
+			?>
+			
+			
+			
+		</body>
+	</html>									

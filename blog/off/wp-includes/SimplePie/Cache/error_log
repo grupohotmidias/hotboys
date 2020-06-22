@@ -1,0 +1,12 @@
+[06-Jul-2019 16:48:26 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[06-Jul-2019 16:49:01 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/DB.php on line 52
+[06-Jul-2019 16:49:17 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/File.php on line 52
+[06-Jul-2019 16:50:10 America/Sao_Paulo] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[07-Jul-2019 15:51:23 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/DB.php on line 52
+[07-Jul-2019 15:51:25 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/File.php on line 52
+[07-Jul-2019 15:51:27 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[07-Jul-2019 15:51:29 America/Sao_Paulo] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[25-Sep-2019 00:23:35 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/DB.php on line 52
+[25-Sep-2019 00:23:43 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/File.php on line 52
+[25-Sep-2019 00:23:51 America/Sao_Paulo] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[25-Sep-2019 00:24:00 America/Sao_Paulo] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/hotboys19/public_html/blog/off/wp-includes/SimplePie/Cache/MySQL.php on line 58

@@ -1,0 +1,186 @@
+/* Page Setup + Mixins */
+@import "reset.css";
+* {  
+  box-sizing: border-box; 
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* General Styles */
+
+body {
+	background: #fefcf1;
+	color: #303030;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 0;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+html.no-js {
+	#fallback-nav {
+		display: block;
+	}
+	.fade {
+		display: none;
+	}
+	#navicon {
+		display: none;
+	}
+}
+
+html.js {
+	#fallback-nav {
+		display: none;
+	}
+}
+
+#fallback-nav {
+	float: right;
+	li {
+		display: inline-block;
+		a {
+			display: inline-block;
+			padding: 10px;
+			text-decoration: none;
+			color: #303030;
+			border: 1px solid #f8da5f;
+			&:hover, &.current {
+				background: lighten(#f8da5f, 10);
+				border: 1px solid darken(#f8da5f, 20);
+			}
+		}
+	}
+}
+
+header {
+   background: #f8da5f;
+   padding: 20px;
+   z-index: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.3em;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#main-content {
+	max-width: 580px;
+	margin: 50px auto;
+	padding: 0 30px;
+}
+
+article {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 5px solid #f8da5f;
+}
+
+.date {
+	color: #999;
+	font-size: 0.8em;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+a {
+	color: #34495e;
+	&:hover {
+		color: lighten(#34495e, 20);
+	}
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+.older {
+	background: #34495e;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	margin-bottom: 20px;
+	&:hover {
+		color: white;
+		background: lighten(#34495e, 20);
+	}
+}
+
+#navicon {
+	float: right;
+	font-size: 2em;
+	text-decoration: none;
+	position: relative;
+	z-index: 9;
+}
+#navicon.open {
+	color: white;
+	&:hover {
+		color: darken(white, 10);
+	}
+}
+
+#main-nav {
+display: flex;
+flex-direction: column;
+height: 100%;
+max-width: 250px;
+width: 100%;
+z-index: 5;
+top: 0;
+right: -250px;
+position: fixed;
+background: #222;
+text-align: center;
+ a {
+	 flex: 1;
+	 color: white;
+	 border-top: 1px solid lighten(#222, 20);
+	 text-decoration: none;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 div {
+	 }
+	 &:hover, &.current {
+		 background: lighten(#222, 10)
+	 }
+ }
+}
+
+.fade {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+}
